@@ -1,4 +1,5 @@
 import User from '../models/user.model';
+import bcrypt from 'bcrypt';
 
 
 
@@ -11,6 +12,10 @@ export const newUser = async (body) => {
     throw Error("User Already Exsist")
   } else {
     const data = await User.create(body);
+    const unHashedPassword=data.Password;
+    const saltRounds = 10;
+    const HashedPassword=await bcrypt.hash(unHashedPassword,saltRounds)
+    data.Password=HashedPassword;
     return data;
   }
 

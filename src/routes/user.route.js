@@ -14,5 +14,8 @@ router.post('/user_registration',selectuser("User"),newUserValidator,userControl
 // route to create new admin
 router.post('/admin_registration',selectuser("Admin"),newUserValidator,userController.newUser);
 
+// route to login 
+router.post('/login',userController.login);
+
 
 export default router;
