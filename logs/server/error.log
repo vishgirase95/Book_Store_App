@@ -1,0 +1,108 @@
+error: 
+    status - 500 
+    message - Error: User validation failed
+    at new MongooseError (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\model.js:106:12)
+    at new model (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\model.js:4911:15) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T11:16:18.806Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Book_Store.users index: Email_1 dup key: { Email: "vishgirase@gmail.com" } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-24T11:17:31.889Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\Book_Store_App\Book-Store\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\Book_Store_App\Book-Store\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\Book_Store_App\Book-Store\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\Book_Store_App\Book-Store\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:321:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T11:17:31.898Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Book_Store.users index: Email_1 dup key: { Email: "vishgirase@gmail.com" } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-24T11:17:36.526Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\Book_Store_App\Book-Store\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\Book_Store_App\Book-Store\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\Book_Store_App\Book-Store\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\Book_Store_App\Book-Store\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:321:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T11:17:36.527Z"}
+error: 
+    status - 500 
+    message - Error: "FirstName" length must be at least 3 characters long
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T11:22:19.330Z"}
+error: 
+    status - 500 
+    message - Error: "Email" must be a valid email
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T11:24:39.472Z"}
+error: 
+    status - 500 
+    message - Error: "Role" is not allowed
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T11:25:07.380Z"}

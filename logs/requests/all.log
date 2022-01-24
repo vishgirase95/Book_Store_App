@@ -2,3 +2,61 @@ info: ::1 - - [24/Jan/2022:10:18:05 +0000] "GET /api/v1 HTTP/1.1" 200 9 "-" "Pos
 
 info: ::1 - - [24/Jan/2022:10:19:48 +0000] "GET /api/v1 HTTP/1.1" 200 9 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [24/Jan/2022:11:03:39 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:11:05:03 +0000] "POST /api/v1/users/user HTTP/1.1" 201 286 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:11:10:10 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 286 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:11:11:25 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 286 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:11:11:29 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 286 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:11:11:31 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 286 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:11:13:02 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 286 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:11:13:04 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 286 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:11:16:18 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 500 148 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:11:17:29 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 286 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:11:17:31 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:11:17:36 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:11:22:19 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 500 90 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:11:24:39 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 500 66 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:11:25:07 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 500 58 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:11:25:31 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 285 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:11:25:47 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 271 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:12:10:16 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 272 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:12:15:55 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 271 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:12:21:04 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 272 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:12:22:53 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 273 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:12:24:07 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 290 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:12:33:12 +0000] "POST /api/v1/users/user_registration HTTP/1.1" - - "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:12:34:20 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 292 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:12:35:15 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 294 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:12:36:06 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 297 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:12:47:20 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 299 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:12:54:17 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 298 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jan/2022:13:01:42 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 295 "-" "PostmanRuntime/7.29.0"
+

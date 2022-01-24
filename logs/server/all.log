@@ -4,3 +4,273 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T1
 info: Connected to the database. {"timestamp":"2022-01-24T10:19:30.723Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T10:20:39.455Z"}
 info: Connected to the database. {"timestamp":"2022-01-24T10:20:42.817Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T10:58:23.927Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T10:58:24.528Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:03:59.259Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:03:59.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:08:37.014Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:08:37.238Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:08:57.161Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:08:57.185Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:09:02.956Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:09:03.013Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:09:07.061Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:09:07.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:09:19.033Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:09:19.056Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:09:47.425Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:09:47.493Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:09:51.480Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:09:51.507Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:09:58.472Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:09:59.239Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:10:43.865Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:10:43.895Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:10:56.647Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:10:56.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:11:04.550Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:11:04.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:11:15.432Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:11:15.460Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:11:23.238Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:11:23.304Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:12:52.008Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:12:52.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:16:15.509Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:16:15.543Z"}
+error: 
+    status - 500 
+    message - Error: User validation failed
+    at new MongooseError (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\model.js:106:12)
+    at new model (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\model.js:4911:15) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T11:16:18.806Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:17:28.127Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:17:28.151Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Book_Store.users index: Email_1 dup key: { Email: "vishgirase@gmail.com" } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-24T11:17:31.889Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\Book_Store_App\Book-Store\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\Book_Store_App\Book-Store\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\Book_Store_App\Book-Store\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\Book_Store_App\Book-Store\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:321:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T11:17:31.898Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Book_Store.users index: Email_1 dup key: { Email: "vishgirase@gmail.com" } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-24T11:17:36.526Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\Book_Store_App\Book-Store\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\Book_Store_App\Book-Store\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\Book_Store_App\Book-Store\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\Book_Store_App\Book-Store\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:321:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T11:17:36.527Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:18:08.920Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:18:08.961Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:18:41.265Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:18:41.289Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:18:50.186Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:18:50.218Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:18:56.469Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:18:56.526Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:19:02.601Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:19:02.631Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:19:06.793Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:19:06.822Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:19:14.514Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:19:14.544Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:19:19.143Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:19:19.201Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:19:29.922Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:19:29.954Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:19:40.471Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:19:40.512Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:19:55.676Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:19:55.702Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:20:02.603Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:20:02.645Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:20:14.209Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:20:14.236Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:20:29.080Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:20:29.119Z"}
+error: 
+    status - 500 
+    message - Error: "FirstName" length must be at least 3 characters long
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T11:22:19.330Z"}
+error: 
+    status - 500 
+    message - Error: "Email" must be a valid email
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T11:24:39.472Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:25:03.464Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:25:03.488Z"}
+error: 
+    status - 500 
+    message - Error: "Role" is not allowed
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T11:25:07.380Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:25:22.492Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:25:22.556Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T11:25:28.183Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T11:25:28.210Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:06:27.842Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:06:27.889Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:06:56.757Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:06:56.814Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:07:16.991Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:07:17.023Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:07:23.298Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:07:23.327Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:07:35.829Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:07:35.854Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:08:03.949Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:08:03.976Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:08:12.741Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:08:12.766Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:08:26.161Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:08:26.208Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:08:30.628Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:08:30.656Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:08:38.696Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:08:38.720Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:08:52.232Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:08:52.255Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:09:26.120Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:09:26.145Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:09:48.429Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:09:48.454Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:10:04.970Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:10:04.993Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:13:23.063Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:13:23.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:20:17.117Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:20:17.137Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:20:31.895Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:20:31.917Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:21:48.673Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:21:48.695Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:23:32.980Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:23:33.011Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:23:46.547Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:23:46.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:24:59.184Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:24:59.204Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:25:26.400Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:25:26.421Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:25:38.216Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:25:38.237Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:26:12.658Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:26:12.679Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:26:51.099Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:26:51.119Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:31:53.557Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:31:53.582Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:32:29.793Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:32:29.813Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:32:39.724Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:32:39.746Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:32:49.660Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:32:49.682Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:34:19.812Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:34:19.836Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:34:36.813Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:34:36.872Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:34:54.493Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:34:54.519Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:35:02.366Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:35:02.388Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:35:31.465Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:35:31.486Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:35:40.371Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:35:40.429Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:35:51.842Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:35:51.882Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:36:27.823Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:36:27.852Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:36:49.927Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:36:49.951Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:46:41.012Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:46:41.037Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:46:51.338Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:46:51.383Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:47:11.720Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:47:11.750Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T12:54:17.154Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T12:54:17.175Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T13:00:39.216Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T13:00:39.244Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T13:00:54.530Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T13:00:54.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T13:01:31.055Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T13:01:31.082Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T13:02:12.790Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T13:02:12.858Z"}
