@@ -2,7 +2,7 @@ import User from '../models/user.model';
 
 
 
-//create new user and admin
+//create new user 
 export const newUser = async (body) => {
   const checkUser = await User.findOne({
     Email: body.Email

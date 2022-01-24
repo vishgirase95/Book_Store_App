@@ -12,7 +12,7 @@ const router = express.Router();
 router.post('/user_registration',selectuser("User"),newUserValidator,userController.newUser);
 
 // route to create new admin
-router.post('/admin_registration',selectuser("Admin"),newUserValidator,userController.newAdmin);
+router.post('/admin_registration',selectuser("Admin"),newUserValidator,userController.newUser);
 
 
 export default router;

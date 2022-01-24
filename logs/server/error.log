@@ -158,3 +158,17 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-01-24T13:21:36.385Z"}
+error: 
+    status - 500 
+    message - Error: User Already Exsist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:11:11)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/admin_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T13:35:51.426Z"}
