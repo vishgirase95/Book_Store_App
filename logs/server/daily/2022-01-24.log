@@ -274,3 +274,79 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T1
 info: Connected to the database. {"timestamp":"2022-01-24T13:01:31.082Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T13:02:12.790Z"}
 info: Connected to the database. {"timestamp":"2022-01-24T13:02:12.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T13:17:37.065Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T13:17:37.109Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Book_Store.users index: Email_1 dup key: { Email: "vishgirhhjjdggkkkjjs4@gmail.com" } 
+      url - /api/v1/users/admin_registration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-24T13:18:08.249Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\Book_Store_App\Book-Store\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\Book_Store_App\Book-Store\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\Book_Store_App\Book-Store\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\Book_Store_App\Book-Store\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:321:13) 
+    url - /api/v1/users/admin_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T13:18:08.279Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T13:18:53.617Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T13:18:53.640Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T13:18:57.705Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T13:18:57.725Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T13:19:11.606Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T13:19:11.630Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T13:19:49.047Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T13:19:49.072Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T13:20:11.784Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T13:20:11.816Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T13:20:26.148Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T13:20:26.189Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T13:20:47.763Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T13:20:47.803Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T13:20:53.593Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T13:20:53.623Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T13:21:00.293Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T13:21:00.319Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T13:21:15.456Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T13:21:15.477Z"}
+error: 
+    status - 500 
+    message - Error: User Already Exsist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:9:9)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/admin_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T13:21:16.293Z"}
+error: 
+    status - 500 
+    message - Error: User Already Exsist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:9:9)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T13:21:36.385Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-24T13:22:13.558Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T13:22:13.579Z"}

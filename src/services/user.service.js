@@ -2,16 +2,17 @@ import User from '../models/user.model';
 
 
 
-//create new user
+//create new user and admin
 export const newUser = async (body) => {
-  const data = await User.create(body);
-  return data;
-};
+  const checkUser = await User.findOne({
+    Email: body.Email
+  })
+  if (checkUser) {
+    throw Error("User Already Exsist")
+  } else {
+    const data = await User.create(body);
+    return data;
+  }
 
 
-
-//create new Admin
-export const newAdmin = async (body) => {
-  const data = await User.create(body);
-  return data;
 };

@@ -26,7 +26,7 @@ export const newUser = async (req, res, next) => {
 // controller to create new admin
 export const newAdmin = async (req, res, next) => {
   try {
-    const data = await UserService.newAdmin(req.body);
+    const data = await UserService.newUser(req.body);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
