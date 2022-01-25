@@ -353,3 +353,268 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-01-24T16:26:58.715Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of undefined
+    at checkuser (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:5:46)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T05:49:13.533Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of undefined
+    at checkuser (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:5:46)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T05:49:33.030Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of undefined
+    at checkuser (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:5:46)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T05:49:41.108Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\Book_Store_App\Book-Store\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\Book_Store_App\Book-Store\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\Book_Store_App\Book-Store\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\Book_Store_App\Book-Store\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:40:34)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T05:52:10.114Z"}
+error: 
+    status - 500 
+    message - Error: Please enter corret mail id or password
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:51:13)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T05:52:25.539Z"}
+error: 
+    status - 500 
+    message - Error: "FirstName" is required
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T05:52:47.244Z"}
+error: 
+    status - 500 
+    message - Error: User Already Exsist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:17:11)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T05:53:23.846Z"}
+error: 
+    status - 500 
+    message - Error: Please enter corret mail id or password
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:51:13)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login_user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T06:26:16.996Z"}
+error: 
+    status - 500 
+    message - Error: Please enter corret mail id or password
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:51:13)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login_user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T07:52:28.915Z"}
+error: 
+    status - 500 
+    message - Error: Please enter corret mail id or password
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:51:13)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login_user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T07:52:50.933Z"}
+error: 
+    status - 500 
+    message - Error: Please enter corret mail id or password
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:51:13)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login_user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T07:52:52.817Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/login_user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T08:01:30.687Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/login_user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T08:01:32.851Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/login_admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T08:08:52.671Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/login_admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T08:19:43.278Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/login_user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T08:24:24.983Z"}
+error: 
+    status - 500 
+    message - Error: Please enter correct details
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:30:6)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login_admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T08:25:00.467Z"}
+error: 
+    status - 500 
+    message - Error: Please enter correct details
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:30:6)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login_admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T08:41:35.832Z"}
+error: 
+    status - 500 
+    message - Error: Please enter correct details
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:31:12)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login_admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T08:48:25.751Z"}
+error: 
+    status - 500 
+    message - Error: Please enter correct details
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:16:10)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login_user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T08:48:45.779Z"}
+error: 
+    status - 500 
+    message - Error: Please enter correct details
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:16:10)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login_user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T08:48:48.537Z"}

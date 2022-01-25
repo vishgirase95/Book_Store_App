@@ -29,7 +29,7 @@ export const newUser = async (body) => {
 
 
 
-// login user
+// login user 
 export const login = async (body) => {
   const mailVerify = await User.findOne({
     Email: body.Email
@@ -42,7 +42,8 @@ export const login = async (body) => {
 
       const token = jwt.sign({
         Email: mailVerify.Email,
-        ID: mailVerify._id
+        ID: mailVerify._id,
+        Role:mailVerify.Role,
       }, LOGIN_TOKEN)
 
 
