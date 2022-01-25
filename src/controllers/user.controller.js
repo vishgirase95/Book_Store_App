@@ -22,17 +22,16 @@ export const newUser = async (req, res, next) => {
 };
 
 
-export const login= async (req,res,next)=>{
-try {
-  const data= await UserService.login(req.body);
-  res.status(HttpStatus.OK).json({
-    code:HttpStatus.OK,
-    data:data,
-    message:"Sucessfully logged in"
-  })
-} catch (error) {
-  next(error);
-}
-}
 
-
+export const login = async (req, res, next) => {
+  try {
+    const data = await UserService.login(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: "Sucessfully logged in"
+    })
+  } catch (error) {
+    next(error);
+  }
+}

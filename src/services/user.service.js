@@ -43,7 +43,7 @@ export const login = async (body) => {
       const token = jwt.sign({
         Email: mailVerify.Email,
         ID: mailVerify._id,
-        Role:mailVerify.Role,
+        Role: mailVerify.Role,
       }, LOGIN_TOKEN)
 
 
