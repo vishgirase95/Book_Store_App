@@ -14,10 +14,10 @@ export const checkUser = async (res, req, next) => {
 
     if (isMatch) {
         console.log(isMatch)
-
+ 
         next()
     } else {
-        next(Error("Please enter correct details"));
+        next(Error("User does not exist"));
 
     }
 }
@@ -35,6 +35,6 @@ export const checkAdmin = async (res, req, next) => {
 
         next()
     } else {
-        next(Error("Please enter correct details"));
+        next(Error("User does not exist"));
     }
 }

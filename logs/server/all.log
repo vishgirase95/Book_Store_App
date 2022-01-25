@@ -1057,3 +1057,421 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T0
 info: Connected to the database. {"timestamp":"2022-01-25T08:50:23.307Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T08:52:07.866Z"}
 info: Connected to the database. {"timestamp":"2022-01-25T08:52:07.898Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:33:59.793Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:33:59.820Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:34:37.668Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:34:37.690Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:34:41.814Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:34:41.859Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:35:06.927Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:35:06.955Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:35:17.558Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:35:17.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:35:28.942Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:35:28.963Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:35:44.659Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:35:44.684Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:35:55.749Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:35:55.789Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:36:00.054Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:36:00.090Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:36:08.008Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:36:08.035Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:36:37.900Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:36:37.931Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:36:48.480Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:36:48.523Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:37:46.546Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:37:46.573Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:38:03.107Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:38:03.132Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:38:17.199Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:38:17.229Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:52:30.818Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:52:30.855Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:53:18.679Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:53:18.710Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.logiforgetPasswordn is not a function
+    at _callee3$ (D:\Book_Store_App\Book-Store\src\controllers\/user.controller.js:41:36)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at forgetPassword (D:\Book_Store_App\Book-Store\src\controllers\/user.controller.js:39:28) 
+    url - /api/v1/users/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T09:53:50.427Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:54:35.834Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:54:35.877Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T09:54:40.911Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:54:40.945Z"}
+error: 
+    status - 500 
+    message - Error: Mail id does not exsist
+    at _callee3$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:81:11)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T09:55:09.127Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:03:02.192Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:03:02.219Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:03:57.108Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:03:57.134Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:04:07.167Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:04:07.194Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:05:53.893Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:05:53.926Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:05:58.574Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:05:58.613Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:06:09.548Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:06:09.576Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:06:17.512Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:06:17.544Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:06:23.817Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:06:23.842Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:07:19.853Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:07:19.879Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:07:38.514Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:07:38.535Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:08:37.369Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:08:37.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:08:45.588Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:08:45.608Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:14:17.903Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:14:17.942Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:14:29.924Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:14:29.948Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:14:35.032Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:14:35.054Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:15:01.172Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:15:01.199Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:15:36.135Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:15:36.177Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:28:46.382Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:28:46.403Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:29:13.749Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:29:13.817Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:29:26.934Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:29:26.958Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T10:29:47.215Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:29:47.236Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T11:49:54.693Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T11:49:54.720Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T11:58:24.696Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T11:58:24.748Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T11:58:37.933Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T11:58:37.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T11:58:45.645Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T11:58:45.668Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T11:58:49.684Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T11:58:49.705Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T11:59:04.384Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T11:59:04.426Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:90:9)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (D:\Book_Store_App\Book-Store\src\services\/user.service.js:89:27) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T12:00:34.654Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:01:29.966Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:01:29.988Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:01:39.118Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:01:39.138Z"}
+error: 
+    status - 500 
+    message - ReferenceError: decodedToken is not defined
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:94:17)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (D:\Book_Store_App\Book-Store\src\services\/user.service.js:89:27) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T12:03:36.234Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:03:57.875Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:03:57.897Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:04:56.125Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:04:56.150Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:05:17.674Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:05:17.695Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:06:39.768Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:06:39.788Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:07:12.812Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:07:12.846Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:07:48.461Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:07:48.497Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:08:02.523Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:08:02.552Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:08:09.846Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:08:09.880Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:08:13.953Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:08:13.975Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:08:40.582Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:08:40.614Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:09:20.368Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:09:20.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:09:31.602Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:09:31.676Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:11:44.436Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:11:44.463Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:12:51.258Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:12:51.317Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:13:10.344Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:13:10.386Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:13:18.654Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:13:18.695Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:13:38.207Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:13:38.238Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:13:44.024Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:13:44.052Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:14:39.341Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:14:39.373Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:14:45.046Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:14:45.074Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:14:55.788Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:14:55.810Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:15:55.441Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:15:55.471Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:16:06.489Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:16:06.517Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:16:15.987Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:16:16.007Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:91:27)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T12:16:20.189Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (D:\Book_Store_App\Book-Store\node_modules\bcrypt\bcrypt.js:137:17)
+    at D:\Book_Store_App\Book-Store\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\Book_Store_App\Book-Store\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (D:\Book_Store_App\Book-Store\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:99:44)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T12:22:09.644Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'split' of undefined
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:90:22)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (D:\Book_Store_App\Book-Store\src\services\/user.service.js:89:27) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T12:23:17.262Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'split' of undefined
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:90:22)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (D:\Book_Store_App\Book-Store\src\services\/user.service.js:89:27) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T12:23:35.767Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:26:26.651Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:26:26.723Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'split' of undefined
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:90:22)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (D:\Book_Store_App\Book-Store\src\services\/user.service.js:89:27) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T12:26:38.102Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:28:02.235Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:28:02.263Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:28:13.124Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:28:13.235Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:28:26.573Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:28:26.611Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:30:07.658Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:30:07.703Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'split' of undefined
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:95:22)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (D:\Book_Store_App\Book-Store\src\services\/user.service.js:89:27) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T12:30:08.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:30:30.595Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:30:30.626Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:30:57.938Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:30:57.980Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'split' of undefined
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:91:22)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (D:\Book_Store_App\Book-Store\src\services\/user.service.js:89:27) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T12:30:59.288Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:31:40.701Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:31:40.732Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'split' of undefined
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:92:22)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (D:\Book_Store_App\Book-Store\src\services\/user.service.js:89:27) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T12:31:41.358Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:32:08.510Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:32:08.535Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:32:25.788Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:32:25.824Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:33:05.974Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:33:06.017Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'split' of undefined
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:91:22)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (D:\Book_Store_App\Book-Store\src\services\/user.service.js:89:27) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T12:33:06.751Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T12:34:30.858Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T12:34:30.909Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'split' of undefined
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:91:22)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (D:\Book_Store_App\Book-Store\src\services\/user.service.js:89:27) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T12:34:31.245Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'split' of undefined
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:91:22)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (D:\Book_Store_App\Book-Store\src\services\/user.service.js:89:27) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-25T12:34:32.063Z"}

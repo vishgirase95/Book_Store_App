@@ -24,5 +24,12 @@ router.post('/login_user',checkUser,userController.login);
 // route to login admin
 router.post('/login_admin',checkAdmin,userController.login);
 
+// forget password
+router.post("/forgetpassword",userController.forgetPassword)
+
+
+// reset new password
+router.post("/resetpassword",userController.resetPassword)
+
 
 export default router;

@@ -124,3 +124,67 @@ info: ::1 - - [25/Jan/2022:08:50:36 +0000] "POST /api/v1/users/login_user HTTP/1
 
 info: ::1 - - [25/Jan/2022:08:51:25 +0000] "POST /api/v1/users/login_admin HTTP/1.1" 200 259 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [25/Jan/2022:09:53:50 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 500 84 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:09:54:47 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:09:55:09 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 500 58 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:09:56:27 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 338 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:09:56:43 +0000] "POST /api/v1/users/user_login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:09:56:58 +0000] "POST /api/v1/users/login_user HTTP/1.1" 200 267 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:09:57:42 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:10:29:51 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:10:31:01 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:00:34 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:03:36 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:04:03 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:05:17 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:10:44 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:14:10 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:16:20 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:16:27 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 339 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:22:09 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 67 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:23:07 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 339 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:23:17 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:23:35 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:26:38 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:28:29 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 51 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:29:29 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 51 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:29:51 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 51 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:30:08 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:30:59 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:31:41 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:33:06 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:34:31 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:34:32 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:12:35:03 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 339 "-" "PostmanRuntime/7.29.0"
+
