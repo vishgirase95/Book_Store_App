@@ -78,7 +78,7 @@ export const forgetPassword = async (body) => {
     }, FORGETPASSWORD_TOKEN_KEY)
 
     mailSend(mailVerify.Email, FORGETPASSWORD_TOKEN)
-    return "Mail sent"
+    return FORGETPASSWORD_TOKEN;
   } else {
     throw Error("Mail id does not exsist")
   }

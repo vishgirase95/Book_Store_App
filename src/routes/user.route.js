@@ -18,11 +18,11 @@ router.post('/user_registration',newUserValidator,selectuser("User"),userControl
 router.post('/admin_registration',newUserValidator,selectuser("Admin"),userController.newUser);
 
 // route to login user
-router.post('/login_user',checkUser,userController.login);
+router.post('/user_login',checkUser,userController.login);
 
 
 // route to login admin
-router.post('/login_admin',checkAdmin,userController.login);
+router.post('/admin_login',checkAdmin,userController.login);
 
 // forget password
 router.post("/forgetpassword",userController.forgetPassword)

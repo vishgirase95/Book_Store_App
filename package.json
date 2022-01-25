@@ -8,7 +8,7 @@
     "build": "rimraf build && babel src --out-dir build",
     "prestart": "rimraf build && babel src --out-dir build",
     "start": "node build/index.js",
-    "test": "cross-env NODE_ENV=test mocha --exit --recursive --require @babel/register --timeout=5000 tests/**/*.js",
+    "test": "cross-env NODE_ENV=test mocha --exit --recursive --require @babel/register --timeout=15000 tests/**/*.js",
     "test:coverage": "cross-env NODE_ENV=test nyc --require @babel/register --reporter lcov --reporter text mocha --exit --recursive --timeout=5000 tests/**/*.js",
     "lint": "eslint . --ext .js",
     "lint-fix": "eslint . --ext .js --fix"
@@ -22,6 +22,7 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "fs": "0.0.1-security",
     "helmet": "^4.1.0",
     "http-status-codes": "^2.1.2",
     "jsonwebtoken": "^8.5.1",

@@ -8,12 +8,12 @@ export const checkUser = async (res, req, next) => {
     const checkUser = await User.findOne({
         Email: res.body.Email
     })
-    console.log("check", checkUser.Role)
+    
     const isMatch = checkUser.Role === "User"
-    console.log("after check", checkUser.Role)
+    
 
     if (isMatch) {
-        console.log(isMatch)
+        
  
         next()
     } else {

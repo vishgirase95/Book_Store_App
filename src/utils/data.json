@@ -1,0 +1,89 @@
+
+{"test1": {
+
+    "FirstName": "Viraj",
+    "LastName": "Rajput",
+    "Email":"vishgirase95@gmail.com",
+    "Password":"vishalgirase"
+  
+
+}, 
+
+"test2":{
+
+    "FirstName": "Dayal",
+    "LastName": "Rajput",
+    "Email": "test1@gamail.com",
+    "Password": "vishal2"
+
+}, 
+"test3":{
+
+    "FirstName": "Viiiraj",
+    "LastName": "Rajput",
+    "Email": "test2@gamail.com",
+    "Password": "vishal2"
+
+}, 
+"test4":{
+
+    "FirstName": "Voiraj",
+    "LastName": "Rajput",
+    "Email": "test3@gamail.com",
+    "Password": "vishal2"
+
+}, 
+"test5":{
+
+    "FirstName": "Vpiraj",
+    "LastName": "Rajput",
+    "Email": "test4@gamail.com",
+    "Password": "vishal2"
+},
+
+"test6":{
+
+    "FirstName": "Vaaraj",
+    "LastName": "Rajput",
+    "Email": "test5@gamail.com",
+    "Password": "vishal2"
+
+},
+"test7":{
+
+    "FirstName": "Dimran",
+    "LastName": "Rajput",
+    "Email": "test6@gamail.com",
+    "Password": "vishal2"
+
+},
+"login1":{
+
+    
+        "Email":"vishgirase95@gmail.com",
+        "Password":"vishalgirase"
+      
+},
+"login2":{
+
+    "Email": "test1@gamail.com",
+    "Password": "vishal2"
+  
+},
+
+
+"forgetPassword1":{
+
+    
+    "Email":"vishgirase95@gmail.com"
+  
+},
+
+"resetpassword1":{
+
+    
+    
+    "Password":"newpassword"
+  
+}
+}
