@@ -536,3 +536,33 @@ info: ::ffff:127.0.0.1 - - [25/Jan/2022:17:46:30 +0000] "POST /api/v1/users/forg
 
 info: ::ffff:127.0.0.1 - - [25/Jan/2022:17:46:30 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
 
+info: ::1 - - [25/Jan/2022:17:50:26 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 334 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:17:50:44 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:17:51:02 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:17:51:15 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 259 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:17:52:22 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 500 58 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:17:52:50 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 342 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:17:53:08 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 269 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:17:53:28 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 249 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:17:53:32 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 249 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:17:54:26 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 343 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:17:54:41 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 269 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:17:54:52 +0000] "POST /api/v1/users/user_login HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jan/2022:18:24:38 +0000] "GET / HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [25/Jan/2022:18:24:38 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [25/Jan/2022:18:24:39 +0000] "GET /images/icons/gear.png HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+

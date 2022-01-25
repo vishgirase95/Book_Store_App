@@ -1,0 +1,64 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is Book Store App",
+    "version": "1.0.0",
+    "title": "Book Store App",
+    "contact": {
+      "email": "vishgirase95@gmail.com"
+    }
+  },
+  "host": "localhost:3000",
+  "basePath": "/api/v1",
+  "tags": [
+    {
+      "name": "User",
+      "description": "User registration and login"
+    }
+  ],
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/users/user_registration": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "produces": [
+        
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "User registration info",
+            "required": true,
+            "schema": {
+              "tyoe":"object",
+              "properties": {
+                "FirstName": {
+                  "type": "string"
+                },
+                "LastName": {
+                  "type": "string"
+                },
+                "Email": {
+                  "type": "string"
+                },
+                "Password": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "valid input"
+          }
+        }
+      }
+    }
+  }}
