@@ -49,3 +49,504 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T1
 info: Connected to the database. {"timestamp":"2022-01-25T18:46:36.380Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-25T18:50:09.406Z"}
 info: Connected to the database. {"timestamp":"2022-01-25T18:50:09.518Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:17:03.159Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:17:03.486Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:21:49.437Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:21:49.513Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:23:07.460Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:23:07.543Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:26:27.040Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:26:27.127Z"}
+error: 
+    status - 500 
+    message - Error: "Email" must be a valid email
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T08:26:42.911Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:30:57.067Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:30:57.142Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:31:32.714Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:31:32.795Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:31:51.359Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:31:51.484Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:32:32.096Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:32:32.182Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:32:42.931Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:32:43.009Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:33:25.282Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:33:25.362Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:33:31.012Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:33:31.095Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:34:50.634Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:34:50.706Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:36:44.384Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:36:44.458Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:36:56.816Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:36:56.893Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:37:04.850Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:37:04.925Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:37:12.165Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:37:12.240Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:37:18.742Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:37:18.814Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:37:37.128Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:37:37.226Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:37:51.978Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:37:52.050Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:39:25.496Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:39:25.577Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:20:14)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T08:42:40.854Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:44:41.503Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:44:41.606Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:44:59.695Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:44:59.787Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T08:48:15.826Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T08:48:15.904Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:00:24.446Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:00:24.517Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:00:40.340Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:00:40.416Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:00:56.897Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:00:56.999Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:04:26.713Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:04:26.817Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:04:51.263Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:04:51.345Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:06:07.725Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:06:07.826Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:06:51.461Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:06:51.531Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:07:06.831Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:07:06.926Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:09:29.943Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:09:30.022Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:09:40.196Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:09:40.284Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:14:05.122Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:14:05.219Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:14:17.532Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:14:17.637Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:14:46.147Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:14:46.246Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:15:01.115Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:15:01.210Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:20:33.845Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:20:33.955Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:21:04.634Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:21:04.789Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:22:05.212Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:22:05.308Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:22:14.856Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:22:14.974Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:22:47.944Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:22:48.074Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:23:50.299Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:23:50.416Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:28:20.658Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:28:20.769Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:28:48.455Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:28:48.561Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:30:23.031Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:30:23.161Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:34:47.963Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:34:48.075Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:35:53.662Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:35:53.759Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:36:08.103Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:36:08.198Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:36:24.405Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:36:24.533Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:38:17.020Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:38:17.120Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T09:38:52.055Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T09:38:52.205Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T12:48:42.616Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T12:48:42.708Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T12:49:37.897Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T12:49:37.999Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T12:51:27.787Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T12:51:27.860Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T12:51:40.334Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T12:51:40.428Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T12:51:46.011Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T12:51:46.092Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T12:51:53.535Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T12:51:53.605Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T12:52:47.604Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T12:52:47.688Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T12:53:19.127Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T12:53:19.197Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T12:56:46.905Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T12:56:46.991Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T12:58:36.499Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T12:58:36.576Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T12:58:55.102Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T12:58:55.183Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:01:25.438Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:01:25.514Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:03:00.563Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:03:00.637Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:05:14.360Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:05:14.436Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:05:36.375Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:05:36.452Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:06:42.178Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:06:42.263Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:08:37.480Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:08:37.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:09:45.731Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:09:45.815Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:12:19.146Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:12:19.235Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:14:09.023Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:14:09.111Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:14:21.021Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:14:21.119Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:23:14)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T13:14:24.106Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:23:14)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T13:14:27.893Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:14:52.420Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:14:52.496Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:15:08.186Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:15:08.267Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:15:19.450Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:15:19.524Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:15:51.316Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:15:51.469Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:15:57.302Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:15:57.391Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:16:25.814Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:16:25.890Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:16:41.536Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:16:41.622Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:16:55.154Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:16:55.230Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:17:04.701Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:17:04.773Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:25:14)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T13:17:12.801Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:18:31.384Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:18:31.543Z"}
+error: 
+    status - 500 
+    message - Error: Please enter corret mail id or password
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:56:13)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T13:18:33.280Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:23:47.763Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:23:47.848Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:23:53.866Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:23:53.950Z"}
+error: 
+    status - 500 
+    message - Error: Please enter corret mail id or password
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:56:13)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T13:24:03.159Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:24:46.471Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:24:46.554Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:25:10.007Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:25:10.102Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:25:19.959Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:25:20.035Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:25:26.759Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:25:26.834Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:25:39.332Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:25:39.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:26:56.468Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:26:56.577Z"}
+error: 
+    status - 500 
+    message - Error: Please enter corret mail id or password
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:56:13)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T13:26:59.095Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:15:10)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T13:27:12.333Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:12:12)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T13:30:05.474Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:36:10.093Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:36:10.200Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:36:26.679Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:36:26.751Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:36:31.309Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:36:31.386Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:36:52.088Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:36:52.165Z"}
+error: 
+    status - 500 
+    message - Error: User Already Exsist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:21:11)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/admin_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T13:37:44.784Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:27:12)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/admin_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T13:38:23.549Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:30:10)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/admin_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T13:39:08.194Z"}
+error: 
+    status - 500 
+    message - Error: Please enter corret mail id or password
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:56:13)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/admin_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T13:42:47.962Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:30:10)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/admin_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T13:43:14.556Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:15:10)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T13:45:29.969Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:30:10)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/admin_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T13:45:37.574Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:12:12)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T13:46:16.714Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:49:14.953Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:49:15.024Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:49:43.994Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:49:44.068Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:49:49.530Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:49:49.602Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:50:12.704Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:50:12.805Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:50:26.087Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:50:26.157Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:50:34.257Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:50:34.331Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:50:50.286Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:50:50.360Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:51:12.111Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:51:12.185Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:52:00.174Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:52:00.248Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:52:12.189Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:52:12.286Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:52:27.983Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:52:28.073Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:52:45.198Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:52:45.274Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T13:59:57.573Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T13:59:57.650Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T14:00:05.157Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T14:00:05.238Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T14:00:12.576Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T14:00:12.650Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T14:00:17.956Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T14:00:18.059Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T14:00:29.514Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T14:00:29.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T14:00:40.670Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T14:00:40.710Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T14:04:51.413Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T14:04:51.532Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T14:05:04.733Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T14:05:04.804Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T14:09:17.459Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T14:09:17.533Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T14:21:14.267Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T14:21:14.342Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T14:25:34.790Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T14:25:34.893Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T14:27:17.890Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T14:27:17.968Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:27:12)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/admin_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T14:29:52.437Z"}

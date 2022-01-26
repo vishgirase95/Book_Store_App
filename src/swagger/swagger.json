@@ -14,10 +14,16 @@
     {
       "name": "User",
       "description": "User registration and login"
+    },{
+      "name":"Admin",
+      "description":"Admin registration and login"
+    },{
+      "name":"All User",
+      "description":"All User Acess"
     }
   ],
   "schemes": [
-    "https"
+    "http"
   ],
   "paths": {
     "/users/user_registration": {
@@ -37,6 +43,7 @@
             "required": true,
             "schema": {
               "tyoe":"object",
+              "required": ["FirstName", "LastName", "Email", "Password"],
               "properties": {
                 "FirstName": {
                   "type": "string"
@@ -57,8 +64,214 @@
         "responses": {
           "201": {
             "description": "valid input"
+          },
+          "500":{
+            "description":"invalid input"
           }
         }
       }
+    },
+     "/users/user_login": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "produces": [
+        
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "User registration info",
+            "required": true,
+            "schema": {
+              "tyoe":"object",
+              "required": ["Email", "Password"],
+              "properties": {
+                "Email": {
+                  "type": "string"
+                },
+                "Password": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "valid input"
+          },
+          "500":{
+            "description":"invalid input"
+          }
+        }
+      }
+    }, "/users/admin_login": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "produces": [
+        
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "User registration info",
+            "required": true,
+            "schema": {
+              "tyoe":"object",
+              "required": ["Email", "Password"],
+              "properties": {
+                "Email": {
+                  "type": "string"
+                },
+                "Password": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "valid input"
+          },
+          "500":{
+            "description":"invalid input"
+          }
+        }
+      }
+    },
+     "/users/admin_registration": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "produces": [
+        
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "User registration info",
+            "required": true,
+            "schema": {
+              "tyoe":"object",
+              "required": ["FirstName", "LastName", "Email", "Password"],
+              "properties": {
+                "FirstName": {
+                  "type": "string"
+                },
+                "LastName": {
+                  "type": "string"
+                },
+                "Email": {
+                  "type": "string"
+                },
+                "Password": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "valid input"
+          },
+          "500":{
+            "description":"invalid input"
+          }
+        }
+      }
+    }, "/users/forgetpassword": {
+      "post": {
+        "tags": [
+          "All User"
+        ],
+        "produces": [
+        
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "User registration info",
+            "required": true,
+            "schema": {
+              "tyoe":"object",
+              "required": ["Email"],
+              "properties": {
+                "Email": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "valid input"
+          },
+          "500":{
+            "description":"invalid input"
+          }
+        }
+      }
+    },"/users/resetpassword": {
+      "post": {
+        "tags": [
+          "All User"
+        ],
+        "produces": [
+        
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "Resetpassword",
+            "description": "User registration info",
+            "required": true,
+            "schema": {
+              "tyoe":"object",
+              "required": ["Password"],
+              "properties": {
+                "Password": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "valid input"
+          },
+          "500":{
+            "description":"invalid input"
+          }
+      },
+      "security": [{
+      "JWT": []
+    }]
+      }
     }
-  }}
+  },"securityDefinitions": {
+    "JWT": {
+      "type": "apiKey",
+      "name": "Authorization",
+      "in": "header"
+  
+    }
+  }
+}

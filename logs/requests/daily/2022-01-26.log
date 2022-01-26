@@ -1,0 +1,120 @@
+info: ::1 - - [26/Jan/2022:08:26:42 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 500 66 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:08:26:58 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 334 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:08:34:21 +0000] "POST /api/v1/users/login_registration HTTP/1.1" 404 47 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:08:35:17 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 336 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:08:41:04 +0000] "POST /api/v1/users/user_login HTTP/1.1" - - "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:08:41:16 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:08:42:40 +0000] "POST /api/v1/users/user_login HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:08:44:05 +0000] "POST /api/v1/users/user_login HTTP/1.1" - - "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:08:44:07 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 259 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:09:29:00 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 259 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:09:31:28 +0000] "POST /api/v1/users/user_login HTTP/1.1" - - "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:12:52:15 +0000] "POST /api/v1/users/user_login HTTP/1.1" - - "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:12:52:17 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 259 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:12:52:47 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 46 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:12:52:51 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 46 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:12:52:52 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 46 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:12:55:24 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 259 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:12:57:01 +0000] "POST /api/v1/users/user_login HTTP/1.1" - - "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:12:57:05 +0000] "POST /api/v1/users/user_login HTTP/1.1" - - "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:01:31 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 240 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:03:24 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 240 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:05:45 +0000] "POST /api/v1/users/user_login HTTP/1.1" - - "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:05:47 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 240 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:08:00 +0000] "POST /api/v1/users/user_login HTTP/1.1" - - "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:08:02 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 240 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:08:38 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 240 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:09:47 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 240 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:12:21 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 240 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:14:24 +0000] "POST /api/v1/users/user_login HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:14:27 +0000] "POST /api/v1/users/user_login HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:17:12 +0000] "POST /api/v1/users/user_login HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:17:18 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 240 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:17:23 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 240 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:17:27 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 240 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:18:33 +0000] "POST /api/v1/users/user_login HTTP/1.1" 500 74 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:24:03 +0000] "POST /api/v1/users/user_login HTTP/1.1" 500 74 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:26:59 +0000] "POST /api/v1/users/user_login HTTP/1.1" 500 74 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:27:06 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 259 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:27:12 +0000] "POST /api/v1/users/user_login HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:30:05 +0000] "POST /api/v1/users/user_login HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:13:37:44 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 500 54 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:13:38:23 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 500 54 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:13:38:46 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 337 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:13:39:08 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 500 54 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:13:39:40 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 263 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:13:42:47 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 500 74 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:13:43:14 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 500 54 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:13:45:29 +0000] "POST /api/v1/users/user_login HTTP/1.1" 500 54 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:13:45:37 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 500 54 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:13:46:00 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 263 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:13:46:16 +0000] "POST /api/v1/users/user_login HTTP/1.1" 500 54 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:13:48:28 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 263 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:13:53:38 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:13:59:12 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:13:59:13 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:14:21:48 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:14:27:58 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:14:28:34 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 339 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:14:29:10 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:14:29:52 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 500 54 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+

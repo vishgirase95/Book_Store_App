@@ -38,7 +38,7 @@ export const login = async (body) => {
   const mailVerify = await User.findOne({
     Email: body.Email
   })
-  if (mailVerify) {
+
     const HashedPassword = mailVerify.Password;
     const EnterPassword = body.Password
     const isMatch = await bcrypt.compare(EnterPassword, HashedPassword);
@@ -55,10 +55,6 @@ export const login = async (body) => {
     } else {
       throw Error("Please enter corret mail id or password");
     }
-
-  } else {
-    throw Error("Please enter correct Mail Id");
-  }
 
 }
 
