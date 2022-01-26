@@ -103,9 +103,7 @@ export const resetPassword=async (req)=>{
     },{
       new:true
     });
-
-
-    return findAndUpdatePassword
+ return findAndUpdatePassword
   }else{
     throw Error("Cannot reset password");
   }
@@ -117,3 +115,51 @@ export const Addbook= async (body)=>{
 const data=await Book.create(body)
 return data;
 }
+
+
+
+
+export const UpdateBook= async (body)=>{
+const previousData=await Book.findOne({_id:body.NoteID})
+if(previousData){
+  const data=await Book.findOneAndUpdate({_id:body.NoteID},{
+    author:body.author ? body.author : previousData.author,
+    title:body.title ? body.title : previousData.title,
+    image:body.image ? body.image:previousData.image,
+    quantity:body.quantity ? body.quantity:previousData.quantity,
+    description:body.description ? body.description:previousData.description
+  },
+  {
+    new:true
+  })
+  return data;
+}else{
+  throw Error("Book not found");
+
+}
+  }
+
+
+  export const DeleteBook= async (req)=>{
+    const data=await Book.findByIdAndDelete({_id:req.params._id})
+    if(data){
+      return "Book Deleted";
+
+    }else{
+      throw Error("Book not found");
+
+    }
+    }
+
+
+
+    export const fetchByID= async (req)=>{
+      const data=await Book.findById({_id:req.params._id})
+
+      if(data){
+        return data;
+
+      }else{
+        throw Error("Book not found");
+      }
+      }

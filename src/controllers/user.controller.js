@@ -72,6 +72,49 @@ export const Addbook= async (req,res,next)=>{
       message:"Created Book Sucessfully"
     })
   } catch (error) {
+    next(error)
+  }
+}
+
+
+
+export const UpdateBook= async (req,res,next)=>{
+  try {
+    const data=await UserService.UpdateBook(req.body);
+    res.status(HttpStatus.CREATED).json({
+      code:HttpStatus.CREATED,
+      data:data,
+      message:"Updated Book Sucessfully"
+    })
+  } catch (error) {
+    next(error)
     
+  }
+}
+
+
+export const DeleteBook= async (req,res,next)=>{
+  try {
+    const data=await UserService.DeleteBook(req);
+    res.status(HttpStatus.OK).json({
+      code:HttpStatus.OK,
+      data:data,
+      message:"Sucessfully Deleted"
+    })
+  } catch (error) {
+    next(error)
+    
+  }
+}
+
+export const fetchByID=async(req,res,next)=>{
+  try {
+    const data=await UserService.fetchByID(req);
+    res.status(HttpStatus.OK).json({
+      code:HttpStatus.OK,
+      data:data,
+      message:"Sucessfully Fetched Book"});
+  } catch (error) {
+    next(error)
   }
 }

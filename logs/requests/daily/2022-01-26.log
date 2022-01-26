@@ -164,3 +164,51 @@ info: ::1 - - [26/Jan/2022:16:26:58 +0000] "POST /api/v1/users/create HTTP/1.1" 
 
 info: ::1 - - [26/Jan/2022:16:27:11 +0000] "POST /api/v1/users/create HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [26/Jan/2022:17:57:59 +0000] "POST /api/v1/users/AddBook HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:18:13:48 +0000] "POST /api/v1/users/AddBook HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:18:13:49 +0000] "POST /api/v1/users/AddBook HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:18:14:06 +0000] "POST /api/v1/books/AddBook HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:18:16:12 +0000] "POST /api/v1/books/AddBook HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:18:18:02 +0000] "POST /api/v1/books/AddBook HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:18:18:41 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 500 54 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:18:18:51 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 500 54 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:18:19:28 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 500 60 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:18:20:39 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 500 54 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:18:20:57 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 330 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:18:21:11 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [26/Jan/2022:18:22:43 +0000] "POST /api/v1/books/AddBook HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:18:22:51 +0000] "POST /api/v1/books/AddBook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:18:22:58 +0000] "POST /api/v1/books/AddBook HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:18:26:28 +0000] "POST /api/v1/books/AddBook HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:18:26:32 +0000] "POST /api/v1/books/AddBook HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:18:28:12 +0000] "POST /api/v1/books/AddBook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:18:28:15 +0000] "POST /api/v1/books/AddBook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:18:28:30 +0000] "POST /api/v1/books/AddBook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:18:28:31 +0000] "POST /api/v1/books/AddBook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:18:29:07 +0000] "POST /api/v1/books/AddBook HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:18:29:49 +0000] "POST /api/v1/books/AddBook HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:18:29:57 +0000] "POST /api/v1/books/AddBook HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
