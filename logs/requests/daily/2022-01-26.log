@@ -118,3 +118,49 @@ info: ::1 - - [26/Jan/2022:14:29:10 +0000] "POST /api/v1/users/user_login HTTP/1
 
 info: ::1 - - [26/Jan/2022:14:29:52 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 500 54 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
 
+info: ::1 - - [26/Jan/2022:15:57:54 +0000] "POST /api/v1/users/create HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:05:51 +0000] "POST /api/v1/users/create HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:07:27 +0000] "POST /api/v1/users/create HTTP/1.1" - - "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:09:09 +0000] "POST /api/v1/users/create HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:09:19 +0000] "POST /api/v1/users/create HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:09:27 +0000] "POST /api/v1/users/create HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:09:36 +0000] "POST /api/v1/users/create HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:09:43 +0000] "POST /api/v1/users/create HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:11:24 +0000] "POST /api/v1/users/create HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:11:49 +0000] "POST /api/v1/users/create HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:11:51 +0000] "POST /api/v1/users/create HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:11:58 +0000] "POST /api/v1/users/create HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:17:05 +0000] "POST /api/v1/users/create HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:21:06 +0000] "POST /api/v1/users/create HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:21:12 +0000] "POST /api/v1/users/create HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:26:25 +0000] "POST /api/v1/users/create HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:26:27 +0000] "POST /api/v1/users/create HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:26:28 +0000] "POST /api/v1/users/create HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:26:29 +0000] "POST /api/v1/users/create HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:26:29 +0000] "POST /api/v1/users/create HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:26:35 +0000] "POST /api/v1/users/create HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:26:58 +0000] "POST /api/v1/users/create HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/Jan/2022:16:27:11 +0000] "POST /api/v1/users/create HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+

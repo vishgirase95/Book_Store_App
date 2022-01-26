@@ -32,4 +32,7 @@ router.post("/forgetpassword",userController.forgetPassword)
 router.post("/resetpassword",userController.resetPassword)
 
 
+router.post("/Addbook",userController.Addbook)
+
+
 export default router;

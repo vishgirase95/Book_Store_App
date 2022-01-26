@@ -1,4 +1,5 @@
 import User from '../models/user.model';
+import Book from '../models/book.model';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
@@ -109,4 +110,10 @@ export const resetPassword=async (req)=>{
     throw Error("Cannot reset password");
   }
 
+}
+
+
+export const Addbook= async (body)=>{
+const data=await Book.create(body)
+return data;
 }

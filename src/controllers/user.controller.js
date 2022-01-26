@@ -62,3 +62,16 @@ export const resetPassword = async (req, res, next) => {
     next(error);
   }
 }
+
+export const Addbook= async (req,res,next)=>{
+  try {
+    const data=await UserService.Addbook(req.body);
+    res.status(HttpStatus.CREATED).json({
+      code:HttpStatus.CREATED,
+      data:data,
+      message:"Created Book Sucessfully"
+    })
+  } catch (error) {
+    
+  }
+}

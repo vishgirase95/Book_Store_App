@@ -550,3 +550,281 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-01-26T14:29:52.437Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T15:57:49.731Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T15:57:49.861Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:03:36.381Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:03:36.471Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:03:41.650Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:03:41.739Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:04:54.330Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:04:54.403Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:05:07.221Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:05:07.299Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:05:14.328Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:05:14.399Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:05:50.816Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:05:50.894Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T16:05:51.717Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:08:06.298Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:08:06.384Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:08:56.550Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:08:56.651Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:09:05.189Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:09:05.264Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T16:09:19.037Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/create 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-26T16:09:27.224Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid algorithm
+    at D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:121:19
+    at getSecret (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T16:09:43.817Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:10:40.485Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:10:40.553Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:10:50.272Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:10:50.345Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:11:02.830Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:11:02.918Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:11:09.382Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:11:09.461Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:11:15.488Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:11:15.581Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:11:23.592Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:11:23.666Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid algorithm
+    at D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:121:19
+    at getSecret (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T16:11:24.097Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T16:11:49.525Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T16:11:51.030Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:16:56.574Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:16:56.650Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:19:40.698Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:19:40.773Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:21:06.024Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:21:06.114Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T16:21:12.891Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:26:25.547Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:26:25.712Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:22:27)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T16:26:25.716Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:22:27)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T16:26:27.246Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:22:27)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T16:26:28.367Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:22:27)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T16:26:29.529Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:22:27)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T16:26:29.974Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:26:57.447Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:26:57.521Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:27:10.786Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:27:10.880Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:22:23)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-26T16:27:11.734Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:27:21.548Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:27:21.624Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T16:27:54.715Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T16:27:54.798Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T17:01:06.533Z"}
+info: Connected to the database. {"timestamp":"2022-01-26T17:01:06.628Z"}
