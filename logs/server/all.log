@@ -4917,3 +4917,158 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T0
 info: Connected to the database. {"timestamp":"2022-01-27T09:14:15.490Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:14:33.290Z"}
 info: Connected to the database. {"timestamp":"2022-01-27T09:14:33.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:32:50.428Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T09:32:50.487Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:33:06.833Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T09:33:06.875Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\Book_Store_App\Book-Store\tests\integration\/user.test.js:171:40)
+    at Test.assert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 27 2022 15:03:08 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:171:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":880531},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Book_Store_App\\Book-Store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18312955,"external":19995410,"heapTotal":152154112,"heapUsed":91253496,"rss":185868288},"pid":24204,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:171:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-27T09:33:08.123Z","trace":[{"column":40,"file":"D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js","function":null,"line":171,"method":null,"native":false},{"column":6,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:34:31.660Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T09:34:31.695Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "BookID" (type string) at path "_id" for model "Book"
+    at model.Query.exec (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/books/BookID 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T09:34:32.597Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\Book_Store_App\Book-Store\tests\integration\/user.test.js:171:40)
+    at Test.assert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 27 2022 15:04:32 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:171:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":880616},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Book_Store_App\\Book-Store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18487149,"external":20169604,"heapTotal":151277568,"heapUsed":91933800,"rss":183934976},"pid":1236,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:171:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-27T09:34:32.627Z","trace":[{"column":40,"file":"D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js","function":null,"line":171,"method":null,"native":false},{"column":6,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:35:13.415Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T09:35:13.453Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:36:24.927Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T09:36:24.964Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:36:58.147Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T09:36:58.190Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:58:33.275Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T09:58:33.381Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:59:38.577Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T09:59:38.616Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\Book_Store_App\Book-Store\tests\integration\/user.test.js:190:40)
+    at Test.assert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 27 2022 15:29:39 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:190:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":882123},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Book_Store_App\\Book-Store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18331523,"external":20013978,"heapTotal":151629824,"heapUsed":93413576,"rss":185982976},"pid":23936,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:190:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-27T09:59:39.784Z","trace":[{"column":40,"file":"D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js","function":null,"line":190,"method":null,"native":false},{"column":6,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:59:59.102Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T09:59:59.157Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\Book_Store_App\Book-Store\tests\integration\/user.test.js:190:40)
+    at Test.assert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 27 2022 15:30:00 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:190:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":882144},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Book_Store_App\\Book-Store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18447844,"external":20131612,"heapTotal":168079360,"heapUsed":142559248,"rss":203554816},"pid":28636,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:190:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-27T10:00:00.373Z","trace":[{"column":40,"file":"D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js","function":null,"line":190,"method":null,"native":false},{"column":6,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:00:15.719Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:00:15.768Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\Book_Store_App\Book-Store\tests\integration\/user.test.js:190:40)
+    at Test.assert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 27 2022 15:30:16 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:190:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":882160},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Book_Store_App\\Book-Store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18331523,"external":20013978,"heapTotal":152416256,"heapUsed":93430792,"rss":186814464},"pid":13016,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:190:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-27T10:00:16.807Z","trace":[{"column":40,"file":"D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js","function":null,"line":190,"method":null,"native":false},{"column":6,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:00:53.273Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:00:53.312Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\Book_Store_App\Book-Store\tests\integration\/user.test.js:190:40)
+    at Test.assert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 27 2022 15:30:54 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:190:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":882198},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Book_Store_App\\Book-Store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18420304,"external":20102759,"heapTotal":151105536,"heapUsed":94513344,"rss":185327616},"pid":13708,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:190:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-27T10:00:54.329Z","trace":[{"column":40,"file":"D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js","function":null,"line":190,"method":null,"native":false},{"column":6,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:07:59.899Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:07:59.933Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:10:39.813Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:10:39.848Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:14:08.012Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:14:08.150Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:16:29.175Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:16:29.239Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:17:28.220Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:17:28.253Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:18:21.815Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:18:21.846Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:18:48.569Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:18:48.644Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:19:26.611Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:19:26.673Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:20:03.154Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:20:03.194Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:24:07.334Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:24:07.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:25:22.999Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:25:23.107Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:40:39.929Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:40:39.974Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/61f276a8b6303238b4fe8092 
+      method - DELETE 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-27T10:40:40.891Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (D:\Book_Store_App\Book-Store\tests\integration\/user.test.js:184:38)
+    at Test.assert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 27 2022 16:10:40 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:184:38)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":884584},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Book_Store_App\\Book-Store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18416245,"external":20098700,"heapTotal":150581248,"heapUsed":94031224,"rss":185192448},"pid":14516,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:184:38)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-27T10:40:40.940Z","trace":[{"column":38,"file":"D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js","function":null,"line":184,"method":null,"native":false},{"column":6,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:42:49.730Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:42:49.831Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:43:40.847Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:43:40.906Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:47:04.429Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:47:04.484Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:56:53.042Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:56:53.133Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T10:59:05.260Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:59:05.306Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:01:46.708Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:01:46.809Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userr is not defined
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:27:28)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:15:3 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-27T11:02:25.375Z"}

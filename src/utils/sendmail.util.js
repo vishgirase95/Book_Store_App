@@ -6,6 +6,7 @@ dotenv.config("./.env");
 let password=process.env.EMAIL_PASS
 let EMAIL_ID=process.env.EMAIL_ID_AUTH
 export const mailSend=(mail_ID,token)=>{
+    
 const transport=nodemailer.createTransport(
     
     {

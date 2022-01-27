@@ -2100,3 +2100,666 @@ info: ::1 - - [27/Jan/2022:09:14:33 +0000] "PATCH /api/v1/books/61f17240a93a8152
 
 info: ::1 - - [27/Jan/2022:09:14:56 +0000] "PATCH /api/v1/books/61f17240a93a8152a82ece0e HTTP/1.1" 200 279 "-" "PostmanRuntime/7.29.0"
 
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:33:06 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:33:07 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:33:07 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:33:07 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:33:07 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:33:07 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:33:07 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:33:07 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:33:07 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:33:08 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:33:08 +0000] "PATCH /api/v1/books/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\Book_Store_App\Book-Store\tests\integration\/user.test.js:171:40)
+    at Test.assert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 27 2022 15:03:08 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:171:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":880531},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Book_Store_App\\Book-Store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18312979,"external":19995474,"heapTotal":152154112,"heapUsed":91351368,"rss":186548224},"pid":24204,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:171:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","trace":[{"column":40,"file":"D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js","function":null,"line":171,"method":null,"native":false},{"column":6,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:34:31 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:34:31 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:34:32 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:34:32 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:34:32 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:34:32 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:34:32 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:34:32 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:34:32 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:34:32 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:34:32 +0000] "PATCH /api/v1/books/BookID HTTP/1.1" 500 128 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\Book_Store_App\Book-Store\tests\integration\/user.test.js:171:40)
+    at Test.assert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 27 2022 15:04:32 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:171:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":880616},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Book_Store_App\\Book-Store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18495365,"external":20177860,"heapTotal":151277568,"heapUsed":92030520,"rss":184619008},"pid":1236,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:171:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","trace":[{"column":40,"file":"D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js","function":null,"line":171,"method":null,"native":false},{"column":6,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:35:13 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:35:13 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:35:13 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:35:13 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:35:13 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:35:13 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:35:14 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:35:14 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:35:14 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:35:14 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:35:14 +0000] "PATCH /api/v1/books/61f26752b554193d30f29305 HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:24 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:25 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:25 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:25 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:25 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:25 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:25 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:25 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:25 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:25 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:25 +0000] "PATCH /api/v1/books/61f26799a4f6c8332c9e9b7c HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:58 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:58 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:58 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:58 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:58 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:58 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:58 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:58 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:58 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:59 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:36:59 +0000] "PATCH /api/v1/books/61f267ba1388840678509803 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:58:33 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:58:33 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:58:33 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:58:33 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:58:33 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:58:33 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:58:33 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:58:34 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:58:34 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:58:34 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:58:34 +0000] "PATCH /api/v1/books/61f26ccac268eb35e0d0accd HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:58:34 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:58:34 +0000] "PATCH /api/v1/books/61f26ccac268eb35e0d0accd HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:38 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:38 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:38 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:39 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:39 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:39 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:39 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:39 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:39 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:39 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:39 +0000] "PATCH /api/v1/books/61f26d0bb4b5675d80818a6c HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:39 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:39 +0000] "PATCH /api/v1/books/61f26d0bb4b5675d80818a6c HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:39 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:39 +0000] "PATCH /api/v1/books/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\Book_Store_App\Book-Store\tests\integration\/user.test.js:190:40)
+    at Test.assert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 27 2022 15:29:39 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:190:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":882123},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Book_Store_App\\Book-Store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18339739,"external":20022234,"heapTotal":151629824,"heapUsed":93511536,"rss":186384384},"pid":23936,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:190:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","trace":[{"column":40,"file":"D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js","function":null,"line":190,"method":null,"native":false},{"column":6,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:59 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:59 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:59 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:59 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:59 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:59 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:09:59:59 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:00 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:00 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:00 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:00 +0000] "PATCH /api/v1/books/61f26d20736bc96fdc7c214c HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:00 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:00 +0000] "PATCH /api/v1/books/61f26d20736bc96fdc7c214c HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:00 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:00 +0000] "PATCH /api/v1/books/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\Book_Store_App\Book-Store\tests\integration\/user.test.js:190:40)
+    at Test.assert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 27 2022 15:30:00 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:190:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":882144},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Book_Store_App\\Book-Store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18456060,"external":20139868,"heapTotal":168079360,"heapUsed":142656840,"rss":203718656},"pid":28636,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:190:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","trace":[{"column":40,"file":"D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js","function":null,"line":190,"method":null,"native":false},{"column":6,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:15 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:15 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:16 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:16 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:16 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:16 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:16 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:16 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:16 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:16 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:16 +0000] "PATCH /api/v1/books/61f26d30313e0432d82df9b7 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:16 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:16 +0000] "PATCH /api/v1/books/61f26d30313e0432d82df9b7 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:16 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:16 +0000] "PATCH /api/v1/books/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\Book_Store_App\Book-Store\tests\integration\/user.test.js:190:40)
+    at Test.assert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 27 2022 15:30:16 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:190:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":882160},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Book_Store_App\\Book-Store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18339739,"external":20022234,"heapTotal":152416256,"heapUsed":93528776,"rss":187420672},"pid":13016,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:190:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","trace":[{"column":40,"file":"D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js","function":null,"line":190,"method":null,"native":false},{"column":6,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:53 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:53 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:53 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:53 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:53 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:53 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:53 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:53 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:54 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:54 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:54 +0000] "PATCH /api/v1/books/61f26d566879ec358cb217cd HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:54 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:54 +0000] "PATCH /api/v1/books/61f26d566879ec358cb217cd HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:54 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:00:54 +0000] "PATCH /api/v1/books/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\Book_Store_App\Book-Store\tests\integration\/user.test.js:190:40)
+    at Test.assert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 27 2022 15:30:54 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:190:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":882198},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Book_Store_App\\Book-Store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18428520,"external":20111015,"heapTotal":151105536,"heapUsed":94611712,"rss":186019840},"pid":13708,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:190:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","trace":[{"column":40,"file":"D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js","function":null,"line":190,"method":null,"native":false},{"column":6,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:07:59 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:08:00 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:08:00 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:08:00 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:08:00 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:08:00 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:08:00 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:08:00 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:08:00 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:08:00 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:08:00 +0000] "PATCH /api/v1/books/61f26f0064b263491c6a1290 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:10:39 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:10:40 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:10:40 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:10:40 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:10:40 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:10:40 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:10:40 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:10:40 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:10:40 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:10:40 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:10:40 +0000] "PATCH /api/v1/books/61f26fa0f341eb69ccffe382 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:10:40 +0000] "GET /api/v1/books/ HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:14:08 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:14:08 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:14:08 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:14:08 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:14:08 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:14:08 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:14:08 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:14:08 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:14:08 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:14:08 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:14:08 +0000] "PATCH /api/v1/books/61f2707013e387179c346d64 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:14:08 +0000] "GET /api/v1/books/ HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [27/Jan/2022:10:16:57 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:17:28 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:17:28 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:17:28 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:17:28 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:17:28 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:17:28 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:17:28 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:17:28 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:17:29 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:17:29 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:17:29 +0000] "PATCH /api/v1/books/61f271394c2e823c30bcc2be HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:17:29 +0000] "GET /api/v1/books/ HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:18:21 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:18:22 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:18:22 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:18:22 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:18:22 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:18:22 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:18:22 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:18:22 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:18:22 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:18:22 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:18:22 +0000] "PATCH /api/v1/books/61f2716e89d48156f8e301af HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:18:22 +0000] "GET /api/v1/books/ HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [27/Jan/2022:10:18:49 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [27/Jan/2022:10:18:57 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:19:26 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:19:26 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:19:27 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:19:27 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:19:27 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:19:27 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:19:27 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:19:27 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:19:27 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:19:27 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:19:27 +0000] "PATCH /api/v1/books/61f271af24928406280a0ce5 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:19:27 +0000] "GET /api/v1/books/ HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:20:03 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:20:03 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:20:03 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:20:03 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:20:03 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:20:03 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:20:03 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:20:03 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:20:03 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:20:03 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:20:03 +0000] "PATCH /api/v1/books/61f271d34d64d73714588c6e HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:20:03 +0000] "GET /api/v1/books/ HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:24:07 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:24:07 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:24:07 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:24:07 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:24:07 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:24:07 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:24:08 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:24:08 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:24:08 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:24:08 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:24:08 +0000] "PATCH /api/v1/books/61f272c8276b5e3444bc6dc2 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:24:08 +0000] "GET /api/v1/books/ HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:24:08 +0000] "GET /api/v1/books/61f272c8276b5e3444bc6dc2 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:25:23 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:25:23 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:25:23 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:25:23 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:25:23 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:25:23 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:25:23 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:25:23 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:25:23 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:25:23 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:25:23 +0000] "PATCH /api/v1/books/61f27313f718405d7cbb7d6f HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:25:23 +0000] "GET /api/v1/books/ HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:25:24 +0000] "GET /api/v1/books/61f27313f718405d7cbb7d6f HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:40:40 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:40:40 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:40:40 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:40:40 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:40:40 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:40:40 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:40:40 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:40:40 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:40:40 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:40:40 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:40:40 +0000] "PATCH /api/v1/books/61f276a8b6303238b4fe8092 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:40:40 +0000] "GET /api/v1/books/ HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:40:40 +0000] "GET /api/v1/books/61f276a8b6303238b4fe8092 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:40:40 +0000] "DELETE /api/v1/books/61f276a8b6303238b4fe8092 HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (D:\Book_Store_App\Book-Store\tests\integration\/user.test.js:184:38)
+    at Test.assert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 27 2022 16:10:40 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:184:38)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":884584},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Book_Store_App\\Book-Store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18424461,"external":20106956,"heapTotal":150581248,"heapUsed":94127392,"rss":185520128},"pid":14516,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:184:38)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","trace":[{"column":38,"file":"D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js","function":null,"line":184,"method":null,"native":false},{"column":6,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:42:49 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:42:50 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:42:50 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:42:50 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:42:50 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:42:50 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:42:50 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:42:50 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:42:50 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:42:50 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:42:50 +0000] "PATCH /api/v1/books/61f2772ad12f0468b0e11a86 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:42:50 +0000] "GET /api/v1/books/ HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:42:50 +0000] "GET /api/v1/books/61f2772ad12f0468b0e11a86 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:42:50 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:42:50 +0000] "DELETE /api/v1/books/61f2772ad12f0468b0e11a86 HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:43:40 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:43:41 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:43:41 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:43:41 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:43:41 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:43:41 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:43:41 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:43:41 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:43:42 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:43:42 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:43:42 +0000] "PATCH /api/v1/books/61f2775eaabdb93fc8102319 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:43:42 +0000] "GET /api/v1/books/ HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:43:42 +0000] "GET /api/v1/books/61f2775eaabdb93fc8102319 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:43:42 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:43:42 +0000] "DELETE /api/v1/books/61f2775eaabdb93fc8102319 HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:47:04 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:47:04 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:47:04 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:47:04 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:47:04 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:47:04 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:47:05 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:47:05 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:47:05 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:47:05 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:47:05 +0000] "PATCH /api/v1/books/61f278296400742fb01a76d6 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:47:05 +0000] "GET /api/v1/books/ HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:47:05 +0000] "GET /api/v1/books/61f278296400742fb01a76d6 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:47:05 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:47:05 +0000] "DELETE /api/v1/books/61f278296400742fb01a76d6 HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [27/Jan/2022:11:02:25 +0000] "POST /api/v1/books/ HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.0"
+

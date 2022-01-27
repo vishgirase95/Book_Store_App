@@ -114,28 +114,7 @@ let BookID='';
   })
 
 
-  // describe('Post /books/AddBook', () => {
-  //   it("should add book", (done) => {
-  //     request(app).post('/api/v1/books/AddBook').set('Authorization', "JWT " +admin_login_token).send(jsondata.Book1).end((err, res) => {
-  //       expect(res.statusCode).to.be.equal(201);
-  //       console.log("note id",res.body.data)
-  //       expect(res.body).property('message').to.be.equal('Created Book Sucessfully')
-  //       done();
-  //     })
-  //   })
-  // })
-
-  // describe('Post /books/UpdateBook', () => {
-  //   it("should Add book", (done) => {
-  //     request(app).patch('/api/v1/books/UpdateBook').set('Authorization', "JWT " +admin_login_token).send(jsondata.UpdateBook).end((err, res) => {
-  //       expect(res.statusCode).to.be.equal(200);
-  //       // expect(res.body).property('message').to.be.equal('Created Book Sucessfully')
-  //       done();
-  //     })
-  //   })
-  // })
-
-  describe('Post loginas admin and add books', () => {
+  describe('Post login admin and add books', () => {
     it("login and add books", (done) => {
       request(app).post('/api/v1/users/admin_login').send(jsondata.login2).end((err, res) => {
 
@@ -143,7 +122,7 @@ let BookID='';
         expect(res.body).property('message').to.be.equal('Sucessfully logged in')
        let  admin_login_token=res.body.data
 
-       request(app).post('/api/v1/books/AddBook').set('Authorization', "JWT " +admin_login_token).send(jsondata.Book1).end((err, res) => {
+       request(app).post('/api/v1/books/').set('Authorization', "JWT " +admin_login_token).send(jsondata.Book1).end((err, res) => {
         expect(res.statusCode).to.be.equal(201);
         expect(res.body).property('message').to.be.equal('Created Book Sucessfully')
         BookID=res.body.data._id
@@ -155,25 +134,68 @@ let BookID='';
   })
 
 
-  describe('POST /update Boks', () => {
-    it("login and auth update notes using notid", (done) => {
+  describe('POST login admin and update Book by ID', () => {
+    it("login and update book", (done) => {
       request(app).post('/api/v1/users/admin_login').send(jsondata.login2).end((err, res) => {
-
         expect(res.statusCode).to.be.equal(200);
         expect(res.body).property('message').to.be.equal('Sucessfully logged in')
        let  admin_login_token=res.body.data
 
         const updateBook = {
-          "BookID": BookID,
-          "title": "hordramaaror"
+         "title": "Movie"
         }
-        request(app).patch('/api/v1/books/UpdateBook').set('Authorization', "JWT " +admin_login_token).send(updateBook).end((err, res) => {
+        request(app).patch(`/api/v1/books/${BookID}`).set('Authorization', "JWT " +admin_login_token).send(updateBook).end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
-          // expect(res.body).property('message').to.be.equal('Created Book Sucessfully')
+          expect(res.body).property('message').to.be.equal('Updated Book Sucessfully')
           done();
         });
 
       })
     })
   })
+
+  
+  describe('GET /books/', () => {
+    it("should return All fetch book", (done) => {
+      request(app).get('/api/v1/books/').end((err, res) => {
+
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body).property('message').to.be.equal('Sucessfully Fetched all Books')
+        done();
+      })
+    })
+  })
+
+  describe('GET /books/:_id', () => {
+    it("should return fetch book by id", (done) => {
+      request(app).get(`/api/v1/books/${BookID}`).end((err, res) => {
+
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body).property('message').to.be.equal('Sucessfully Fetched Book')
+        done();
+      })
+    })
+  })
+
+  
+  describe('Post login admin and delete book', () => {
+    it("login and add books", (done) => {
+      request(app).post('/api/v1/users/admin_login').send(jsondata.login2).end((err, res) => {
+
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body).property('message').to.be.equal('Sucessfully logged in')
+       let  admin_login_token=res.body.data
+
+       request(app).delete(`/api/v1/books/${BookID}`).set('Authorization', "JWT " +admin_login_token).send(jsondata.Book1).end((err, res) => {
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body).property('message').to.be.equal('Sucessfully Deleted')
+        BookID=res.body.data._id
+        done();
+        });
+
+      })
+    })
+  })
+ 
+  
 });
