@@ -2935,3 +2935,33 @@ info: ::1 - - [27/Jan/2022:16:16:49 +0000] "GET /api/v1/books/ HTTP/1.1" 200 500
 
 info: ::1 - - [27/Jan/2022:16:17:06 +0000] "DELETE /api/v1/books/61f174017dff2164201328ba HTTP/1.1" 200 66 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
 
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:16:33:17 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:16:33:18 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:16:33:18 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:16:33:18 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:16:33:18 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:16:33:18 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:16:33:19 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:16:33:19 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:16:33:19 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:16:33:19 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:16:33:19 +0000] "PATCH /api/v1/books/61f2c94ffe4a1123c8e2ce20 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:16:33:19 +0000] "GET /api/v1/books/ HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:16:33:19 +0000] "GET /api/v1/books/61f2c94ffe4a1123c8e2ce20 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:16:33:19 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:16:33:19 +0000] "DELETE /api/v1/books/61f2c94ffe4a1123c8e2ce20 HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
+

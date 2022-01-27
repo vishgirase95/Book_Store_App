@@ -12,14 +12,11 @@
   "basePath": "/api/v1",
   "tags": [
     {
-      "name": "User",
-      "description": "User registration and login"
+      "name": "User"
     },{
-      "name":"Admin",
-      "description":"Admin registration and login"
+      "name":"Admin"
     },{
-      "name":"All User",
-      "description":"All User Acess"
+      "name":"All User"
     }
   ],
   "schemes": [
@@ -87,7 +84,7 @@
           {
             "in": "body",
             "name": "body",
-            "description": "User registration info",
+            "description": "User login info",
             "required": true,
             "schema": {
               "tyoe":"object",
@@ -125,7 +122,7 @@
           {
             "in": "body",
             "name": "body",
-            "description": "User registration info",
+            "description": "Admin info",
             "required": true,
             "schema": {
               "tyoe":"object",
@@ -167,7 +164,7 @@
           {
             "in": "body",
             "name": "body",
-            "description": "User registration info",
+            "description": "Admin registration info",
             "required": true,
             "schema": {
               "tyoe":"object",
@@ -198,7 +195,8 @@
           }
         }
       }
-    }, "/users/forgetpassword": {
+    }, 
+    "/users/forgetpassword": {
       "post": {
         "tags": [
           "All User"
@@ -211,7 +209,7 @@
           {
             "in": "body",
             "name": "body",
-            "description": "User registration info",
+            "description": "Sent mail for forgetpassword",
             "required": true,
             "schema": {
               "tyoe":"object",
@@ -249,7 +247,7 @@
           {
             "in": "body",
             "name": "Resetpassword",
-            "description": "User registration info",
+            "description": "Reset new password",
             "required": true,
             "schema": {
               "type":"object",
@@ -290,7 +288,7 @@
           {
             "in": "body",
             "name": "Add Books",
-            "description": "Adding Book info",
+            "description": "Adding Book ",
             "required": true,
             "schema": {
               "tyoe":"object",
@@ -397,7 +395,7 @@
           {
             "in":"path",
             "name": "_id",
-            "description": "Fetching Book By ID",
+            "description": "Updating Book By ID",
             "type":"string"
           },
           {
@@ -456,7 +454,7 @@
           {
             "in":"path",
             "name": "_id",
-            "description": "Fetching Book By ID",
+            "description": "Deleteing book by ID",
             "type":"string"
          
           }
