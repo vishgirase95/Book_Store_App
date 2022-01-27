@@ -5,18 +5,18 @@ import { userAuth } from '../middlewares/auth.middleware';
 const router = express.Router();
 
 
-router.post("/AddBook",userAuth("Admin"),userController.Addbook)
+router.post("/",userAuth("Admin"),userController.Addbook)
 
 
-router.patch("/UpdateBook",userAuth("Admin"),userController.UpdateBook)
+router.patch("/:_id",userAuth("Admin"),userController.UpdateBook)
 
 
-router.delete("/DeleteBook/:_id",userAuth("Admin"),userController.DeleteBook)
+router.delete("/:_id",userAuth("Admin"),userController.DeleteBook)
 
 
-router.get("/FetchBook/:_id",userController.fetchByID)
+router.get("/:_id",userController.fetchByID)
 
 
-router.get("/FetchBooks",userController.FetchAllBooks)
+router.get("/",userController.FetchAllBooks)
 
 export default router;

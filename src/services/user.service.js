@@ -119,19 +119,19 @@ export const Addbook = async (body) => {
 
 
 
-export const UpdateBook = async (body) => {
+export const UpdateBook = async (req) => {
   const previousData = await Book.findOne({
-    _id: body.BookID
+    _id:req.params._id
   })
   if (previousData) {
     const data = await Book.findOneAndUpdate({
-      _id: body.NoteID
+      _id:req.params._id
     }, {
-      author: body.author ? body.author : previousData.author,
-      title: body.title ? body.title : previousData.title,
-      image: body.image ? body.image : previousData.image,
-      quantity: body.quantity ? body.quantity : previousData.quantity,
-      description: body.description ? body.description : previousData.description
+      author:req.body.author ? req.body.author : previousData.author,
+      title: req.body.title ? req.body.title : previousData.title,
+      image: req.body.image ? req.body.image : previousData.image,
+      quantity: req.body.quantity ? req.body.quantity : previousData.quantity,
+      description: req.body.description ? req.body.description : previousData.description
     }, {
       new: true
     })
@@ -158,7 +158,7 @@ export const DeleteBook = async (req) => {
 
 
 
-export const fetchByID = async (body) => {
+export const fetchByID = async (req) => {
   const data = await Book.findById({
     _id: req.params._id
   })

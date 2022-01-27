@@ -1329,3 +1329,103 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T0
 info: Connected to the database. {"timestamp":"2022-01-27T08:58:28.361Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T08:59:40.910Z"}
 info: Connected to the database. {"timestamp":"2022-01-27T08:59:40.943Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:03:40.410Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T09:03:40.502Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:26:37)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-27T09:04:01.310Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:26:37)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-27T09:04:03.176Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:09:00.749Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T09:09:00.888Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee8$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:163:10)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.fetchByID (D:\Book_Store_App\Book-Store\src\services\/user.service.js:161:23) 
+    url - /api/v1/books/61f192f3dfe88d63f0c5caac 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-27T09:09:22.504Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee8$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:163:10)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.fetchByID (D:\Book_Store_App\Book-Store\src\services\/user.service.js:161:23) 
+    url - /api/v1/books/61f17240a93a8152a82ece0e 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-27T09:09:42.474Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:10:28.774Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T09:10:28.846Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:10:40.884Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T09:10:40.962Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:11:45.165Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T09:11:45.260Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:11:55.051Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T09:11:55.145Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:12:23.637Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T09:12:23.721Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:12:46.576Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T09:12:46.675Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:130:15)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/books/61f17240a93a8152a82ece0e 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-27T09:13:20.790Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T09:14:15.389Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T09:14:15.490Z"}

@@ -508,3 +508,27 @@ info: ::ffff:127.0.0.1 - - [27/Jan/2022:08:59:41 +0000] "POST /api/v1/users/admi
 
 info: ::ffff:127.0.0.1 - - [27/Jan/2022:08:59:41 +0000] "PATCH /api/v1/books/UpdateBook HTTP/1.1" 200 61 "-" "node-superagent/3.8.3"
 
+info: ::1 - - [27/Jan/2022:09:04:01 +0000] "POST /api/v1/books HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jan/2022:09:04:03 +0000] "POST /api/v1/books HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jan/2022:09:04:36 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [27/Jan/2022:09:04:59 +0000] "POST /api/v1/books HTTP/1.1" 201 280 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jan/2022:09:07:14 +0000] "GET /api/v1/books HTTP/1.1" 200 5011 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jan/2022:09:09:10 +0000] "GET /api/v1/books/ HTTP/1.1" 200 5011 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jan/2022:09:09:22 +0000] "GET /api/v1/books/61f192f3dfe88d63f0c5caac HTTP/1.1" 500 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jan/2022:09:09:34 +0000] "GET /api/v1/books/ HTTP/1.1" 200 5011 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jan/2022:09:09:42 +0000] "GET /api/v1/books/61f17240a93a8152a82ece0e HTTP/1.1" 500 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jan/2022:09:10:41 +0000] "GET /api/v1/books/61f17240a93a8152a82ece0e HTTP/1.1" 200 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jan/2022:09:13:09 +0000] "GET /api/v1/books/61f17240a93a8152a82ece0e HTTP/1.1" 200 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jan/2022:09:13:20 +0000] "PATCH /api/v1/books/61f17240a93a8152a82ece0e HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+

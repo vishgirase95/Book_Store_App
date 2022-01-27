@@ -3494,3 +3494,85 @@ AssertionError: expected 201 to equal 200
     at Server.emit (events.js:375:28)
     at emitCloseNT (net.js:1661:8)
     at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 27 2022 14:28:29 GMT+0530 (India Standard Time)","error":{"actual":201,"expected":200,"message":"expected 201 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 201 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:171:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":878453},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Book_Store_App\\Book-Store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18316152,"external":19998607,"heapTotal":151367680,"heapUsed":91785528,"rss":184745984},"pid":2188,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 201 to equal 200\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:171:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-27T08:58:29.412Z","trace":[{"column":40,"file":"D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js","function":null,"line":171,"method":null,"native":false},{"column":6,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:26:37)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-27T09:04:01.310Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:26:37)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-27T09:04:03.176Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee8$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:163:10)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.fetchByID (D:\Book_Store_App\Book-Store\src\services\/user.service.js:161:23) 
+    url - /api/v1/books/61f192f3dfe88d63f0c5caac 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-27T09:09:22.504Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee8$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:163:10)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.fetchByID (D:\Book_Store_App\Book-Store\src\services\/user.service.js:161:23) 
+    url - /api/v1/books/61f17240a93a8152a82ece0e 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-27T09:09:42.474Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:130:15)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/books/61f17240a93a8152a82ece0e 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-27T09:13:20.790Z"}

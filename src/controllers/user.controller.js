@@ -80,7 +80,7 @@ export const Addbook= async (req,res,next)=>{
 
 export const UpdateBook= async (req,res,next)=>{
   try {
-    const data=await UserService.UpdateBook(req.body);
+    const data=await UserService.UpdateBook(req);
     res.status(HttpStatus.OK).json({
       code:HttpStatus.OK,
       data:data,
@@ -109,7 +109,7 @@ export const DeleteBook= async (req,res,next)=>{
 
 export const fetchByID=async(req,res,next)=>{
   try {
-    const data=await UserService.fetchByID(req.body);
+    const data=await UserService.fetchByID(req);
     res.status(HttpStatus.OK).json({
       code:HttpStatus.OK,
       data:data,
