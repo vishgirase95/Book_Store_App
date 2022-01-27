@@ -443,6 +443,39 @@
         "security": [{
         "JWT": []
       }]
+      }, 
+      "delete": {
+        "tags": [
+          "Admin"
+        ],
+        "produces": [
+        
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in":"path",
+            "name": "_id",
+            "description": "Fetching Book By ID",
+            "type":"string"
+         
+          }
+        
+        ],
+        "responses": {
+          "201":{
+            "description":"Created Sucessfully"
+          },
+          "200": {
+            "description": "valid input"
+          },
+          "500":{
+            "description":"invalid input"
+          }
+        },
+        "security": [{
+        "JWT": []
+      }]
       }
     }
   },"securityDefinitions": {

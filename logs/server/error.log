@@ -3809,3 +3809,86 @@ error:
       method - PATCH 
       IP - ::1
      {"timestamp":"2022-01-27T12:56:30.250Z"}
+error: 
+    status - 500 
+    message - Error: User Already Exsist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:22:11)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-27T16:03:38.845Z"}
+error: 
+    status - 500 
+    message - Error: User Acess Denied
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:30:14)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/61f17240a93a8152a82ece0e 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-27T16:13:24.120Z"}
+error: 
+    status - 500 
+    message - Error: User Acess Denied
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:30:14)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/61f18fec167c2b4680fb56c4 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-27T16:13:53.358Z"}
+error: 
+    status - 500 
+    message - Error: User Acess Denied
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:30:14)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/%7B_id%7D?_id=61f18fec167c2b4680fb56c4 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-27T16:14:26.300Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/books/%7B_id%7D?_id=61f174f2ce436f2844f6173d 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-27T16:15:23.887Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/books/%7B_id%7D?_id=61f174f2ce436f2844f6173d 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-27T16:16:11.554Z"}

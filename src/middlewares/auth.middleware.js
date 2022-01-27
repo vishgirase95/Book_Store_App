@@ -26,6 +26,8 @@ export const userAuth = (user) => {
       const TokenVerification = jwt.verify(bearerToken, 'vishal');
       if (decoded.Role === user) {
         next();
+      }else{
+        next(Error("User Acess Denied"));
       }
     } catch (error) {
       next(error);
