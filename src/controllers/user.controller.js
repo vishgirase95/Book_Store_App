@@ -81,8 +81,8 @@ export const Addbook= async (req,res,next)=>{
 export const UpdateBook= async (req,res,next)=>{
   try {
     const data=await UserService.UpdateBook(req.body);
-    res.status(HttpStatus.CREATED).json({
-      code:HttpStatus.CREATED,
+    res.status(HttpStatus.OK).json({
+      code:HttpStatus.OK,
       data:data,
       message:"Updated Book Sucessfully"
     })
@@ -109,11 +109,24 @@ export const DeleteBook= async (req,res,next)=>{
 
 export const fetchByID=async(req,res,next)=>{
   try {
-    const data=await UserService.fetchByID(req);
+    const data=await UserService.fetchByID(req.body);
     res.status(HttpStatus.OK).json({
       code:HttpStatus.OK,
       data:data,
       message:"Sucessfully Fetched Book"});
+  } catch (error) {
+    next(error)
+  }
+}
+
+
+export const FetchAllBooks=async(req,res,next)=>{
+  try {
+    const data=await UserService.FetchAllBooks(req);
+    res.status(HttpStatus.OK).json({
+      code:HttpStatus.OK,
+      data:data,
+      message:"Sucessfully Fetched all Books"});
   } catch (error) {
     next(error)
   }

@@ -40,22 +40,22 @@ export const login = async (body) => {
     Email: body.Email
   })
 
-    const HashedPassword = mailVerify.Password;
-    const EnterPassword = body.Password
-    const isMatch = await bcrypt.compare(EnterPassword, HashedPassword);
-    if (isMatch) {
+  const HashedPassword = mailVerify.Password;
+  const EnterPassword = body.Password
+  const isMatch = await bcrypt.compare(EnterPassword, HashedPassword);
+  if (isMatch) {
 
-      const token = jwt.sign({
-        Email: mailVerify.Email,
-        ID: mailVerify._id,
-        Role: mailVerify.Role,
-      }, LOGIN_TOKEN_KEY)
+    const token = jwt.sign({
+      Email: mailVerify.Email,
+      ID: mailVerify._id,
+      Role: mailVerify.Role,
+    }, LOGIN_TOKEN_KEY)
 
 
-      return token;
-    } else {
-      throw Error("Please enter corret mail id or password");
-    }
+    return token;
+  } else {
+    throw Error("Please enter corret mail id or password");
+  }
 
 }
 
@@ -83,83 +83,101 @@ export const forgetPassword = async (body) => {
 }
 
 
-export const resetPassword=async (req)=>{
-  
-  const tokenfound = req.header('Authorization').split(' ')[1];
-  const verifiedToken=jwt.verify(tokenfound,FORGETPASSWORD_TOKEN_KEY)
+export const resetPassword = async (req) => {
 
-  if(verifiedToken){
+  const tokenfound = req.header('Authorization').split(' ')[1];
+  const verifiedToken = jwt.verify(tokenfound, FORGETPASSWORD_TOKEN_KEY)
+
+  if (verifiedToken) {
     const decodedToken = jwt.decode(tokenfound, {
       complete: true
-     });
-    const Email_Enter=decodedToken.payload.Email;
+    });
+    const Email_Enter = decodedToken.payload.Email;
     const newPassword = req.body.Password;
     const HashednewPassword = await bcrypt.hash(newPassword, 10);
 
     const findAndUpdatePassword = await User.findOneAndUpdate({
-      Email:Email_Enter
-    },{
-      Password:HashednewPassword
-    },{
-      new:true
+      Email: Email_Enter
+    }, {
+      Password: HashednewPassword
+    }, {
+      new: true
     });
- return findAndUpdatePassword
-  }else{
+    return findAndUpdatePassword
+  } else {
     throw Error("Cannot reset password");
   }
 
 }
 
 
-export const Addbook= async (body)=>{
-const data=await Book.create(body)
-return data;
-}
-
-
-
-
-export const UpdateBook= async (body)=>{
-const previousData=await Book.findOne({_id:body.NoteID})
-if(previousData){
-  const data=await Book.findOneAndUpdate({_id:body.NoteID},{
-    author:body.author ? body.author : previousData.author,
-    title:body.title ? body.title : previousData.title,
-    image:body.image ? body.image:previousData.image,
-    quantity:body.quantity ? body.quantity:previousData.quantity,
-    description:body.description ? body.description:previousData.description
-  },
-  {
-    new:true
-  })
+export const Addbook = async (body) => {
+  const data = await Book.create(body)
   return data;
-}else{
-  throw Error("Book not found");
-
 }
+
+
+
+
+export const UpdateBook = async (body) => {
+  const previousData = await Book.findOne({
+    _id: body.BookID
+  })
+  if (previousData) {
+    const data = await Book.findOneAndUpdate({
+      _id: body.NoteID
+    }, {
+      author: body.author ? body.author : previousData.author,
+      title: body.title ? body.title : previousData.title,
+      image: body.image ? body.image : previousData.image,
+      quantity: body.quantity ? body.quantity : previousData.quantity,
+      description: body.description ? body.description : previousData.description
+    }, {
+      new: true
+    })
+    return data;
+  } else {
+    throw Error("Book not found");
+
   }
+}
 
 
-  export const DeleteBook= async (req)=>{
-    const data=await Book.findByIdAndDelete({_id:req.params._id})
-    if(data){
-      return "Book Deleted";
+export const DeleteBook = async (req) => {
+  const data = await Book.findByIdAndDelete({
+    _id: req.params._id
+  })
+  if (data) {
+    return "Book Deleted";
 
-    }else{
-      throw Error("Book not found");
+  } else {
+    throw Error("Book not found");
 
-    }
-    }
+  }
+}
 
 
 
-    export const fetchByID= async (req)=>{
-      const data=await Book.findById({_id:req.params._id})
+export const fetchByID = async (body) => {
+  const data = await Book.findById({
+    _id: req.params._id
+  })
 
-      if(data){
-        return data;
+  if (data) {
+    return data;
 
-      }else{
-        throw Error("Book not found");
-      }
-      }
+  } else {
+    throw Error("Book not found");
+  }
+}
+
+
+export const FetchAllBooks = async () => {
+  const data = await Book.find()
+  if (data) {
+    return data;
+  } else {
+    throw Error("Books not found");
+
+  }
+}

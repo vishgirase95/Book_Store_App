@@ -930,3 +930,402 @@ error:
    {"timestamp":"2022-01-26T20:22:57.595Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-26T20:23:44.659Z"}
 info: Connected to the database. {"timestamp":"2022-01-26T20:23:44.683Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T05:27:04.184Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:27:04.246Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T05:54:13.512Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:54:13.610Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T05:54:57.181Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:54:57.263Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T05:55:23.903Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:55:24.004Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T05:56:13.648Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:56:13.733Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T05:56:30.146Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:56:30.187Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T05:56:47.044Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:56:47.111Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T05:56:58.435Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:56:59.167Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T05:57:35.169Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:57:35.251Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T05:57:43.014Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:57:43.100Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T05:57:57.449Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:57:57.508Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T05:58:20.783Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:58:20.857Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T05:58:52.839Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:58:52.904Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:26:37)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:15:3
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at logger (D:\Book_Store_App\Book-Store\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:224:16)
+    at done (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/books/AddBook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T05:58:54.728Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T06:00:05.909Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T06:00:05.942Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:26:37)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:15:3
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at logger (D:\Book_Store_App\Book-Store\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:224:16)
+    at done (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/books/AddBook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T06:00:06.633Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T06:08:17.537Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T06:08:17.644Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T06:08:24.050Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T06:08:24.106Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T06:09:20.764Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T06:09:20.830Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:26:37)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/books/AddBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-27T06:09:24.236Z"}
+error: 
+    status - 500 
+    message - Error: Please enter corret mail id or password
+    at _callee2$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:57:11)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/admin_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-27T06:10:09.996Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T06:11:52.636Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T06:11:52.727Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T06:12:20.073Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T06:12:20.105Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T06:14:07.537Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T06:14:07.619Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T06:15:24.570Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T06:15:24.604Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T06:16:22.752Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T06:16:22.784Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T06:17:40.305Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T06:17:40.371Z"}
+error: 
+    status - 500 
+    message - Error: User Already Exsist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:22:11)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T06:17:40.421Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:15:10)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T06:17:40.601Z"}
+error: 
+    status - 500 
+    message - Error: Mail id does not exsist
+    at _callee3$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:80:11)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/forgetpassword 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T06:17:40.745Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:89:29)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (D:\Book_Store_App\Book-Store\src\services\/user.service.js:86:27)
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\controllers\/user.controller.js:55:36)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at resetPassword (D:\Book_Store_App\Book-Store\src\controllers\/user.controller.js:53:27)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at logger (D:\Book_Store_App\Book-Store\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:224:16)
+    at done (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T06:17:40.782Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T06:18:05.996Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T06:18:06.031Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T06:27:33.581Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T06:27:33.778Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T06:28:07.827Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T06:28:07.865Z"}
+error: 
+    status - 500 
+    message - Error: Book not found
+    at _callee6$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:140:11)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/books/UpdateBook 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T06:28:08.711Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T06:55:17.152Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T06:55:17.381Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:26:37)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/books/AddBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-27T06:55:22.888Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:26:37)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/books/AddBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-27T06:55:36.462Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:26:37)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/books/AddBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-27T06:55:37.863Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T07:09:30.330Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T07:09:30.416Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T07:12:14.139Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T07:12:14.210Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T07:16:48.518Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T07:16:48.590Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T07:18:36.998Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T07:18:37.041Z"}
+error: 
+    status - 500 
+    message - Error: Book not found
+    at _callee6$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:140:11)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/books/UpdateBook 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T07:18:37.853Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T08:41:29.910Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T08:41:29.961Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T08:43:34.449Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T08:43:34.487Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T08:49:36.287Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T08:49:36.323Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T08:49:50.707Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T08:49:50.754Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T08:51:08.187Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T08:51:08.219Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T08:51:35.708Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T08:51:35.769Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T08:58:28.307Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T08:58:28.361Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T08:59:40.910Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T08:59:40.943Z"}

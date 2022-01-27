@@ -69,6 +69,18 @@
     "Email": "test1@gamail.com",
     "Password": "vishal2"
   
+},"Book1":{
+
+    "author": "Book1",
+    "title": "horror",
+    "image": "img1",
+    "quantity": "1",
+    "description": "it was release in 1990"
+  
+},"UpdateBook":{
+"NoteID":"61f2391e65acdf094cc313a3",
+    "title": "drama"
+  
 },
 
 

@@ -8,12 +8,15 @@ const router = express.Router();
 router.post("/AddBook",userAuth("Admin"),userController.Addbook)
 
 
-router.post("/UpdateBook",userAuth("Admin"),userController.UpdateBook)
+router.patch("/UpdateBook",userAuth("Admin"),userController.UpdateBook)
 
 
 router.delete("/DeleteBook/:_id",userAuth("Admin"),userController.DeleteBook)
 
 
 router.get("/FetchBook/:_id",userController.fetchByID)
+
+
+router.get("/FetchBooks",userController.FetchAllBooks)
 
 export default router;

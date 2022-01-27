@@ -10,7 +10,8 @@ import fs from 'fs';
 const rawdata = fs.readFileSync("./../BOOK-STORE/src/utils/data.json")
 const jsondata = JSON.parse(rawdata);
 describe('User APIs Test', () => {
-  let Token = ''
+  let Token = '';
+let BookID='';  
 
   before((done) => {
     const clearCollections = () => {
@@ -112,4 +113,67 @@ describe('User APIs Test', () => {
     })
   })
 
+
+  // describe('Post /books/AddBook', () => {
+  //   it("should add book", (done) => {
+  //     request(app).post('/api/v1/books/AddBook').set('Authorization', "JWT " +admin_login_token).send(jsondata.Book1).end((err, res) => {
+  //       expect(res.statusCode).to.be.equal(201);
+  //       console.log("note id",res.body.data)
+  //       expect(res.body).property('message').to.be.equal('Created Book Sucessfully')
+  //       done();
+  //     })
+  //   })
+  // })
+
+  // describe('Post /books/UpdateBook', () => {
+  //   it("should Add book", (done) => {
+  //     request(app).patch('/api/v1/books/UpdateBook').set('Authorization', "JWT " +admin_login_token).send(jsondata.UpdateBook).end((err, res) => {
+  //       expect(res.statusCode).to.be.equal(200);
+  //       // expect(res.body).property('message').to.be.equal('Created Book Sucessfully')
+  //       done();
+  //     })
+  //   })
+  // })
+
+  describe('Post loginas admin and add books', () => {
+    it("login and add books", (done) => {
+      request(app).post('/api/v1/users/admin_login').send(jsondata.login2).end((err, res) => {
+
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body).property('message').to.be.equal('Sucessfully logged in')
+       let  admin_login_token=res.body.data
+
+       request(app).post('/api/v1/books/AddBook').set('Authorization', "JWT " +admin_login_token).send(jsondata.Book1).end((err, res) => {
+        expect(res.statusCode).to.be.equal(201);
+        expect(res.body).property('message').to.be.equal('Created Book Sucessfully')
+        BookID=res.body.data._id
+        done();
+        });
+
+      })
+    })
+  })
+
+
+  describe('POST /update Boks', () => {
+    it("login and auth update notes using notid", (done) => {
+      request(app).post('/api/v1/users/admin_login').send(jsondata.login2).end((err, res) => {
+
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body).property('message').to.be.equal('Sucessfully logged in')
+       let  admin_login_token=res.body.data
+
+        const updateBook = {
+          "BookID": BookID,
+          "title": "hordramaaror"
+        }
+        request(app).patch('/api/v1/books/UpdateBook').set('Authorization', "JWT " +admin_login_token).send(updateBook).end((err, res) => {
+          expect(res.statusCode).to.be.equal(200);
+          // expect(res.body).property('message').to.be.equal('Created Book Sucessfully')
+          done();
+        });
+
+      })
+    })
+  })
 });
