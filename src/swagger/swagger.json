@@ -62,7 +62,10 @@
           }
         ],
         "responses": {
-          "201": {
+          "201":{
+            "description":"Created Sucessfully"
+          },
+          "200": {
             "description": "valid input"
           },
           "500":{
@@ -139,6 +142,9 @@
           }
         ],
         "responses": {
+          "201":{
+            "description":"Created Sucessfully"
+          },
           "200": {
             "description": "valid input"
           },
@@ -219,7 +225,10 @@
           }
         ],
         "responses": {
-          "201": {
+          "201":{
+            "description":"Created Sucessfully"
+          },
+          "200": {
             "description": "valid input"
           },
           "500":{
@@ -243,7 +252,7 @@
             "description": "User registration info",
             "required": true,
             "schema": {
-              "tyoe":"object",
+              "type":"object",
               "required": ["Password"],
               "properties": {
                 "Password": {
@@ -254,6 +263,9 @@
           }
         ],
         "responses": {
+          "201":{
+            "description":"Created Sucessfully"
+          },
           "200": {
             "description": "valid input"
           },
@@ -264,6 +276,173 @@
       "security": [{
       "JWT": []
     }]
+      }
+    },"/books/": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "produces": [
+        
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "Add Books",
+            "description": "Adding Book info",
+            "required": true,
+            "schema": {
+              "tyoe":"object",
+              "required": ["author","title","image","quantity","description"],
+              "properties": {
+                "author": {
+                  "type": "string"
+                },
+                "title":{
+                  "type":"string"
+                },
+                "image":{
+                  "type":"string"
+                },
+                "quantity":{
+                  "type":"string"
+                },"description":{
+                  "type":"string"
+                }
+
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201":{
+            "description":"Created Sucessfully"
+          },
+          "200": {
+            "description": "valid input"
+          },
+          "500":{
+            "description":"invalid input"
+          }
+      },
+      "security": [{
+      "JWT": []
+    }]
+      },
+      "get": {
+        "tags": [
+          "All User"
+        ],
+        "produces": [
+        
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "Fetch Books",
+            "description": "Fetching All Books"
+          }
+        ],
+        "responses": {
+          "201":{
+            "description":"Created Sucessfully"
+          },
+          "200": {
+            "description": "valid input"
+          },
+          "500":{
+            "description":"invalid input"
+          }
+      }
+      }
+    },"/books/{_id}": {
+      "get": {
+        "tags": [
+          "All User"
+        ],
+        "produces": [
+        
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "_id",
+            "description": "Fetching Book By ID"
+          }
+        ],
+        "responses": {
+          "201":{
+            "description":"Created Sucessfully"
+          },
+          "200": {
+            "description": "valid input"
+          },
+          "500":{
+            "description":"invalid input"
+          }
+        }
+      }, 
+      "patch": {
+        "tags": [
+          "Admin"
+        ],
+        "produces": [
+        
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in":"path",
+            "name": "_id",
+            "description": "Fetching Book By ID",
+            "type":"string"
+          },
+          {
+            "in":"body",
+            "name": "Book",
+            "description": "Fetching Book By ID",
+            "type":"string",
+            "schema": {
+              "type":"object",
+            
+              "properties": {
+                "author": {
+                  "type": "string"
+                },
+                "title":{
+                  "type":"string"
+                },
+                "image":{
+                  "type":"string"
+                },
+                "quantity":{
+                  "type":"string"
+                },"description":{
+                  "type":"string"
+                }
+
+              }
+            }
+          }
+        
+        ],
+        "responses": {
+          "201":{
+            "description":"Created Sucessfully"
+          },
+          "200": {
+            "description": "valid input"
+          },
+          "500":{
+            "description":"invalid input"
+          }
+        },
+        "security": [{
+        "JWT": []
+      }]
       }
     }
   },"securityDefinitions": {

@@ -5072,3 +5072,242 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-01-27T11:02:25.375Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:50:47.505Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:50:47.582Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:53:51.709Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:53:51.777Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:54:03.698Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:54:03.783Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:54:23.558Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:54:23.686Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:54:28.939Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:54:29.041Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:54:51.628Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:54:51.713Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:55:05.308Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:55:05.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:55:11.423Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:55:11.526Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:55:17.822Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:55:17.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:55:31.270Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:55:31.319Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:56:37.734Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:56:37.814Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:56:57.714Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:56:57.814Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:57:08.413Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:57:08.512Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:57:21.855Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:57:21.929Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:57:36.330Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:57:36.429Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:57:44.491Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:57:44.590Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:57:59.903Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:58:00.001Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:58:10.275Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:58:10.377Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:58:21.393Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:58:21.454Z"}
+error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token } in JSON at position 8314
+SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token } in JSON at position 8314
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\src\/index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Thu Jan 27 2022 17:28:25 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":889249},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18690111,"external":20936023,"heapTotal":80158720,"heapUsed":56082040,"rss":114163712},"pid":17640,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected token } in JSON at position 8314\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-01-27T11:58:26.020Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:58:32.373Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:58:32.438Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:59:07.612Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:59:07.678Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T11:59:17.782Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T11:59:17.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:01:00.671Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:01:00.758Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:01:14.445Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:01:14.493Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:01:58.976Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:01:59.057Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:02:54.308Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:02:54.430Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:05:26.093Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:05:26.151Z"}
+error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token , in JSON at position 8573
+SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token , in JSON at position 8573
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\src\/index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Thu Jan 27 2022 17:51:37 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":890641},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18687716,"external":20933628,"heapTotal":80158720,"heapUsed":58813336,"rss":113881088},"pid":26976,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected token , in JSON at position 8573\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-01-27T12:21:37.509Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:21:54.324Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:21:54.404Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:22:33.168Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:22:33.239Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:23:18.622Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:23:18.714Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:27:41.085Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:27:41.160Z"}
+error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected string in JSON at position 8572
+SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected string in JSON at position 8572
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\src\/index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Thu Jan 27 2022 18:01:52 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":891256},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18662510,"external":20908422,"heapTotal":79896576,"heapUsed":55774848,"rss":113242112},"pid":28192,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected string in JSON at position 8572\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-01-27T12:31:52.464Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:32:00.410Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:32:14.516Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:32:14.593Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:32:20.492Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:32:20.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:32:30.427Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:32:30.487Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:35:16.940Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:35:17.063Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:37:58.223Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:37:58.331Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:38:47.361Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:38:47.479Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:39:36.033Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:39:36.112Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:39:52.857Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:39:52.981Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/61f17240a93a8152a82ece0e 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-01-27T12:40:39.081Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:42:07.836Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:42:08.001Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:43:43.008Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:43:43.082Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/%7B_id%7D 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-01-27T12:43:54.249Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:44:21.423Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:44:21.542Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/%7B_id%7D 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-01-27T12:44:29.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:44:55.144Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:44:55.202Z"}
+error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token , in JSON at position 9398
+SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token , in JSON at position 9398
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\src\/index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Thu Jan 27 2022 18:15:43 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":892087},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18681262,"external":20927174,"heapTotal":80420864,"heapUsed":58172136,"rss":113684480},"pid":8668,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected token , in JSON at position 9398\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-01-27T12:45:43.653Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:46:19.186Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:46:19.318Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:49:38.858Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:49:38.972Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:50:30.817Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:50:30.905Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:51:09.169Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:51:09.282Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:51:15.969Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:51:16.045Z"}
+error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token } in JSON at position 9512
+SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token } in JSON at position 9512
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\src\/index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Thu Jan 27 2022 18:22:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":892522},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18671635,"external":20917547,"heapTotal":80158720,"heapUsed":58111032,"rss":113672192},"pid":8668,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected token } in JSON at position 9512\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-01-27T12:52:58.424Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
+error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token } in JSON at position 10224
+SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token } in JSON at position 10224
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\src\/index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Thu Jan 27 2022 18:23:23 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":892547},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18669494,"external":20915406,"heapTotal":80158720,"heapUsed":58321064,"rss":113262592},"pid":13196,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected token } in JSON at position 10224\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-01-27T12:53:23.722Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
+error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token { in JSON at position 9327
+SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token { in JSON at position 9327
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\src\/index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Thu Jan 27 2022 18:23:50 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":892574},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18681458,"external":20927370,"heapTotal":80158720,"heapUsed":58124096,"rss":113307648},"pid":21604,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected token { in JSON at position 9327\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-01-27T12:53:50.666Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
+error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token { in JSON at position 9327
+SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token { in JSON at position 9327
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\src\/index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Thu Jan 27 2022 18:24:02 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":892586},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18692549,"external":20938461,"heapTotal":80158720,"heapUsed":59405752,"rss":113004544},"pid":11472,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected token { in JSON at position 9327\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-01-27T12:54:02.298Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
+error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token } in JSON at position 10224
+SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token } in JSON at position 10224
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\src\/index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Thu Jan 27 2022 18:24:13 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":892596},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18707885,"external":20953797,"heapTotal":80158720,"heapUsed":58574520,"rss":112906240},"pid":22512,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected token } in JSON at position 10224\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-01-27T12:54:13.079Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:54:25.987Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:54:26.090Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/61f17240a93a8152a82ece0e 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-01-27T12:56:30.250Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:57:28.910Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:57:28.991Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-27T12:57:58.703Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T12:57:58.817Z"}

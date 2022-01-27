@@ -1136,3 +1136,35 @@ info: ::ffff:127.0.0.1 - - [27/Jan/2022:10:47:05 +0000] "DELETE /api/v1/books/61
 
 info: ::1 - - [27/Jan/2022:11:02:25 +0000] "POST /api/v1/books/ HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [27/Jan/2022:11:51:22 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [27/Jan/2022:11:53:07 +0000] "POST /api/v1/books/ HTTP/1.1" 201 272 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [27/Jan/2022:12:05:34 +0000] "GET /api/v1/books/ HTTP/1.1" 200 5225 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [27/Jan/2022:12:28:05 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2022:12:35:33 +0000] "GET /api/v1/books/61f17240a93a8152a82ece0e HTTP/1.1" 200 279 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [27/Jan/2022:12:40:39 +0000] "PATCH /api/v1/books/61f17240a93a8152a82ece0e HTTP/1.1" 400 56 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [27/Jan/2022:12:41:04 +0000] "GET /api/v1/books/61f17240a93a8152a82ece0e HTTP/1.1" 304 - "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [27/Jan/2022:12:43:54 +0000] "PATCH /api/v1/books/%7B_id%7D HTTP/1.1" 400 56 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [27/Jan/2022:12:44:29 +0000] "PATCH /api/v1/books/%7B_id%7D HTTP/1.1" 400 56 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [27/Jan/2022:12:55:03 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [27/Jan/2022:12:55:45 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [27/Jan/2022:12:56:30 +0000] "PATCH /api/v1/books/61f17240a93a8152a82ece0e HTTP/1.1" 400 56 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [27/Jan/2022:12:58:29 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [27/Jan/2022:12:58:58 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [27/Jan/2022:13:01:02 +0000] "PATCH /api/v1/books/61f17240a93a8152a82ece0e HTTP/1.1" 200 279 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [27/Jan/2022:13:01:16 +0000] "GET /api/v1/books/ HTTP/1.1" 200 5225 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
