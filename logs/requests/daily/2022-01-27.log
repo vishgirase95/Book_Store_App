@@ -532,3 +532,7 @@ info: ::1 - - [27/Jan/2022:09:13:09 +0000] "GET /api/v1/books/61f17240a93a8152a8
 
 info: ::1 - - [27/Jan/2022:09:13:20 +0000] "PATCH /api/v1/books/61f17240a93a8152a82ece0e HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [27/Jan/2022:09:14:33 +0000] "PATCH /api/v1/books/61f17240a93a8152a82ece0e HTTP/1.1" 200 280 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jan/2022:09:14:56 +0000] "PATCH /api/v1/books/61f17240a93a8152a82ece0e HTTP/1.1" 200 279 "-" "PostmanRuntime/7.29.0"
+
