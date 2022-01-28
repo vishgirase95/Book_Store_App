@@ -1,0 +1,52 @@
+info: ::1 - - [28/Jan/2022:02:59:21 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [28/Jan/2022:02:59:55 +0000] "GET /api/v1/books/ HTTP/1.1" 200 4777 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [28/Jan/2022:03:00:22 +0000] "GET /api/v1/books/61f174f2ce436f2844f6173d HTTP/1.1" 200 281 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [28/Jan/2022:03:00:36 +0000] "DELETE /api/v1/books/61f174f2ce436f2844f6173d HTTP/1.1" 200 66 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [28/Jan/2022:03:00:46 +0000] "GET /api/v1/books/61f174f2ce436f2844f6173d HTTP/1.1" 500 49 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [28/Jan/2022:03:01:21 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [28/Jan/2022:03:02:14 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [28/Jan/2022:03:03:03 +0000] "DELETE /api/v1/books/61f1763bf950f0116082e712 HTTP/1.1" 500 52 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2022:03:04:16 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2022:03:04:16 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2022:03:04:16 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2022:03:04:16 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2022:03:04:17 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2022:03:04:17 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2022:03:04:17 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2022:03:04:17 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2022:03:04:17 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2022:03:04:17 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2022:03:04:17 +0000] "PATCH /api/v1/books/61f35d31670bc16bfcf94ee3 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2022:03:04:17 +0000] "GET /api/v1/books/ HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2022:03:04:17 +0000] "GET /api/v1/books/61f35d31670bc16bfcf94ee3 HTTP/1.1" 200 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2022:03:04:17 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2022:03:04:17 +0000] "DELETE /api/v1/books/61f35d31670bc16bfcf94ee3 HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [28/Jan/2022:15:18:00 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [28/Jan/2022:15:18:25 +0000] "POST /api/v1/users/user_login HTTP/1.1" 500 54 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [28/Jan/2022:15:18:40 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+

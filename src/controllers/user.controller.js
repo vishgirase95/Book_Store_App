@@ -131,3 +131,18 @@ export const FetchAllBooks=async(req,res,next)=>{
     next(error)
   }
 }
+
+
+
+export const AddCart= async (req,res,next)=>{
+  try {
+    const data=await UserService.AddCart(req);
+    res.status(HttpStatus.CREATED).json({
+      code:HttpStatus.CREATED,
+      data:data,
+      message:"Sucessfully Added to Cart"
+    })
+  } catch (error) {
+    next(error)
+  }
+}

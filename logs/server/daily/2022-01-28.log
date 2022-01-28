@@ -1,0 +1,57 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-28T02:52:19.274Z"}
+info: Connected to the database. {"timestamp":"2022-01-28T02:52:19.344Z"}
+error: 
+    status - 500 
+    message - Error: Book not found
+    at _callee8$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:170:11)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/books/61f174f2ce436f2844f6173d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-28T03:00:46.667Z"}
+error: 
+    status - 500 
+    message - Error: User Acess Denied
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:30:14)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/61f1763bf950f0116082e712 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-28T03:03:03.184Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-28T03:04:16.389Z"}
+info: Connected to the database. {"timestamp":"2022-01-28T03:04:16.443Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-28T13:48:19.155Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"Error: \n    at new MongooseError (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\error\\mongooseError.js:7:1)\n    at new MongooseServerSelectionError (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\error\\serverSelection.js:26:1)\n    at NativeConnection.Connection.openUri (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\index.js:351:10\n    at D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\index.js:1149:10)","timestamp":"2022-01-28T13:48:49.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-28T15:02:39.715Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"Error: \n    at new MongooseError (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\error\\mongooseError.js:7:1)\n    at new MongooseServerSelectionError (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\error\\serverSelection.js:26:1)\n    at NativeConnection.Connection.openUri (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\index.js:351:10\n    at D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\index.js:1149:10)","timestamp":"2022-01-28T15:03:09.733Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-28T15:05:23.012Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"Error: \n    at new MongooseError (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\error\\mongooseError.js:7:1)\n    at new MongooseServerSelectionError (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\error\\serverSelection.js:26:1)\n    at NativeConnection.Connection.openUri (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\index.js:351:10\n    at D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\index.js:1149:10)","timestamp":"2022-01-28T15:05:53.028Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-28T15:17:51.408Z"}
+info: Connected to the database. {"timestamp":"2022-01-28T15:17:51.498Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:14:12)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-28T15:18:25.805Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-28T15:19:05.399Z"}
+info: Connected to the database. {"timestamp":"2022-01-28T15:19:05.472Z"}

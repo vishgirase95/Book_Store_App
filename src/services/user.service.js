@@ -1,11 +1,13 @@
 import User from '../models/user.model';
 import Book from '../models/book.model';
+import Cart from '../models/cart.model';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
 import {
   mailSend
 } from '../utils/sendmail.util.js'
+
 dotenv.config('../.env');
 
 
@@ -180,4 +182,13 @@ export const FetchAllBooks = async () => {
     throw Error("Books not found");
 
   }
+}
+
+export const AddCart=async (req)=>{
+console.log("id",req)
+  // Cart.findOne({UserID:User_ID})
+const data=await Cart.create(body);
+
+return data;
+  
 }
