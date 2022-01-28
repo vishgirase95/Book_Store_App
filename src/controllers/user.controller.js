@@ -136,7 +136,7 @@ export const FetchAllBooks=async(req,res,next)=>{
 
 export const AddCart= async (req,res,next)=>{
   try {
-    const data=await UserService.AddCart(req);
+    const data=await UserService.AddCart(req.body);
     res.status(HttpStatus.CREATED).json({
       code:HttpStatus.CREATED,
       data:data,

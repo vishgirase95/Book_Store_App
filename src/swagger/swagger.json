@@ -39,7 +39,7 @@
             "description": "User registration info",
             "required": true,
             "schema": {
-              "tyoe":"object",
+              "type":"object",
               "required": ["FirstName", "LastName", "Email", "Password"],
               "properties": {
                 "FirstName": {
@@ -87,7 +87,7 @@
             "description": "User login info",
             "required": true,
             "schema": {
-              "tyoe":"object",
+              "type":"object",
               "required": ["Email", "Password"],
               "properties": {
                 "Email": {
@@ -125,7 +125,7 @@
             "description": "Admin info",
             "required": true,
             "schema": {
-              "tyoe":"object",
+              "type":"object",
               "required": ["Email", "Password"],
               "properties": {
                 "Email": {
@@ -167,7 +167,7 @@
             "description": "Admin registration info",
             "required": true,
             "schema": {
-              "tyoe":"object",
+              "type":"object",
               "required": ["FirstName", "LastName", "Email", "Password"],
               "properties": {
                 "FirstName": {
@@ -212,7 +212,7 @@
             "description": "Sent mail for forgetpassword",
             "required": true,
             "schema": {
-              "tyoe":"object",
+              "type":"object",
               "required": ["Email"],
               "properties": {
                 "Email": {
@@ -291,7 +291,7 @@
             "description": "Adding Book ",
             "required": true,
             "schema": {
-              "tyoe":"object",
+              "type":"object",
               "required": ["author","title","image","quantity","description"],
               "properties": {
                 "author": {
@@ -304,9 +304,11 @@
                   "type":"string"
                 },
                 "quantity":{
-                  "type":"string"
+                  "type":"number"
                 },"description":{
                   "type":"string"
+                },"price":{
+                  "type":"number"
                 }
 
               }
@@ -417,9 +419,11 @@
                   "type":"string"
                 },
                 "quantity":{
-                  "type":"string"
+                  "type":"number"
                 },"description":{
                   "type":"string"
+                },"price":{
+                  "type":"number"
                 }
 
               }

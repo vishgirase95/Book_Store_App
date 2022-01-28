@@ -184,11 +184,26 @@ export const FetchAllBooks = async () => {
   }
 }
 
-export const AddCart=async (req)=>{
-console.log("id",req)
-  // Cart.findOne({UserID:User_ID})
+export const AddCart=async (body)=>{
+  
+const BookFound=await Book.findOne({_id:body.Book.BookID});
+
+
+if(BookFound){
+  if(BookFound.quantity>=body.Book.Quantity){
+body.UserID=body.USER_ID;
+const totalQuantity=body.Book.Quantity
+body.TotalAmount=BookFound.price * totalQuantity
 const data=await Cart.create(body);
+const BookInStock=BookFound.quantity-totalQuantity;
+const UpdatedBookFound=await Book.findOneAndUpdate({_id:body.Book.BookID},{quantity:BookInStock});
 
 return data;
-  
+  }else{
+  throw Error("Book out of stock")
+
+  }
+}else{
+  throw Error("Book not available")
+}
 }

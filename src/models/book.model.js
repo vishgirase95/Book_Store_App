@@ -12,10 +12,10 @@ const userSchema =new Schema({
         type:String
     },
     quantity:{
-        type:String
+        type:Number
     },
     price:{
-        type:String
+        type:Number
     },
     description:{
         type:String

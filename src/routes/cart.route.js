@@ -5,6 +5,6 @@ import { userAuth } from '../middlewares/auth.middleware';
 const router = express.Router();
 
 
-router.post("/",userController.AddCart)
+router.post("/",userAuth("User"),userController.AddCart)
 
 export default router;
