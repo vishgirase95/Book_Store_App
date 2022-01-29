@@ -133,7 +133,7 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-28T1
 info: Connected to the database. {"timestamp":"2022-01-28T19:41:04.566Z"}
 error: 
     status - 500 
-    message - ReferenceError: UpdatedBookFound is not defined
+    message - ReferenceError: UpdatedBook_Available is not defined
     at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:202:23)
     at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
     at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
@@ -147,7 +147,7 @@ error:
    {"timestamp":"2022-01-28T19:41:05.054Z"}
 error: 
     status - 500 
-    message - ReferenceError: UpdatedBookFound is not defined
+    message - ReferenceError: UpdatedBook_Available is not defined
     at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:202:23)
     at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
     at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
@@ -1553,3 +1553,378 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T1
 info: Connected to the database. {"timestamp":"2022-01-29T12:14:29.392Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T12:31:07.310Z"}
 info: Connected to the database. {"timestamp":"2022-01-29T12:31:07.335Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T12:31:31.448Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T12:31:31.488Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:30:15.216Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:30:15.239Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:31:14.120Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:31:14.154Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:32:50.560Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:32:50.593Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:33:09.529Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:33:09.556Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:33:36.626Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:33:36.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:33:58.522Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:33:58.563Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:34:24.900Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:34:24.947Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:38:31.574Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:38:31.607Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:39:08.665Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:39:08.700Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:40:33.105Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:40:33.147Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:40:41.669Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:40:41.729Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:41:01.492Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:41:01.519Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:41:19.859Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:41:19.918Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:42:47.255Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:42:47.304Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:43:25.303Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:43:25.347Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:43:35.643Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:43:35.679Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:44:09.726Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:44:09.756Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:44:59.295Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:44:59.320Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:45:24.603Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:45:24.643Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:45:54.094Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:45:54.134Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:46:43.700Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:46:43.725Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:47:41.206Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:47:41.242Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:47:49.344Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:47:49.422Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:52:34.418Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:52:34.482Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:56:03.804Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:56:03.828Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:57:23.587Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:57:23.630Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:57:56.708Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:57:56.744Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:58:27.310Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:58:27.343Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:58:33.751Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:58:33.787Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T14:59:00.269Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T14:59:00.298Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:03:56.598Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:03:56.631Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:06:24.824Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:06:24.848Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:10:47.960Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:10:47.993Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:13:41.285Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:13:41.316Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:14:01.789Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:14:01.851Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:17:32.948Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:17:32.972Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:18:42.444Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:18:42.493Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:20:17.715Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:20:17.746Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:21:33.494Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:21:33.520Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:21:51.494Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:21:51.525Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:22:01.564Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:22:01.597Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:22:58.302Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:22:58.346Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:23:20.520Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:23:20.545Z"}
+error: 
+    status - 500 
+    message - ReferenceError: lastQuantity is not defined
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:268:12)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T15:23:22.220Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:23:57.819Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:23:57.856Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:24:41.411Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:24:41.438Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:25:44.368Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:25:44.400Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:28:19.291Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:28:19.337Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:29:45.786Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:29:45.834Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:30:48.664Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:30:48.698Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:31:18.039Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:31:18.092Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:42:32.805Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:42:32.836Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:42:45.489Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:42:45.515Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:53:59.779Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:53:59.805Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:54:13.556Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:54:13.580Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:54:34.753Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:54:34.800Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:54:41.404Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:54:41.445Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:55:15.767Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:55:15.800Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:55:46.642Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:55:46.667Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:56:35.465Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:56:35.503Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:56:45.750Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:56:45.788Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:56:53.405Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:56:53.439Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:57:14.204Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:57:14.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:57:44.314Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:57:44.346Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:58:04.760Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:58:04.790Z"}
+error: 
+    status - 500 
+    message - TypeError: LastBook.save is not a function
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:287:16)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T15:58:58.827Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T15:59:27.834Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T15:59:27.860Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:03:48.710Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:03:48.740Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:11:45.557Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:11:45.611Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:13:22.700Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:13:22.745Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:19:16.065Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:19:16.099Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:22:47.797Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:22:47.844Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:23:17.590Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:23:17.624Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:23:38.190Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:23:38.246Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:24:02.770Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:24:02.798Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:24:19.939Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:24:19.970Z"}
+error: 
+    status - 500 
+    message - Error: Book Out of Stock
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:302:13)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T16:24:56.227Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:26:06.938Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:26:06.993Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:26:16.308Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:26:16.355Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:26:36.285Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:26:36.334Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:26:47.060Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:26:47.104Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:27:04.938Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:27:04.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:34:49.794Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:34:49.833Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:35:13.598Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:35:13.634Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:35:36.893Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:35:36.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:35:49.996Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:35:50.036Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:36:02.968Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:36:02.998Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-29T16:39:16.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:46:46.836Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:46:46.876Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:47:05.135Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:47:05.213Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:53:10.978Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:53:11.005Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:53:56.668Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:53:56.695Z"}
+error: 
+    status - 500 
+    message - TypeError: 61f56fb558f5b33568c36c42 is not a function
+    at CoreDocumentArray.filter (<anonymous>)
+    at CoreDocumentArray.filter (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\types\core_array.js:852:30)
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:255:40)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T16:54:12.286Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T16:54:53.808Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T16:54:53.838Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:06:46.442Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:06:46.470Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:13:05.556Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:13:05.610Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:22:16.373Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:22:16.402Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:25:18.035Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:25:18.071Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:25:33.567Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:25:33.626Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:26:04.486Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:26:04.521Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:26:47.570Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:26:47.600Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:27:28.838Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:27:28.888Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:32:09.028Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:32:09.068Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:32:25.307Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:32:25.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:32:39.044Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:32:39.087Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:32:47.875Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:32:47.924Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:32:57.473Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:32:57.498Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'map' of undefined
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:266:39)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T17:33:06.700Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:33:50.055Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:33:50.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:36:13.213Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:36:13.251Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:43:42.811Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:43:42.842Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:49:15.526Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:49:15.566Z"}
+error: 
+    status - 500 
+    message - TypeError: user_Active_Cart.findOneAndUpdate is not a function
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:259:39)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T17:49:42.488Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:50:51.003Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:50:51.054Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:52:31.382Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:52:31.426Z"}
+error: 
+    status - 500 
+    message - TypeError: _cart.default.save is not a function
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:288:12)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T17:52:31.869Z"}
+error: 
+    status - 500 
+    message - TypeError: _cart.default.save is not a function
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:288:12)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T17:52:32.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:52:50.449Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:52:50.503Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:54:07.905Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:54:07.959Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:55:39.936Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:55:40.121Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:57:38.995Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:57:39.204Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T17:58:01.514Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T17:58:01.550Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T18:04:21.547Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T18:04:21.649Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T18:05:38.103Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T18:05:38.157Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T18:05:44.892Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T18:05:44.927Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T18:11:30.250Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T18:11:30.290Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:17:10)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/admin_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T18:13:30.282Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T18:17:08.368Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T18:17:08.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T18:19:42.126Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T18:19:42.240Z"}

@@ -1535,8 +1535,10 @@ SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected e
     at Module._compile (internal/modules/cjs/loader.js:1085:14)
     at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
     at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Wed Jan 26 2022 00:07:25 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":740392},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18685016,"external":20930928,"heapTotal":79761408,"heapUsed":49807256,"rss":112984064},"pid":1328,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected end of JSON input\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-01-25T18:37:25.745Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
-error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token  in JSON at position 553
-SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token  in JSON at position 553
+error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token 
+ in JSON at position 553
+SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token 
+ in JSON at position 553
     at parse (<anonymous>)
     at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
     at Module.load (internal/modules/cjs/loader.js:950:32)
@@ -4439,7 +4441,7 @@ error:
    {"timestamp":"2022-01-28T19:40:03.616Z"}
 error: 
     status - 500 
-    message - ReferenceError: UpdatedBookFound is not defined
+    message - ReferenceError: UpdatedBook_Available is not defined
     at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:202:23)
     at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
     at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
@@ -4453,7 +4455,7 @@ error:
    {"timestamp":"2022-01-28T19:41:05.054Z"}
 error: 
     status - 500 
-    message - ReferenceError: UpdatedBookFound is not defined
+    message - ReferenceError: UpdatedBook_Available is not defined
     at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:202:23)
     at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
     at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
@@ -5402,3 +5404,290 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-01-29T11:14:04.098Z"}
+error: 
+    status - 500 
+    message - ReferenceError: lastQuantity is not defined
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:268:12)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T15:23:22.220Z"}
+error: 
+    status - 500 
+    message - TypeError: LastBook.save is not a function
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:287:16)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T15:58:58.827Z"}
+error: 
+    status - 500 
+    message - Error: Book Out of Stock
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:302:13)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T16:24:56.227Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-29T16:39:16.231Z"}
+error: 
+    status - 500 
+    message - TypeError: 61f56fb558f5b33568c36c42 is not a function
+    at CoreDocumentArray.filter (<anonymous>)
+    at CoreDocumentArray.filter (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\types\core_array.js:852:30)
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:255:40)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T16:54:12.286Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'map' of undefined
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:266:39)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T17:33:06.700Z"}
+error: user_Active_Cart
+    status - 500 
+    message - TypeError: oldCart.findOneAndUpdate is not a function
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:259:39)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T17:49:42.488Z"}
+error: 
+    status - 500 
+    message - TypeError: _cart.default.save is not a function
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:288:12)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T17:52:31.869Z"}
+error: 
+    status - 500 
+    message - TypeError: _cart.default.save is not a function
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:288:12)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T17:52:32.869Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:17:10)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/admin_login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T18:13:30.282Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T18:33:31.256Z"}
+error: 
+    status - 500 
+    message - Error: Book Out of Stock
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:315:13)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T18:33:44.717Z"}
+error: 
+    status - 500 
+    message - Error: Book Out of Stock
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:318:13)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T18:37:20.670Z"}
+error: 
+    status - 500 
+    message - Error: Book Out of Stock
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:320:13)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T18:38:44.989Z"}
+error: 
+    status - 500 
+    message - Error: Book not available
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:366:11)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T18:57:32.998Z"}
+error: 
+    status - 500 
+    message - Error: Book not available
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:366:11)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T18:58:02.282Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'save' of null
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:344:15)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T19:15:52.581Z"}
+error: 
+    status - 500 
+    message - Error: Book not available
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:365:11)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T19:21:41.550Z"}
+error: 
+    status - 500 
+    message - Error: Book not available
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:366:11)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T19:22:54.025Z"}
+error: 
+    status - 500 
+    message - Error: Book not available
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:366:11)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T19:24:17.439Z"}
+error: 
+    status - 500 
+    message - Error: Book not available
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:366:11)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T19:30:36.965Z"}
