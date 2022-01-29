@@ -123,13 +123,13 @@ export const Addbook = async (body) => {
 
 export const UpdateBook = async (req) => {
   const previousData = await Book.findOne({
-    _id:req.params._id
+    _id: req.params._id
   })
   if (previousData) {
     const data = await Book.findOneAndUpdate({
-      _id:req.params._id
+      _id: req.params._id
     }, {
-      author:req.body.author ? req.body.author : previousData.author,
+      author: req.body.author ? req.body.author : previousData.author,
       title: req.body.title ? req.body.title : previousData.title,
       image: req.body.image ? req.body.image : previousData.image,
       quantity: req.body.quantity ? req.body.quantity : previousData.quantity,
@@ -184,26 +184,88 @@ export const FetchAllBooks = async () => {
   }
 }
 
-export const AddCart=async (body)=>{
-  
-const BookFound=await Book.findOne({_id:body.Book.BookID});
 
 
-if(BookFound){
-  if(BookFound.quantity>=body.Book.Quantity){
-body.UserID=body.USER_ID;
-const totalQuantity=body.Book.Quantity
-body.TotalAmount=BookFound.price * totalQuantity
-const data=await Cart.create(body);
-const BookInStock=BookFound.quantity-totalQuantity;
-const UpdatedBookFound=await Book.findOneAndUpdate({_id:body.Book.BookID},{quantity:BookInStock});
 
-return data;
-  }else{
-  throw Error("Book out of stock")
+
+export const AddCart = async (body) => {
+
+  const BookFound = await Book.findOne({
+    _id: body.BookID
+  });
+
+  const user_Cart = await Cart.findOne({
+    UserID: body.USER_ID
+  })
+
+  if (!user_Cart) {
+    if (BookFound && (BookFound.quantity >= body.Quantity)) {
+      const newCart = new Cart({
+        UserID: body.USER_ID,
+        Book: {
+          BookID: body.BookID,
+          Quantity: body.Quantity,
+          Total_Price: BookFound.price * body.Quantity
+        },
+        TotalAmount: BookFound.price * body.Quantity
+      })
+
+      newCart.save()
+      const BookInStock = BookFound.quantity - body.Quantity;
+      const UpdatedBookFound = await Book.findOneAndUpdate({
+        _id: body.BookID
+      }, {
+        quantity: BookInStock
+      });
+
+      return newCart;
+
+    } else {
+      throw Error("Book not available")
+    }
+  } else {
+    if (BookFound && (BookFound.quantity >= body.Quantity)) {
+
+      const findBook = await Cart.findOne({
+        UserID: body.USER_ID,"Book.BookID":body.BookID
+      });
+
+      const oldCart = await Cart.findOne({
+        UserID: body.USER_ID
+      });
+     if(!findBook){
+   
+      const newBook = ({
+        BookID: body.BookID,
+        Quantity: body.Quantity,
+        Total_Price: BookFound.price * body.Quantity
+      })
+      oldCart.Book.push(newBook);
+
+      const Total_price = oldCart.Book.map((x) => x.Total_Price).reduce((acc, curr) => {
+        acc = acc + curr;
+        return acc;
+      }, 0)
+      
+      oldCart.TotalAmount = Total_price;
+      oldCart.save();
+
+      const BookInStock = BookFound.quantity - body.Quantity;
+      await Book.findOneAndUpdate({
+        _id: body.BookID
+      }, {
+        quantity: BookInStock
+      });
+
+      return oldCart;
+
+    }else{
+
+    }
+
+    } else {
+      throw Error("Book Out of Stock")
+    }
 
   }
-}else{
-  throw Error("Book not available")
-}
 }

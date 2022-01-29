@@ -11,6 +11,9 @@ const cartSchema=new Schema ({
           },
           Quantity:{
               type:Number
+          },
+         Total_Price:{
+              type:Number
           }
 
       }
