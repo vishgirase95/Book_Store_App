@@ -652,3 +652,23 @@ info: ::1 - - [30/Jan/2022:13:14:34 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 387
 
 info: ::1 - - [30/Jan/2022:13:14:56 +0000] "DELETE /api/v1/cart/ HTTP/1.1" 200 94 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [30/Jan/2022:13:38:42 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 500 82 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:13:41:00 +0000] "DELETE /api/v1/cart/ HTTP/1.1" 500 82 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:13:41:01 +0000] "DELETE /api/v1/cart/ HTTP/1.1" 500 82 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:13:42:00 +0000] "DELETE /api/v1/cart/ HTTP/1.1" 500 82 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:13:44:15 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 200 94 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:13:44:28 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 500 82 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:13:45:29 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 500 82 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:13:45:31 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 500 82 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:13:45:32 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 500 82 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:13:45:54 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 500 82 "-" "PostmanRuntime/7.29.0"
+

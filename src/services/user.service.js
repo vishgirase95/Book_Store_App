@@ -273,7 +273,7 @@ export const removeBook=async(body)=>{
 const user_Active_Cart = await Cart.findOne({UserID: body.USER_ID});
 const Previous_added_Book = await user_Active_Cart.Book.filter((x) => (x.BookID == body.BookID));
     
-if(user_Active_Cart){
+if(user_Active_Cart && (Previous_added_Book.length!==0)){
   // remove the exsisting book in cart
 const Total_Cart_Price=user_Active_Cart.TotalAmount;
 const Individual_Book_Price=Previous_added_Book[0].Total_Price;

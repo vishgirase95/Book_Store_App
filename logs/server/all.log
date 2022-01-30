@@ -8934,3 +8934,149 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-30T1
 info: Connected to the database. {"timestamp":"2022-01-30T13:15:55.935Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-30T13:16:34.220Z"}
 info: Connected to the database. {"timestamp":"2022-01-30T13:16:34.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-30T13:38:37.174Z"}
+info: Connected to the database. {"timestamp":"2022-01-30T13:38:37.256Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Total_Price' of undefined
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:279:52)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-30T13:38:42.326Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-30T13:40:56.327Z"}
+info: Connected to the database. {"timestamp":"2022-01-30T13:40:56.354Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Total_Price' of undefined
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:279:52)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-30T13:41:00.124Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Total_Price' of undefined
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:279:52)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-30T13:41:01.613Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-30T13:41:59.493Z"}
+info: Connected to the database. {"timestamp":"2022-01-30T13:41:59.539Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Total_Price' of undefined
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:279:52)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-30T13:42:00.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-30T13:43:24.406Z"}
+info: Connected to the database. {"timestamp":"2022-01-30T13:43:24.438Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-30T13:43:35.802Z"}
+info: Connected to the database. {"timestamp":"2022-01-30T13:43:35.831Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-30T13:43:47.567Z"}
+info: Connected to the database. {"timestamp":"2022-01-30T13:43:47.590Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-30T13:44:14.323Z"}
+info: Connected to the database. {"timestamp":"2022-01-30T13:44:14.357Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Total_Price' of undefined
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:279:52)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-30T13:44:28.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-30T13:45:16.790Z"}
+info: Connected to the database. {"timestamp":"2022-01-30T13:45:16.816Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-30T13:45:28.523Z"}
+info: Connected to the database. {"timestamp":"2022-01-30T13:45:28.550Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Total_Price' of undefined
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:279:52)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-30T13:45:29.804Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Total_Price' of undefined
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:279:52)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-30T13:45:31.094Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Total_Price' of undefined
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:279:52)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-30T13:45:32.614Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-30T13:45:53.624Z"}
+info: Connected to the database. {"timestamp":"2022-01-30T13:45:53.663Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Total_Price' of undefined
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:279:52)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-30T13:45:54.347Z"}
