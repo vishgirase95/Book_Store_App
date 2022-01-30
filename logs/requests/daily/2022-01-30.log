@@ -68,3 +68,105 @@ info: ::1 - - [29/Jan/2022:19:31:06 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 587
 
 info: ::1 - - [29/Jan/2022:19:31:15 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 689 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [30/Jan/2022:06:08:53 +0000] "GET /api/v1/books/ HTTP/1.1" 500 93 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [30/Jan/2022:06:26:00 +0000] "GET /api/v1/books/ HTTP/1.1" 500 93 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [30/Jan/2022:06:26:41 +0000] "GET /api/v1/books/ HTTP/1.1" 200 1380 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [30/Jan/2022:06:27:06 +0000] "POST /api/v1/cart/ HTTP/1.1" 500 58 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:28:44 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 588 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:29:36 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:29:43 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:30:18 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:30:29 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 382 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:31:12 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 382 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:31:38 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 382 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:31:44 +0000] "POST /api/v1/cart/ HTTP/1.1" 500 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:31:53 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 382 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:32:01 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 382 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:32:07 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 382 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:33:37 +0000] "POST /api/v1/cart/ HTTP/1.1" 500 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:36:31 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:36:37 +0000] "POST /api/v1/cart/ HTTP/1.1" 500 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:36:46 +0000] "GET /api/v1/books/ HTTP/1.1" 200 1380 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [30/Jan/2022:06:37:04 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 384 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:37:12 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 384 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:39:28 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 283 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:39:34 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 283 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:42:10 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 283 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:42:14 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 283 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:44:28 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 283 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:44:35 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 283 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:44:57 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 385 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:45:13 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 385 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:45:45 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 386 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:46:15 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:46:31 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 283 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:46:38 +0000] "POST /api/v1/cart/ HTTP/1.1" 500 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:46:46 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 385 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:46:56 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 385 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:47:44 +0000] "GET /api/v1/books/ HTTP/1.1" 200 1380 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [30/Jan/2022:06:48:01 +0000] "DELETE /api/v1/books/61f5796d8243f127489613f9 HTTP/1.1" 400 56 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [30/Jan/2022:06:48:48 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 385 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:49:10 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 385 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:49:29 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 386 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:50:02 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:50:08 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 283 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:50:16 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 283 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:50:28 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 283 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:52:56 +0000] "GET /api/v1/books/ HTTP/1.1" 200 1380 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [30/Jan/2022:06:54:44 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:56:04 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 283 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:56:15 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 283 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:56:26 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 283 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:56:33 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 283 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:06:56:43 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 284 "-" "PostmanRuntime/7.29.0"
+
