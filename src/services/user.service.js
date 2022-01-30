@@ -118,8 +118,7 @@ export const UpdateBook = async (req) => {
       image: req.body.image ? req.body.image : previousData.image,
       quantity: req.body.quantity ? req.body.quantity : previousData.quantity,
       description: req.body.description ?
-        req.body.description :
-        previousData.description
+        req.body.description : previousData.description
     }, {
       new: true
     });
@@ -166,172 +165,16 @@ export const FetchAllBooks = async () => {
 
 
 
-
-// export const AddCart = async (body) => {
-//   const Book_Available = await Book.findOne({
-//     _id: body.BookID
-//   });
-
-//   const user_Active_Cart = await Cart.findOne({
-//     UserID: body.USER_ID
-//   });
-
-//   if (!user_Active_Cart) {
-//     if (Book_Available && Book_Available.quantity >= body.Quantity) {
-//       const newCart = new Cart({
-//         UserID: body.USER_ID,
-//         Book: {
-//           BookID: body.BookID,
-//           Quantity: body.Quantity,
-//           Total_Price: Book_Available.price * body.Quantity
-//         },
-//         TotalAmount: Book_Available.price * body.Quantity
-//       });
-
-//       newCart.save();
-//       const BookInStock = Book_Available.quantity - body.Quantity;
-//       await Book.findOneAndUpdate(
-//         {
-//           _id: body.BookID
-//         },
-//         {
-//           quantity: BookInStock
-//         }
-//       );
-
-//       return newCart;
-//     } else {
-
-//       throw Error('Book not available');
-
-
-//     }
-//   } else {
-//     if (Book_Available && Book_Available.quantity >= body.Quantity) {
-//       const findBook = await Cart.findOne({
-//         UserID: body.USER_ID,
-//         'Book.BookID': body.BookID
-//       });
-
-//       const user_Active_Cart = await Cart.findOne({
-//         UserID: body.USER_ID
-//       });
-
-
-//       // if (!findBook) {
-//         const newBook = {
-//           BookID: body.BookID,
-//           Quantity: body.Quantity,
-//           Total_Price: Book_Available.price * body.Quantity
-//         };
-//         user_Active_Cart.Book.push(newBook);
-
-//         const Total_price = user_Active_Cart.Book.map((x) => x.Total_Price).reduce(
-//           (acc, curr) => {
-//             acc = acc + curr;
-//             return acc;
-//           },
-//           0
-//         );
-
-//         user_Active_Cart.TotalAmount = Total_price;
-//         user_Active_Cart.save();
-
-//         const BookInStock = Book_Available.quantity - body.Quantity;
-//         await Book.findOneAndUpdate(
-//           {
-//             _id: body.BookID
-//           },
-//           {
-//             quantity: BookInStock
-//           }
-//         );
-
-//         return user_Active_Cart;
-//   //     } else {
-
-//   //       const Previous_added_Book = findBook.Book.filter((x) => (x.BookID == body.BookID));
-
-
-//   //       const Total_Quantity = Previous_added_Book[0].Quantity + body.Quantity;
-
-//   //       // remove
-//   // const pull=  await Cart.updateOne(
-//   //         {
-//   //           UserID: body.USER_ID
-//   //         },
-//   //         {
-//   //           $pull: {
-//   //             Book: {
-//   //               BookID: body.BookID
-//   //             }
-//   //           }
-//   //         }
-//   //       );
-
-
-//   //       const Updated_Book_In_Cart = {
-//   //         BookID: body.BookID,
-//   //         Quantity: Total_Quantity,
-//   //         Total_Price: Book_Available.price * Total_Quantity
-//   //       };
-
-//   //     const updated= await Cart.findOneAndUpdate({ UserID: body.USER_ID},{$addToSet: {Book: Updated_Book_In_Cart}});
-//   //     const Total_price = user_Active_Cart.Book.map((x) => x.Total_Price).reduce(
-//   //       (acc, curr) => {
-//   //         acc = acc + curr;
-//   //         return acc;
-//   //       },
-//   //       0
-//   //     );
-
-//   //     user_Active_Cart.TotalAmount = Total_price;
-//   //     console.log("cart",user_Active_Cart)
-//   //     console.log("user cart",user_Active_Cart)
-
-
-//   //     user_Active_Cart.save();
-
-//   //       //  findBook.Quantity=Total_Quantity;
-//   //       //  const Updated_Book_In_Cart = ({
-//   //       //   BookID: body.BookID,
-//   //       //   Quantity: Total_Quantity,
-//   //       //   Total_Price: Book_Available.price * Total_Quantity
-//   //       // })
-//   //       // Previous_added_Book.BookID=body.BookID;
-//   //       // Previous_added_Book.Quantity=Total_Quantity;
-//   //       // Previous_added_Book.Total_Price= Book_Available.price * Total_Quantity
-//   //       //  console.log("last book",Previous_added_Book)
-//   //       //  findBook.Book.filter((x)=>(x.BookID=body.BookID)).Quantity=Total_Quantity
-
-//   //       return Cart;
-//   //     }
-//     } else {
-
-
-//       throw Error('Book Out of Stock');
-
-//     }
-
-
-//   }
-// };
-
-
-
 export const AddCart = async (body) => {
-  const Book_Available = await Book.findOne({
-    _id: body.BookID
-  });
+  const Book_Available = await Book.findOne({_id: body.BookID});
 
-  const user_Active_Cart = await Cart.findOne({
-    UserID: body.USER_ID
-  });
+  const user_Active_Cart = await Cart.findOne({UserID: body.USER_ID});
 
   const Book_Exsist_In_Cart = await Cart.findOne({UserID: body.USER_ID,
-            'Book.BookID': body.BookID});
+  'Book.BookID': body.BookID});
 
   if (!user_Active_Cart && Book_Available && Book_Available.quantity >= body.Quantity) {
+   
     const newCart = new Cart({
       UserID: body.USER_ID,
       Book: {
@@ -342,15 +185,17 @@ export const AddCart = async (body) => {
       TotalAmount: Book_Available.price * body.Quantity
     });
 
-   await newCart.save();
-   console.log("cart on fisrt add",user_Active_Cart)
+    await newCart.save();
+  
 
   } else if (!Book_Exsist_In_Cart && user_Active_Cart && Book_Available && Book_Available.quantity >= body.Quantity) {
+    
     const newBook = {
       BookID: body.BookID,
       Quantity: body.Quantity,
       Total_Price: Book_Available.price * body.Quantity
     };
+
     user_Active_Cart.Book.push(newBook);
 
     const Total_price = user_Active_Cart.Book.map((x) => x.Total_Price).reduce(
@@ -361,53 +206,56 @@ export const AddCart = async (body) => {
 
     user_Active_Cart.TotalAmount = Total_price;
     user_Active_Cart.save();
-  }else if (Book_Exsist_In_Cart && user_Active_Cart && Book_Available && Book_Available.quantity >= body.Quantity) {
-   
-        const Previous_added_Book =await user_Active_Cart.Book.filter((x) => (x.BookID == body.BookID));
-console.log("previous book",Previous_added_Book)
+  } else if (Book_Exsist_In_Cart && user_Active_Cart && Book_Available && Book_Available.quantity >= body.Quantity) {
+    
 
-        const Total_Quantity =await Previous_added_Book[0].Quantity + body.Quantity;
-        console.log("qnty book",Total_Quantity)
+    const Previous_added_Book = await user_Active_Cart.Book.filter((x) => (x.BookID == body.BookID));
+    
 
-        // remove the exsisting book in cart
-   await Cart.updateOne(
-          {UserID: body.USER_ID},
-          {$pull: {Book: {BookID: body.BookID} }});
+    const Total_Quantity = await Previous_added_Book[0].Quantity + body.Quantity;
+    
 
-// insert the new book in cart
-        const Updated_Book_In_Cart = {
-          BookID: body.BookID,
-          Quantity: Total_Quantity,
-          Total_Price: Book_Available.price * Total_Quantity
-        };
+    // remove the exsisting book in cart
+    await Cart.updateOne({
+      UserID: body.USER_ID
+    }, {$pull: {Book: {BookID: body.BookID}}});
 
-      const updated= await Cart.findOneAndUpdate({ UserID: body.USER_ID},{$addToSet: {Book: Updated_Book_In_Cart}});
-
-    const Total_price =await user_Active_Cart.Book.map((x) => x.Total_Price).reduce(
+    // insert the new book in cart
+    const Updated_Book_In_Cart = {
+      BookID: body.BookID,
+      Quantity: Total_Quantity,
+      Total_Price: Book_Available.price * Total_Quantity
+    };
+  
+    const updated = await Cart.findOneAndUpdate({
+      UserID: body.USER_ID
+    }, {
+      $addToSet: {
+        Book: Updated_Book_In_Cart
+      }
+    }); 
+    
+    
+    const pricelist = await Cart.findOne({
+      UserID: body.USER_ID
+    })
+    console.log("proce list",pricelist.Book.map((x)=>x.Total_Price))
+    const All_price = await pricelist.Book.map((x) => x.Total_Price).reduce(
       (acc, curr) => {
         acc = acc + curr;
         return acc;
       }, 0);
+     user_Active_Cart.TotalAmount = All_price;
 
-    user_Active_Cart.TotalAmount = Total_price;
-    console.log("total price",Total_price)
-   await user_Active_Cart.save();
+    await user_Active_Cart.save();
+
   } else {
-    
-    throw Error('Book not available');
+    throw Error('Book not available');}
 
-  }
   const BookInStock = Book_Available.quantity - body.Quantity;
-  await Book.findOneAndUpdate({
-    _id: body.BookID
-  }, {
-    quantity: BookInStock
-  });
-  
+  await Book.findOneAndUpdate({_id: body.BookID}, {quantity: BookInStock});
 
-  const Updated_Cart = await Cart.findOne({
-    UserID: body.USER_ID
-  });
-  return Updated_Cart;
 
+  const Final_Cart = await Cart.findOne({UserID: body.USER_ID});
+  return Final_Cart;
 }
