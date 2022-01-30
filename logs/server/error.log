@@ -5975,3 +5975,31 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-01-30T11:08:09.676Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Quantity' of undefined
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:281:57)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-30T12:55:56.846Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book_Exsist_In_Cart is not defined
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:277:23)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-30T13:10:31.942Z"}

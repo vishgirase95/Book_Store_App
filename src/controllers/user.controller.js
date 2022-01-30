@@ -146,3 +146,32 @@ export const AddCart= async (req,res,next)=>{
     next(error)
   }
 }
+
+
+
+export const getCart= async (req,res,next)=>{
+  try {
+    const data=await UserService.getCart(req.body);
+    res.status(HttpStatus.OK).json({
+      code:HttpStatus.OK,
+      data:data,
+      message:"Sucessfully Fetch Cart"
+    })
+  } catch (error) {
+    next(error)
+  }
+}
+
+
+export const removeBook= async (req,res,next)=>{
+  try {
+    const data=await UserService.removeBook(req.body);
+    res.status(HttpStatus.OK).json({
+      code:HttpStatus.OK,
+      data:data,
+      message:"Sucessfully Removed Book from  Cart"
+    })
+  } catch (error) {
+    next(error)
+  }
+}

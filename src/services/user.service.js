@@ -239,7 +239,7 @@ export const AddCart = async (body) => {
     const pricelist = await Cart.findOne({
       UserID: body.USER_ID
     })
-    console.log("proce list",pricelist.Book.map((x)=>x.Total_Price))
+    
     const All_price = await pricelist.Book.map((x) => x.Total_Price).reduce(
       (acc, curr) => {
         acc = acc + curr;
@@ -258,4 +258,35 @@ export const AddCart = async (body) => {
 
   const Final_Cart = await Cart.findOne({UserID: body.USER_ID});
   return Final_Cart;
+}
+
+export const getCart=async (body)=>{
+  const Previous_Cart = await Cart.findOne({UserID: body.USER_ID});
+if(Previous_Cart){
+return Previous_Cart;}else{
+  throw(Error("No Cart Added"));
+}
+}
+
+
+export const removeBook=async(body)=>{
+const user_Active_Cart = await Cart.findOne({UserID: body.USER_ID});
+const Previous_added_Book = await user_Active_Cart.Book.filter((x) => (x.BookID == body.BookID));
+    
+if(user_Active_Cart){
+  // remove the exsisting book in cart
+const Total_Cart_Price=user_Active_Cart.TotalAmount;
+const Individual_Book_Price=Previous_added_Book[0].Total_Price;
+user_Active_Cart.TotalAmount=Total_Cart_Price-Individual_Book_Price;
+user_Active_Cart.save();
+
+
+  await Cart.updateOne({
+    UserID: body.USER_ID
+  }, {$pull: {Book: {BookID: body.BookID}}}); 
+
+  return "Removed Book Sucessfully"
+}else{
+  throw(Error("Book Not in Cart"))
+}
 }
