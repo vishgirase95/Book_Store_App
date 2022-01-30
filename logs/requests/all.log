@@ -4411,3 +4411,13 @@ info: ::1 - - [30/Jan/2022:11:09:22 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 390
 
 info: ::1 - - [30/Jan/2022:11:10:00 +0000] "GET /api/v1/books/ HTTP/1.1" 200 729 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
 
+info: ::1 - - [30/Jan/2022:11:20:32 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:11:20:38 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 284 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:11:20:44 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 284 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:11:20:56 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 386 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:11:21:02 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 387 "-" "PostmanRuntime/7.29.0"
+
