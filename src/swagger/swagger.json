@@ -10,13 +10,15 @@
   },
   "host": "localhost:3000",
   "basePath": "/api/v1",
-  "tags": [
-    {
+  "tags": [{
       "name": "User"
-    },{
-      "name":"Admin"
-    },{
-      "name":"All User"
+    }, {
+      "name": "Admin"
+    }, {
+      "name": "All User"
+    },
+    {
+      "name": "cart"
     }
   ],
   "schemes": [
@@ -29,463 +31,560 @@
           "User"
         ],
         "produces": [
-        
+
           "application/json"
         ],
-        "parameters": [
-          {
-            "in": "body",
-            "name": "body",
-            "description": "User registration info",
-            "required": true,
-            "schema": {
-              "type":"object",
-              "required": ["FirstName", "LastName", "Email", "Password"],
-              "properties": {
-                "FirstName": {
-                  "type": "string"
-                },
-                "LastName": {
-                  "type": "string"
-                },
-                "Email": {
-                  "type": "string"
-                },
-                "Password": {
-                  "type": "string"
-                }
+        "parameters": [{
+          "in": "body",
+          "name": "body",
+          "description": "User registration info",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "required": ["FirstName", "LastName", "Email", "Password"],
+            "properties": {
+              "FirstName": {
+                "type": "string"
+              },
+              "LastName": {
+                "type": "string"
+              },
+              "Email": {
+                "type": "string"
+              },
+              "Password": {
+                "type": "string"
               }
             }
           }
-        ],
+        }],
         "responses": {
-          "201":{
-            "description":"Created Sucessfully"
+          "201": {
+            "description": "Created Sucessfully"
           },
           "200": {
             "description": "valid input"
           },
-          "500":{
-            "description":"invalid input"
+          "500": {
+            "description": "invalid input"
           }
         }
       }
     },
-     "/users/user_login": {
+    "/users/user_login": {
       "post": {
         "tags": [
           "User"
         ],
         "produces": [
-        
+
           "application/json"
         ],
-        "parameters": [
-          {
-            "in": "body",
-            "name": "body",
-            "description": "User login info",
-            "required": true,
-            "schema": {
-              "type":"object",
-              "required": ["Email", "Password"],
-              "properties": {
-                "Email": {
-                  "type": "string"
-                },
-                "Password": {
-                  "type": "string"
-                }
+        "parameters": [{
+          "in": "body",
+          "name": "body",
+          "description": "User login info",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "required": ["Email", "Password"],
+            "properties": {
+              "Email": {
+                "type": "string"
+              },
+              "Password": {
+                "type": "string"
               }
             }
           }
-        ],
+        }],
         "responses": {
           "201": {
             "description": "valid input"
           },
-          "500":{
-            "description":"invalid input"
-          }
-        }
-      }
-    }, "/users/admin_login": {
-      "post": {
-        "tags": [
-          "Admin"
-        ],
-        "produces": [
-        
-          "application/json"
-        ],
-        "parameters": [
-          {
-            "in": "body",
-            "name": "body",
-            "description": "Admin info",
-            "required": true,
-            "schema": {
-              "type":"object",
-              "required": ["Email", "Password"],
-              "properties": {
-                "Email": {
-                  "type": "string"
-                },
-                "Password": {
-                  "type": "string"
-                }
-              }
-            }
-          }
-        ],
-        "responses": {
-          "201":{
-            "description":"Created Sucessfully"
-          },
-          "200": {
-            "description": "valid input"
-          },
-          "500":{
-            "description":"invalid input"
+          "500": {
+            "description": "invalid input"
           }
         }
       }
     },
-     "/users/admin_registration": {
+    "/users/admin_login": {
       "post": {
         "tags": [
           "Admin"
         ],
         "produces": [
-        
+
           "application/json"
         ],
-        "parameters": [
-          {
-            "in": "body",
-            "name": "body",
-            "description": "Admin registration info",
-            "required": true,
-            "schema": {
-              "type":"object",
-              "required": ["FirstName", "LastName", "Email", "Password"],
-              "properties": {
-                "FirstName": {
-                  "type": "string"
-                },
-                "LastName": {
-                  "type": "string"
-                },
-                "Email": {
-                  "type": "string"
-                },
-                "Password": {
-                  "type": "string"
-                }
+        "parameters": [{
+          "in": "body",
+          "name": "body",
+          "description": "Admin info",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "required": ["Email", "Password"],
+            "properties": {
+              "Email": {
+                "type": "string"
+              },
+              "Password": {
+                "type": "string"
               }
             }
           }
+        }],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
+          },
+          "200": {
+            "description": "valid input"
+          },
+          "500": {
+            "description": "invalid input"
+          }
+        }
+      }
+    },
+    "/users/admin_registration": {
+      "post": {
+        "tags": [
+          "Admin"
         ],
+        "produces": [
+
+          "application/json"
+        ],
+        "parameters": [{
+          "in": "body",
+          "name": "body",
+          "description": "Admin registration info",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "required": ["FirstName", "LastName", "Email", "Password"],
+            "properties": {
+              "FirstName": {
+                "type": "string"
+              },
+              "LastName": {
+                "type": "string"
+              },
+              "Email": {
+                "type": "string"
+              },
+              "Password": {
+                "type": "string"
+              }
+            }
+          }
+        }],
         "responses": {
           "200": {
             "description": "valid input"
           },
-          "500":{
-            "description":"invalid input"
+          "500": {
+            "description": "invalid input"
           }
         }
       }
-    }, 
+    },
     "/users/forgetpassword": {
       "post": {
         "tags": [
           "All User"
         ],
         "produces": [
-        
+
           "application/json"
         ],
-        "parameters": [
-          {
-            "in": "body",
-            "name": "body",
-            "description": "Sent mail for forgetpassword",
-            "required": true,
-            "schema": {
-              "type":"object",
-              "required": ["Email"],
-              "properties": {
-                "Email": {
-                  "type": "string"
-                }
+        "parameters": [{
+          "in": "body",
+          "name": "body",
+          "description": "Sent mail for forgetpassword",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "required": ["Email"],
+            "properties": {
+              "Email": {
+                "type": "string"
               }
             }
           }
-        ],
+        }],
         "responses": {
-          "201":{
-            "description":"Created Sucessfully"
+          "201": {
+            "description": "Created Sucessfully"
           },
           "200": {
             "description": "valid input"
           },
-          "500":{
-            "description":"invalid input"
+          "500": {
+            "description": "invalid input"
           }
         }
       }
-    },"/users/resetpassword": {
+    },
+    "/users/resetpassword": {
       "post": {
         "tags": [
           "All User"
         ],
         "produces": [
-        
+
           "application/json"
         ],
-        "parameters": [
-          {
-            "in": "body",
-            "name": "Resetpassword",
-            "description": "Reset new password",
-            "required": true,
-            "schema": {
-              "type":"object",
-              "required": ["Password"],
-              "properties": {
-                "Password": {
-                  "type": "string"
-                }
+        "parameters": [{
+          "in": "body",
+          "name": "Resetpassword",
+          "description": "Reset new password",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "required": ["Password"],
+            "properties": {
+              "Password": {
+                "type": "string"
               }
             }
           }
-        ],
+        }],
         "responses": {
-          "201":{
-            "description":"Created Sucessfully"
+          "201": {
+            "description": "Created Sucessfully"
           },
           "200": {
             "description": "valid input"
           },
-          "500":{
-            "description":"invalid input"
+          "500": {
+            "description": "invalid input"
           }
-      },
-      "security": [{
-      "JWT": []
-    }]
+        },
+        "security": [{
+          "JWT": []
+        }]
       }
-    },"/books/": {
+    },
+    "/books/": {
       "post": {
         "tags": [
           "Admin"
         ],
         "produces": [
-        
+
           "application/json"
         ],
-        "parameters": [
-          {
-            "in": "body",
-            "name": "Add Books",
-            "description": "Adding Book ",
-            "required": true,
-            "schema": {
-              "type":"object",
-              "required": ["author","title","image","quantity","description"],
-              "properties": {
-                "author": {
-                  "type": "string"
-                },
-                "title":{
-                  "type":"string"
-                },
-                "image":{
-                  "type":"string"
-                },
-                "quantity":{
-                  "type":"number"
-                },"description":{
-                  "type":"string"
-                },"price":{
-                  "type":"number"
-                }
-
+        "parameters": [{
+          "in": "body",
+          "name": "Add Books",
+          "description": "Adding Book ",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "required": ["author", "title", "image", "quantity", "description"],
+            "properties": {
+              "author": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "image": {
+                "type": "string"
+              },
+              "quantity": {
+                "type": "number"
+              },
+              "description": {
+                "type": "string"
+              },
+              "price": {
+                "type": "number"
               }
+
             }
           }
-        ],
+        }],
         "responses": {
-          "201":{
-            "description":"Created Sucessfully"
+          "201": {
+            "description": "Created Sucessfully"
           },
           "200": {
             "description": "valid input"
           },
-          "500":{
-            "description":"invalid input"
+          "500": {
+            "description": "invalid input"
           }
-      },
-      "security": [{
-      "JWT": []
-    }]
+        },
+        "security": [{
+          "JWT": []
+        }]
       },
       "get": {
         "tags": [
           "All User"
         ],
         "produces": [
-        
+
           "application/json"
         ],
-        "parameters": [
-          {
-            "in": "query",
-            "name": "Fetch Books",
-            "description": "Fetching All Books"
-          }
-        ],
+        "parameters": [{
+          "in": "query",
+          "name": "Fetch Books",
+          "description": "Fetching All Books"
+        }],
         "responses": {
-          "201":{
-            "description":"Created Sucessfully"
+          "201": {
+            "description": "Created Sucessfully"
           },
           "200": {
             "description": "valid input"
           },
-          "500":{
-            "description":"invalid input"
-          }
-      }
-      }
-    },"/books/{_id}": {
-      "get": {
-        "tags": [
-          "All User"
-        ],
-        "produces": [
-        
-          "application/json"
-        ],
-        "parameters": [
-          {
-            "in": "path",
-            "name": "_id",
-            "description": "Fetching Book By ID"
-          }
-        ],
-        "responses": {
-          "201":{
-            "description":"Created Sucessfully"
-          },
-          "200": {
-            "description": "valid input"
-          },
-          "500":{
-            "description":"invalid input"
+          "500": {
+            "description": "invalid input"
           }
         }
-      }, 
+      }
+    },
+    "/books/{_id}": {
+      "get": {
+        "tags": [
+          "All User"
+        ],
+        "produces": [
+
+          "application/json"
+        ],
+        "parameters": [{
+          "in": "path",
+          "name": "_id",
+          "description": "Fetching Book By ID"
+        }],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
+          },
+          "200": {
+            "description": "valid input"
+          },
+          "500": {
+            "description": "invalid input"
+          }
+        }
+      },
       "patch": {
         "tags": [
           "Admin"
         ],
         "produces": [
-        
+
           "application/json"
         ],
-        "parameters": [
-          {
-            "in":"path",
+        "parameters": [{
+            "in": "path",
             "name": "_id",
             "description": "Updating Book By ID",
-            "type":"string"
+            "type": "string"
           },
           {
-            "in":"body",
+            "in": "body",
             "name": "Book",
             "description": "Fetching Book By ID",
-            "type":"string",
+            "type": "string",
             "schema": {
-              "type":"object",
-            
+              "type": "object",
+
               "properties": {
                 "author": {
                   "type": "string"
                 },
-                "title":{
-                  "type":"string"
+                "title": {
+                  "type": "string"
                 },
-                "image":{
-                  "type":"string"
+                "image": {
+                  "type": "string"
                 },
-                "quantity":{
-                  "type":"number"
-                },"description":{
-                  "type":"string"
-                },"price":{
-                  "type":"number"
+                "quantity": {
+                  "type": "number"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "price": {
+                  "type": "number"
                 }
 
               }
             }
           }
-        
+
         ],
         "responses": {
-          "201":{
-            "description":"Created Sucessfully"
+          "201": {
+            "description": "Created Sucessfully"
           },
           "200": {
             "description": "valid input"
           },
-          "500":{
-            "description":"invalid input"
+          "500": {
+            "description": "invalid input"
           }
         },
         "security": [{
-        "JWT": []
-      }]
-      }, 
+          "JWT": []
+        }]
+      },
       "delete": {
         "tags": [
           "Admin"
         ],
         "produces": [
-        
+
           "application/json"
         ],
-        "parameters": [
-          {
-            "in":"path",
+        "parameters": [{
+            "in": "path",
             "name": "_id",
             "description": "Deleteing book by ID",
-            "type":"string"
-         
+            "type": "string"
+
           }
-        
+
         ],
         "responses": {
-          "201":{
-            "description":"Created Sucessfully"
+          "201": {
+            "description": "Created Sucessfully"
           },
           "200": {
             "description": "valid input"
           },
-          "500":{
-            "description":"invalid input"
+          "500": {
+            "description": "invalid input"
           }
         },
         "security": [{
-        "JWT": []
-      }]
+          "JWT": []
+        }]
+      }
+    },
+    "/cart/": {
+      "post": {
+        "tags": [
+          "cart"
+        ],
+        "produces": [
+
+          "application/json"
+        ],
+        "parameters": [{
+          "in": "body",
+          "name": "Add Cart",
+          "description": "Add Book to Cart",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "required": ["BookID", "Quantity"],
+            "properties": {
+              "BookID": {
+                "type": "string"
+              },
+              "Quantity": {
+                "type": "number"
+              }
+            }
+          }
+        }],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
+          },
+          "200": {
+            "description": "valid input"
+          },
+          "500": {
+            "description": "invalid input"
+          }
+        },
+        "security": [{
+          "JWT": []
+        }]
+      },
+      "get": {
+        "tags": [
+          "cart"
+        ],
+        "produces": [
+
+          "application/json"
+        ],
+        "parameters": [{
+          "in": "query",
+          "name": "Fetch Cart",
+          "description": "Fetch all Book in Cart"
+        }],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
+          },
+          "200": {
+            "description": "valid input"
+          },
+          "500": {
+            "description": "invalid input"
+          }
+        },
+        "security": [{
+          "JWT": []
+        }]
+      },"patch": {
+        "tags": [
+          "cart"
+        ],
+        "produces": [
+
+          "application/json"
+        ],
+        "parameters": [{
+          "in": "body",
+          "name": "Remove Book",
+          "description": "Remove Book from Cart",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "required": ["BookID"],
+            "properties": {
+              "BookID": {
+                "type": "string"
+              }
+            }
+          }
+        }],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
+          },
+          "200": {
+            "description": "valid input"
+          },
+          "500": {
+            "description": "invalid input"
+          }
+        },
+        "security": [{
+          "JWT": []
+        }]
       }
     }
-  },"securityDefinitions": {
+  },
+  "securityDefinitions": {
     "JWT": {
       "type": "apiKey",
       "name": "Authorization",
       "in": "header"
-  
+
     }
   }
 }

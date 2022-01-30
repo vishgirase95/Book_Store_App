@@ -672,3 +672,25 @@ info: ::1 - - [30/Jan/2022:13:45:32 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 500 82
 
 info: ::1 - - [30/Jan/2022:13:45:54 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 500 82 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [30/Jan/2022:13:47:14 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 500 51 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jan/2022:14:58:06 +0000] "GET /api/v1/books/ HTTP/1.1" 200 729 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [30/Jan/2022:16:36:30 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [30/Jan/2022:16:37:08 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [30/Jan/2022:16:38:08 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 286 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [30/Jan/2022:16:38:35 +0000] "GET /api/v1/books/ HTTP/1.1" 200 729 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [30/Jan/2022:16:38:59 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 387 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [30/Jan/2022:16:39:19 +0000] "GET /api/v1/books/ HTTP/1.1" 200 729 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [30/Jan/2022:16:39:51 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 384 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [30/Jan/2022:16:40:51 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 200 94 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [30/Jan/2022:16:41:09 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 283 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
