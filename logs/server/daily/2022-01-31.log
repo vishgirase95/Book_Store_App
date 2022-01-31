@@ -1,0 +1,96 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T12:46:14.764Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"Error: \n    at new MongooseError (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\error\\mongooseError.js:7:1)\n    at new MongooseServerSelectionError (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\error\\serverSelection.js:26:1)\n    at NativeConnection.Connection.openUri (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\index.js:351:10\n    at D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\index.js:1149:10)","timestamp":"2022-01-31T12:46:44.782Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T12:49:30.830Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T12:49:30.887Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T12:59:24.177Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T12:59:24.205Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:02:19.267Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:02:19.302Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:02:28.021Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:02:28.061Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:02:43.302Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:02:43.326Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:02:58.073Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:02:58.099Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:03:17.722Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:03:17.771Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:04:10.825Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:04:10.853Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:04:17.411Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:04:17.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:04:35.218Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:04:35.248Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:06:56.481Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:06:56.510Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:08:51.647Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:08:51.678Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:11:05.779Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:11:05.814Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property '1' of null
+    at firstchar (D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\types\json.js:79:19)
+    at D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:224:16)
+    at done (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/book/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-31T13:13:35.402Z"}
+error: 
+    status - 500 
+    message - Error: Book Not in Cart
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:290:9)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-31T13:13:46.239Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:19:21.712Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:19:21.744Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:19:47.534Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:19:47.566Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:19:54.842Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:19:54.868Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:20:09.651Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:20:09.686Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-31T13:20:37.675Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-31T13:20:41.532Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/purchase 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-31T13:23:55.147Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:25:27.775Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:25:27.808Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:25:49.911Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:25:49.945Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:29:26.611Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:29:26.636Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-31T13:29:41.874Z"}
+info: Connected to the database. {"timestamp":"2022-01-31T13:29:41.907Z"}

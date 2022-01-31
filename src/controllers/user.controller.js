@@ -175,3 +175,18 @@ export const removeBook= async (req,res,next)=>{
     next(error)
   }
 }
+
+
+
+export const purchase= async (req,res,next)=>{
+  try {
+    const data=await UserService.purchase(req.body);
+    res.status(HttpStatus.OK).json({
+      code:HttpStatus.OK,
+      data:data,
+      message:"Sucessfully Purchased"
+    })
+  } catch (error) {
+    next(error)
+  }
+}

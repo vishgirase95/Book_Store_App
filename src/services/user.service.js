@@ -251,7 +251,7 @@ export const AddCart = async (body) => {
 
   } else {
     throw Error('Book not available');}
-
+  
   const BookInStock = Book_Available.quantity - body.Quantity;
   await Book.findOneAndUpdate({_id: body.BookID}, {quantity: BookInStock});
 
@@ -288,5 +288,16 @@ user_Active_Cart.save();
   return "Removed Book Sucessfully"
 }else{
   throw(Error("Book Not in Cart"))
+}
+}
+
+export const purchase=async(body)=>{
+const user_Active_Cart = await Cart.findOne({UserID: body.USER_ID});
+if(user_Active_Cart){
+  user_Active_Cart.isPurched=true
+  user_Active_Cart.save();
+  return user_Active_Cart;
+}else{
+  throw(Error("cart not present"));
 }
 }
