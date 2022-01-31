@@ -13,5 +13,8 @@ router.get("/",userAuth("User"),userController.getCart);
 // remove book from cart
 router.patch("/",userAuth("User"),userController.removeBook); 
 
+// purchase cart
+router.get("/purchase",userAuth("User"),userController.purchase); 
+
 
 export default router;

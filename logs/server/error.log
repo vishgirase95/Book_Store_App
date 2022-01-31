@@ -6179,3 +6179,56 @@ SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected t
     at Module._compile (internal/modules/cjs/loader.js:1085:14)
     at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
     at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Sun Jan 30 2022 22:02:28 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":41555},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18323027,"external":20568939,"heapTotal":82128896,"heapUsed":51074240,"rss":116105216},"pid":17184,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected token } in JSON at position 12127\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-01-30T16:32:28.590Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"Error: \n    at new MongooseError (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\error\\mongooseError.js:7:1)\n    at new MongooseServerSelectionError (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\error\\serverSelection.js:26:1)\n    at NativeConnection.Connection.openUri (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\index.js:351:10\n    at D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (D:\\Book_Store_App\\Book-Store\\node_modules\\mongoose\\lib\\index.js:1149:10)","timestamp":"2022-01-31T12:46:44.782Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property '1' of null
+    at firstchar (D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\types\json.js:79:19)
+    at D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:224:16)
+    at done (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/book/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-31T13:13:35.402Z"}
+error: 
+    status - 500 
+    message - Error: Book Not in Cart
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:290:9)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-31T13:13:46.239Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-31T13:20:37.675Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-31T13:20:41.532Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/purchase 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-31T13:23:55.147Z"}
