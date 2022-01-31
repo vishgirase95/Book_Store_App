@@ -190,3 +190,32 @@ export const purchase= async (req,res,next)=>{
     next(error)
   }
 }
+
+
+
+export const AddToWishlist= async (req,res,next)=>{
+  try {
+    const data=await UserService.AddToWishlist(req);
+    res.status(HttpStatus.CREATED).json({
+      code:HttpStatus.CREATED,
+      data:data,
+      message:"Sucessfully Added in Wishlist"
+    })
+  } catch (error) {
+    next(error)
+  }
+}
+
+
+export const removeWishlist= async (req,res,next)=>{
+  try {
+    const data=await UserService.removeWishlist(req);
+    res.status(HttpStatus.OK).json({
+      code:HttpStatus.OK,
+      data:data,
+      message:"Sucessfully Removed from Wishlist"
+    })
+  } catch (error) {
+    next(error)
+  }
+}

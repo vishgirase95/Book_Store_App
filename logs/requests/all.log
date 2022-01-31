@@ -4591,3 +4591,151 @@ info: ::ffff:127.0.0.1 - - [31/Jan/2022:13:25:59 +0000] "GET /api/v1/cart/purcha
 
 info: ::ffff:127.0.0.1 - - [31/Jan/2022:13:31:49 +0000] "GET /api/v1/cart/purchase HTTP/1.1" 200 385 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:14:13:41 +0000] "GET /api/v1/cart HTTP/1.1" 200 386 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:14:14:04 +0000] "GET /api/v1/cart/purches HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:14:14:20 +0000] "GET /api/v1/cart/purchase HTTP/1.1" 200 385 "-" "Thunder Client (https://www.thunderclient.com)"
+
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:464:13)
+    at routes (D:\Book_Store_App\Book-Store\src\routes\/index.js:16:10)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\src\/index.js:38:32)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Mon Jan 31 2022 20:37:36 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":12170},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18676104,"external":20922056,"heapTotal":144744448,"heapUsed":114772856,"rss":170057728},"pid":11480,"uid":null,"version":"v14.17.3"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (D:\\Book_Store_App\\Book-Store\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (D:\\Book_Store_App\\Book-Store\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:38:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","trace":[{"column":13,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"D:\\Book_Store_App\\Book-Store\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":38,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:15:23:43 +0000] "GET /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:15:24:14 +0000] "GET /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:15:24:24 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:15:25:40 +0000] "GET /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:15:25:41 +0000] "GET /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:15:25:42 +0000] "GET /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:15:25:42 +0000] "GET /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:15:26:56 +0000] "GET /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:15:26:57 +0000] "GET /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:15:27:46 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 200 54 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:15:28:34 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 200 54 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:17:51:28 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:17:51:44 +0000] "GET /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:17:51:50 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:17:52:56 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 200 231 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:17:53:06 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 200 313 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:17:55:24 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 200 395 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:17:55:24 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 200 477 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:17:57:34 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 200 559 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:01:28 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 200 641 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:09:03 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 200 723 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:10:37 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 200 805 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:11:14 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 200 805 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:11:52 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 500 70 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:11:58 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 500 70 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:19:38 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 200 231 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:19:48 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 200 231 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:19:55 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 200 231 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:20:28 +0000] "POST /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 200 231 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:23:49 +0000] "POST /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 200 231 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:24:16 +0000] "POST /api/v1/wishlist/61f64062a99dbd428ca52620 HTTP/1.1" 200 231 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:25:32 +0000] "POST /api/v1/wishlist/61f64062a99dbd428ca52620 HTTP/1.1" 200 313 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:25:41 +0000] "POST /api/v1/wishlist/61f64062a99dbd428ca52620 HTTP/1.1" 200 313 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:25:46 +0000] "POST /api/v1/wishlist/61f64062a99dbd428ca52620 HTTP/1.1" 200 313 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:26:13 +0000] "POST /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 200 395 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:26:17 +0000] "POST /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 200 395 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:29:20 +0000] "POST /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 200 395 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:29:28 +0000] "POST /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 200 395 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:29:28 +0000] "POST /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 200 395 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:29:28 +0000] "POST /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 200 395 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:29:28 +0000] "POST /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 200 395 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:29:29 +0000] "POST /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 200 395 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:29:53 +0000] "POST /api/v1/wishlist/61f8299c20bebd4478718981 HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:30:13 +0000] "POST /api/v1/wishlist/61f8299c20bebd4478718981 HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:18:30:39 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 200 395 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [31/Jan/2022:18:36:26 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [31/Jan/2022:18:37:02 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 386 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [31/Jan/2022:18:37:31 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [31/Jan/2022:18:38:07 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 389 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [31/Jan/2022:18:38:24 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 389 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [31/Jan/2022:18:38:38 +0000] "POST /api/v1/cart/ HTTP/1.1" 500 53 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [31/Jan/2022:18:38:51 +0000] "POST /api/v1/cart/ HTTP/1.1" 500 58 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [31/Jan/2022:18:39:45 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 284 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [31/Jan/2022:18:39:50 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 284 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [31/Jan/2022:18:40:00 +0000] "GET /api/v1/books/ HTTP/1.1" 200 729 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [31/Jan/2022:18:40:14 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 284 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [31/Jan/2022:18:40:21 +0000] "GET /api/v1/books/ HTTP/1.1" 200 729 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [31/Jan/2022:18:41:11 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 388 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [31/Jan/2022:18:41:30 +0000] "GET /api/v1/books/ HTTP/1.1" 200 729 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [31/Jan/2022:18:41:42 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 389 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [31/Jan/2022:18:41:52 +0000] "GET /api/v1/books/ HTTP/1.1" 200 728 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:19:09:06 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 201 395 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:19:09:19 +0000] "PATCH /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 200 58 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:19:09:49 +0000] "PATCH /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:19:10:16 +0000] "PATCH /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 200 58 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Jan/2022:19:10:37 +0000] "PATCH /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+

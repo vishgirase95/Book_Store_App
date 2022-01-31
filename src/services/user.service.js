@@ -1,6 +1,7 @@
 import User from '../models/user.model';
 import Book from '../models/book.model';
 import Cart from '../models/cart.model';
+import WishList from '../models/wishlist.model';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
@@ -166,15 +167,21 @@ export const FetchAllBooks = async () => {
 
 
 export const AddCart = async (body) => {
-  const Book_Available = await Book.findOne({_id: body.BookID});
+  const Book_Available = await Book.findOne({
+    _id: body.BookID
+  });
 
-  const user_Active_Cart = await Cart.findOne({UserID: body.USER_ID});
+  const user_Active_Cart = await Cart.findOne({
+    UserID: body.USER_ID
+  });
 
-  const Book_Exsist_In_Cart = await Cart.findOne({UserID: body.USER_ID,
-  'Book.BookID': body.BookID});
+  const Book_Exsist_In_Cart = await Cart.findOne({
+    UserID: body.USER_ID,
+    'Book.BookID': body.BookID
+  });
+if(Book_Available){
+  if (!user_Active_Cart  && Book_Available.quantity >= body.Quantity) {
 
-  if (!user_Active_Cart && Book_Available && Book_Available.quantity >= body.Quantity) {
-   
     const newCart = new Cart({
       UserID: body.USER_ID,
       Book: {
@@ -186,10 +193,10 @@ export const AddCart = async (body) => {
     });
 
     await newCart.save();
-  
 
-  } else if (!Book_Exsist_In_Cart && user_Active_Cart && Book_Available && Book_Available.quantity >= body.Quantity) {
-    
+
+  } else if (!Book_Exsist_In_Cart && user_Active_Cart  && Book_Available.quantity >= body.Quantity) {
+
     const newBook = {
       BookID: body.BookID,
       Quantity: body.Quantity,
@@ -206,19 +213,25 @@ export const AddCart = async (body) => {
 
     user_Active_Cart.TotalAmount = Total_price;
     user_Active_Cart.save();
-  } else if (Book_Exsist_In_Cart && user_Active_Cart && Book_Available && Book_Available.quantity >= body.Quantity) {
-    
+  } else if (Book_Exsist_In_Cart && user_Active_Cart && Book_Available.quantity >= body.Quantity) {
+
 
     const Previous_added_Book = await user_Active_Cart.Book.filter((x) => (x.BookID == body.BookID));
-    
+
 
     const Total_Quantity = await Previous_added_Book[0].Quantity + body.Quantity;
-    
+
 
     // remove the exsisting book in cart
     await Cart.updateOne({
       UserID: body.USER_ID
-    }, {$pull: {Book: {BookID: body.BookID}}});
+    }, {
+      $pull: {
+        Book: {
+          BookID: body.BookID
+        }
+      }
+    });
 
     // insert the new book in cart
     const Updated_Book_In_Cart = {
@@ -226,78 +239,173 @@ export const AddCart = async (body) => {
       Quantity: Total_Quantity,
       Total_Price: Book_Available.price * Total_Quantity
     };
-  
+
     const updated = await Cart.findOneAndUpdate({
       UserID: body.USER_ID
     }, {
       $addToSet: {
         Book: Updated_Book_In_Cart
       }
-    }); 
-    
-    
+    });
+
+
     const pricelist = await Cart.findOne({
       UserID: body.USER_ID
     })
-    
+
     const All_price = await pricelist.Book.map((x) => x.Total_Price).reduce(
       (acc, curr) => {
         acc = acc + curr;
         return acc;
       }, 0);
-     user_Active_Cart.TotalAmount = All_price;
+    user_Active_Cart.TotalAmount = All_price;
 
     await user_Active_Cart.save();
 
   } else {
-    throw Error('Book not available');}
-  
+    throw Error('Book Out Of Stock');
+  }}else{
+    throw Error("Book Not Available")
+  }
+
   const BookInStock = Book_Available.quantity - body.Quantity;
-  await Book.findOneAndUpdate({_id: body.BookID}, {quantity: BookInStock});
+  await Book.findOneAndUpdate({
+    _id: body.BookID
+  }, {
+    quantity: BookInStock
+  });
 
 
-  const Final_Cart = await Cart.findOne({UserID: body.USER_ID});
+  const Final_Cart = await Cart.findOne({
+    UserID: body.USER_ID
+  });
   return Final_Cart;
 }
 
-export const getCart=async (body)=>{
-  const Previous_Cart = await Cart.findOne({UserID: body.USER_ID});
-if(Previous_Cart){
-return Previous_Cart;}else{
-  throw(Error("No Cart Added"));
-}
-}
-
-
-export const removeBook=async(body)=>{
-const user_Active_Cart = await Cart.findOne({UserID: body.USER_ID});
-const Previous_added_Book = await user_Active_Cart.Book.filter((x) => (x.BookID == body.BookID));
-    
-if(user_Active_Cart && (Previous_added_Book.length!==0)){
-  // remove the exsisting book in cart
-const Total_Cart_Price=user_Active_Cart.TotalAmount;
-const Individual_Book_Price=Previous_added_Book[0].Total_Price;
-user_Active_Cart.TotalAmount=Total_Cart_Price-Individual_Book_Price;
-user_Active_Cart.save();
-
-
-  await Cart.updateOne({
+export const getCart = async (body) => {
+  const Previous_Cart = await Cart.findOne({
     UserID: body.USER_ID
-  }, {$pull: {Book: {BookID: body.BookID}}}); 
+  });
+  if (Previous_Cart) {
+    return Previous_Cart;
+  } else {
+    throw (Error("No Cart Added"));
+  }
+}
 
-  return "Removed Book Sucessfully"
-}else{
-  throw(Error("Book Not in Cart"))
-}
+
+export const removeBook = async (body) => {
+  const user_Active_Cart = await Cart.findOne({
+    UserID: body.USER_ID
+  });
+  const Previous_added_Book = await user_Active_Cart.Book.filter((x) => (x.BookID == body.BookID));
+
+  if (user_Active_Cart && (Previous_added_Book.length !== 0)) {
+    // remove the exsisting book in cart
+    const Total_Cart_Price = user_Active_Cart.TotalAmount;
+    const Individual_Book_Price = Previous_added_Book[0].Total_Price;
+    user_Active_Cart.TotalAmount = Total_Cart_Price - Individual_Book_Price;
+    user_Active_Cart.save();
+
+
+    await Cart.updateOne({
+      UserID: body.USER_ID
+    }, {
+      $pull: {
+        Book: {
+          BookID: body.BookID
+        }
+      }
+    });
+
+    return "Removed Book Sucessfully"
+  } else {
+    throw (Error("Book Not in Cart"))
+  }
 }
 
-export const purchase=async(body)=>{
-const user_Active_Cart = await Cart.findOne({UserID: body.USER_ID});
-if(user_Active_Cart){
-  user_Active_Cart.isPurched=true
-  user_Active_Cart.save();
-  return user_Active_Cart;
-}else{
-  throw(Error("cart not present"));
+export const purchase = async (body) => {
+  const user_Active_Cart = await Cart.findOne({
+    UserID: body.USER_ID
+  });
+  if (user_Active_Cart) {
+    user_Active_Cart.isPurched = true
+    user_Active_Cart.save();
+    return user_Active_Cart;
+  } else {
+    throw (Error("cart not present"));
+  }
 }
+
+export const AddToWishlist = async (req) => {
+  const Book_Available = await Book.findOne({
+    _id: req.params.BookID
+  });
+
+  const user_Active_WishList = await WishList.findOne({
+    UserID: req.body.USER_ID
+  });
+  if (Book_Available) {
+    if (!user_Active_WishList) {
+      console.log("first wishlist")
+
+      const NewWishList = new WishList({
+        UserID: req.body.USER_ID,
+        Book: {
+          BookID: req.params.BookID,
+          Price: Book_Available.price
+        }
+      });
+      await NewWishList.save()
+    } else {
+      const Book_Already_WishList = await user_Active_WishList.Book.filter((x) => (x.BookID == req.params.BookID))
+      
+
+      if (Book_Already_WishList.length == 0) {
+        console.log("book not in wishlist")
+        const newBook = {
+          BookID: req.params.BookID,
+          Price: Book_Available.price
+        }
+        user_Active_WishList.Book.push(newBook);
+        await user_Active_WishList.save();
+      }
+    }
+    const user_Final_WishList = await WishList.findOne({
+      UserID: req.body.USER_ID
+    });
+    return user_Final_WishList;
+
+  } else {
+    throw (Error("Book Does not exsist"))
+  }
+
+}
+
+
+
+export const removeWishlist= async(req)=>{
+  const user_Active_WishList = await WishList.findOne({
+    UserID: req.body.USER_ID
+  });
+if(user_Active_WishList){
+  const Book_Already_WishList = await user_Active_WishList.Book.filter((x) => (x.BookID == req.params.BookID))
+if(Book_Already_WishList.length!==0){
+
+  await WishList.updateOne({UserID:req.body.USER_ID},{
+    $pull:{
+      Book:{
+        BookID:req.params.BookID
+      }
+    }
+  })
+  return "Removed from Wishlist"
+}else{
+  throw(Error("Book Not in wishlist"))
+
+}
+}else{
+  throw(Error("No Wishlist Present"))
+}
+
 }
