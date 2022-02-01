@@ -9,13 +9,18 @@ return  async (req, res, next) => {
   const checkUser = await User.findOne({
     Email: req.body.Email
   });
-  if (checkUser && (checkUser.Role === user)) {
+  if(checkUser){
+  if (checkUser.Role === user) {
       next();
     
   } else {
     res.status(HttpStatus.UNAUTHORIZED).json({
       code: HttpStatus.UNAUTHORIZED,
+      message:"User Access Denied"
+  });}
+  }else{
+    res.status(HttpStatus.NOT_FOUND).json({
+      code: HttpStatus.NOT_FOUND,
       message:"User does not exist"
-  });
-  }
-}}
+  })
+}}}

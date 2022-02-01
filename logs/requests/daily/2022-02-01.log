@@ -1446,3 +1446,43 @@ info: ::1 - - [01/Feb/2022:17:06:36 +0000] "POST /api/v1/users/user_login HTTP/1
 
 info: ::1 - - [01/Feb/2022:17:09:24 +0000] "POST /api/v1/users/user_login HTTP/1.1" 401 53 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
 
+info: ::1 - - [01/Feb/2022:17:17:54 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 500 60 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:17:19:24 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 500 89 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:17:32:15 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 400 304 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:17:33:39 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 500 66 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:17:34:21 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 400 294 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:17:34:46 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 500 66 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:17:36:02 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 500 66 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:17:37:49 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 409 44 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:17:45:33 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 334 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:17:45:54 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 404 48 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:18:02:08 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 409 44 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:18:02:25 +0000] "POST /api/v1/users/user_login HTTP/1.1" 404 44 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:18:02:54 +0000] "POST /api/v1/users/user_login HTTP/1.1" 401 42 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:18:07:57 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 404 48 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:18:08:13 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 237 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:18:08:42 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 340 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:18:09:03 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:18:14:20 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 76 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:18:15:25 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 52 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:18:16:18 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 341 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+

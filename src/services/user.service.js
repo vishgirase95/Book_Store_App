@@ -72,7 +72,7 @@ export const forgetPassword = async (body) => {
     mailSend(mailVerify.Email, FORGETPASSWORD_TOKEN);
     return FORGETPASSWORD_TOKEN;
   } else {
-    throw Error('Mail id does not exsist');
+    return ('Mail id does not exsist');
   }
 };
 
@@ -97,7 +97,7 @@ export const resetPassword = async (req) => {
     });
     return findAndUpdatePassword;
   } else {
-    throw Error('Cannot reset password');
+    return ('sorry, unable to verify');
   }
 };
 

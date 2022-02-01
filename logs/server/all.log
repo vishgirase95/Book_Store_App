@@ -10849,3 +10849,168 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T1
 info: Connected to the database. {"timestamp":"2022-02-01T17:08:40.331Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:09:24.687Z"}
 info: Connected to the database. {"timestamp":"2022-02-01T17:09:24.710Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:17:37.301Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:17:37.334Z"}
+error: 
+    status - 500 
+    message - Error: "FirstName" is required
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T17:17:54.639Z"}
+error: 
+    status - 500 
+    message - Error: "LastName" length must be at least 4 characters long
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T17:19:24.800Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:19:53.252Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:19:53.286Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:21:21.274Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:21:21.333Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:21:34.716Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:21:34.756Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:21:41.751Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:21:41.792Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:27:40.473Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:27:40.506Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:27:53.200Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:27:53.233Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:30:00.536Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:30:00.566Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:32:15.483Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:32:15.505Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:33:17.341Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:33:17.367Z"}
+error: 
+    status - 500 
+    message - Error: "Email" must be a valid email
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T17:33:39.804Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:34:15.603Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:34:15.627Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:34:40.114Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:34:40.145Z"}
+error: 
+    status - 500 
+    message - Error: "Email" must be a valid email
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T17:34:46.287Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:36:01.762Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:36:01.784Z"}
+error: 
+    status - 500 
+    message - Error: "Email" must be a valid email
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T17:36:02.509Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:36:56.824Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:36:56.852Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:39:51.949Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:39:51.982Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:41:49.222Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:41:49.257Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:43:29.783Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:43:29.808Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:44:48.309Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:44:48.341Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:57:53.005Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:57:53.046Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T17:58:01.997Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T17:58:02.027Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T18:00:56.625Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T18:00:56.656Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T18:03:39.345Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T18:03:39.389Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T18:12:09.886Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T18:12:09.942Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T18:12:23.928Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T18:12:23.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T18:12:46.813Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T18:12:46.864Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T18:13:32.203Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T18:13:32.227Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T18:13:58.999Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T18:13:59.028Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'split' of undefined
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:80:22)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (D:\Book_Store_App\Book-Store\src\services\/user.service.js:79:27) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T18:14:20.376Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:81:29)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T18:15:25.667Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T18:18:08.119Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T18:18:08.181Z"}

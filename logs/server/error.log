@@ -7306,3 +7306,112 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-02-01T16:37:20.087Z"}
+error: 
+    status - 500 
+    message - Error: "FirstName" is required
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T17:17:54.639Z"}
+error: 
+    status - 500 
+    message - Error: "LastName" length must be at least 4 characters long
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T17:19:24.800Z"}
+error: 
+    status - 500 
+    message - Error: "Email" must be a valid email
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T17:33:39.804Z"}
+error: 
+    status - 500 
+    message - Error: "Email" must be a valid email
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T17:34:46.287Z"}
+error: 
+    status - 500 
+    message - Error: "Email" must be a valid email
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T17:36:02.509Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'split' of undefined
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:80:22)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (D:\Book_Store_App\Book-Store\src\services\/user.service.js:79:27) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T18:14:20.376Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:81:29)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T18:15:25.667Z"}

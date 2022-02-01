@@ -54,11 +54,17 @@ export const login = async (req, res, next) => {
 export const forgetPassword = async (req, res, next) => {
   try {
     const data = await UserService.forgetPassword(req.body);
+    if(data=='Mail id does not exsist'){
+      res.status(HttpStatus.NOT_FOUND).json({
+        code: HttpStatus.NOT_FOUND,
+        message:data
+      });
+    }else{
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
       message: "Sucessfully mail Sent"
-    })
+    })}
   } catch (error) {
     next(error);
   }
@@ -67,12 +73,19 @@ export const forgetPassword = async (req, res, next) => {
 
 export const resetPassword = async (req, res, next) => {
   try {
+
     const data = await UserService.resetPassword(req);
+    if(data=='sorry, unable to verify'){
+      res.status(HttpStatus.UNAUTHORIZED).json({
+        code: HttpStatus.UNAUTHORIZED,
+        message:data
+      });
+    }else{
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
       message: "Password Reset Sucessfully"
-    })
+    })}
   } catch (error) {
     next(error);
   }
