@@ -11,7 +11,8 @@ const rawdata = fs.readFileSync("./../BOOK-STORE/src/utils/data.json")
 const jsondata = JSON.parse(rawdata);
 describe('User APIs Test', () => {
   let Token = '';
-let BookID='';  
+  let BookID = '';
+  let User_login_token = ''
 
   before((done) => {
     const clearCollections = () => {
@@ -74,7 +75,10 @@ let BookID='';
     it("should return sucessfull login", (done) => {
       request(app).post('/api/v1/users/user_login').send(jsondata.login1).end((err, res) => {
         expect(res.statusCode).to.be.equal(200);
-        expect(res.body).property('message').to.be.equal('Sucessfully logged in')
+        expect(res.body).property('message').to.be.equal('Sucessfully logged in');
+        console.log("login token", res.body.data)
+        User_login_token = res.body.data;
+
         done();
       })
     })
@@ -83,7 +87,7 @@ let BookID='';
   describe('Post /users/admin_login', () => {
     it("should return sucessfull login", (done) => {
       request(app).post('/api/v1/users/admin_login').send(jsondata.login2).end((err, res) => {
-
+        console.log("user token", User_login_token)
         expect(res.statusCode).to.be.equal(200);
         expect(res.body).property('message').to.be.equal('Sucessfully logged in')
         done();
@@ -119,13 +123,13 @@ let BookID='';
 
         expect(res.statusCode).to.be.equal(200);
         expect(res.body).property('message').to.be.equal('Sucessfully logged in')
-       let  admin_login_token=res.body.data
+        let admin_login_token = res.body.data
 
-       request(app).post('/api/v1/books/').set('Authorization', "JWT " +admin_login_token).send(jsondata.Book1).end((err, res) => {
-        expect(res.statusCode).to.be.equal(201);
-        expect(res.body).property('message').to.be.equal('Created Book Sucessfully')
-        BookID=res.body.data._id
-        done();
+        request(app).post('/api/v1/books/').set('Authorization', "JWT " + admin_login_token).send(jsondata.Book1).end((err, res) => {
+          expect(res.statusCode).to.be.equal(201);
+          expect(res.body).property('message').to.be.equal('Created Book Sucessfully')
+          BookID = res.body.data._id
+          done();
         });
 
       })
@@ -138,12 +142,12 @@ let BookID='';
       request(app).post('/api/v1/users/admin_login').send(jsondata.login2).end((err, res) => {
         expect(res.statusCode).to.be.equal(200);
         expect(res.body).property('message').to.be.equal('Sucessfully logged in')
-       let  admin_login_token=res.body.data
+        let admin_login_token = res.body.data
 
         const updateBook = {
-         "title": "Movie"
+          "title": "Movie"
         }
-        request(app).patch(`/api/v1/books/${BookID}`).set('Authorization', "JWT " +admin_login_token).send(updateBook).end((err, res) => {
+        request(app).patch(`/api/v1/books/${BookID}`).set('Authorization', "JWT " + admin_login_token).send(updateBook).end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
           expect(res.body).property('message').to.be.equal('Updated Book Sucessfully')
           done();
@@ -153,7 +157,8 @@ let BookID='';
     })
   })
 
-  
+
+
   describe('GET /books/', () => {
     it("should return All fetch book", (done) => {
       request(app).get('/api/v1/books/').end((err, res) => {
@@ -177,24 +182,66 @@ let BookID='';
   })
 
   
+  describe('Post  wishlist', () => {
+    it("Post  wishlist", (done) => {
+      request(app).post(`/api/v1/wishlist/${BookID}`).set('Authorization', "JWT " + User_login_token).end((err, res) => {
+        expect(res.statusCode).to.be.equal(201);
+        expect(res.body).property('message').to.be.equal('Sucessfully Added in Wishlist')
+
+        done();
+      })
+    })
+  })
+
+
+  describe('Get wishlist', () => {
+    it("Get wishlist", (done) => {
+
+      request(app).get(`/api/v1/wishlist/`).set('Authorization', "JWT " + User_login_token).end((err, res) => {
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body).property('message').to.be.equal('Sucessfully Fetch  Wishlist')
+        
+        
+        done();
+      })
+    })
+  })
+
+  describe('Patch remove wishlist', () => {
+    it("remove book from wishlist", (done) => {
+
+      request(app).patch(`/api/v1/wishlist/${BookID}`).set('Authorization', "JWT " + User_login_token).end((err, res) => {
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body).property('message').to.be.equal('Sucessfully Removed from Wishlist')
+
+        done();
+      })
+    })
+  })
+ 
+
   describe('Post login admin and delete book', () => {
     it("login and add books", (done) => {
       request(app).post('/api/v1/users/admin_login').send(jsondata.login2).end((err, res) => {
 
         expect(res.statusCode).to.be.equal(200);
         expect(res.body).property('message').to.be.equal('Sucessfully logged in')
-       let  admin_login_token=res.body.data
+        let admin_login_token = res.body.data
 
-       request(app).delete(`/api/v1/books/${BookID}`).set('Authorization', "JWT " +admin_login_token).send(jsondata.Book1).end((err, res) => {
-        expect(res.statusCode).to.be.equal(200);
-        expect(res.body).property('message').to.be.equal('Sucessfully Deleted')
-        BookID=res.body.data._id
-        done();
+        request(app).delete(`/api/v1/books/${BookID}`).set('Authorization', "JWT " + admin_login_token).send(jsondata.Book1).end((err, res) => {
+          expect(res.statusCode).to.be.equal(200);
+          expect(res.body).property('message').to.be.equal('Sucessfully Deleted')
+          BookID = res.body.data._id
+          done();
         });
 
       })
     })
   })
- 
+
   
+
+
+
+
 });
