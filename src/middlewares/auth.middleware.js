@@ -21,11 +21,10 @@ export const userAuth = (user) => {
           message: 'Authorization token is required'
         };
       bearerToken = bearerToken.split(' ')[1];
-      const decoded = jwt.decode(bearerToken);
-       req.body['USER_ID']=decoded.ID;
-      const TokenVerification = jwt.verify(bearerToken, 'vishal');
-      console.log("user..",decoded.Role)
-      if (decoded.Role === user) {
+     const TokenVerification = jwt.verify(bearerToken, 'vishal');
+     
+      if (TokenVerification.Role === user) {
+        req.body['USER_ID']=TokenVerification.ID;
         next();
       }else{
         next(Error("User Acess Denied"));

@@ -95,7 +95,6 @@ let BookID='';
     it("should return sucessfull sent mail", (done) => {
       request(app).post('/api/v1/users/forgetpassword').send(jsondata.forgetPassword1).end((err, res) => {
         Token = res.body.data;
-        console.log("token", Token)
         expect(res.statusCode).to.be.equal(200);
         expect(res.body).property('message').to.be.equal('Sucessfully mail Sent')
         done();

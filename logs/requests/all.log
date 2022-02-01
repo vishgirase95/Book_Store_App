@@ -4739,3 +4739,111 @@ info: ::ffff:127.0.0.1 - - [31/Jan/2022:19:10:16 +0000] "PATCH /api/v1/wishlist/
 
 info: ::ffff:127.0.0.1 - - [31/Jan/2022:19:10:37 +0000] "PATCH /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:03:04:26 +0000] "POST /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 201 313 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:03:04:40 +0000] "POST /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 201 313 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:03:04:45 +0000] "POST /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 201 313 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:03:06:16 +0000] "POST /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 201 313 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:03:09:06 +0000] "POST /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 201 231 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:03:09:14 +0000] "POST /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 201 231 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:03:10:12 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 201 313 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:03:10:16 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 201 313 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:03:10:17 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 201 313 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:03:10:38 +0000] "PATCH /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 200 89 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:03:10:51 +0000] "PATCH /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:03:38:12 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 201 313 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:03:38:16 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 500 60 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:32:43 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 500 53 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:33:09 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 311 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:33:09 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 311 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:34:06 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 500 60 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:38:53 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 500 60 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:38:54 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 500 60 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:39:47 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 201 231 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:39:54 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 500 60 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:39:55 +0000] "POST /api/v1/wishlist/61f64042a99dbd428ca5261c HTTP/1.1" 500 60 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:40:10 +0000] "POST /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 201 313 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:40:17 +0000] "PATCH /api/v1/wishlist/61f64054a99dbd428ca5261e HTTP/1.1" 200 89 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:40:26 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:41:50 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 500 57 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:46:08 +0000] "GET /api/v1/wishlist/%20 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:46:44 +0000] "GET /api/v1/wishlist/%20 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:46:54 +0000] "GET /api/v1/wishlist/%20 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:47:16 +0000] "GET /api/v1/wishlist/%20 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:47:17 +0000] "GET /api/v1/wishlist/%20 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:47:17 +0000] "GET /api/v1/wishlist/%20 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:47:17 +0000] "GET /api/v1/wishlist/%20 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:47:17 +0000] "GET /api/v1/wishlist/%20 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:47:18 +0000] "GET /api/v1/wishlist/%20 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:47:18 +0000] "GET /api/v1/wishlist/%20 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:47:18 +0000] "GET /api/v1/wishlist/%20 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:47:18 +0000] "GET /api/v1/wishlist/%20 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:47:27 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:48:31 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 500 57 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:48:33 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 500 57 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:48:33 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 500 57 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:48:33 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 500 57 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:49:14 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 500 57 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:50:23 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:50:23 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:50:23 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:50:23 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:50:23 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:05:51:10 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:07:06:42 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:07:07:31 +0000] "GET /api/v1/wishlist/b HTTP/1.1" 404 156 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:07:08:28 +0000] "GET /api/v1/wishlist/b HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:07:16:01 +0000] "GET /api/v1/wishlist/b HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+

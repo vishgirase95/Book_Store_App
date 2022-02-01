@@ -219,3 +219,18 @@ export const removeWishlist= async (req,res,next)=>{
     next(error)
   }
 }
+
+
+
+export const fetchWishList= async (req,res,next)=>{
+  try {
+    const data=await UserService.fetchWishList(req.body);
+    res.status(HttpStatus.OK).json({
+      code:HttpStatus.OK,
+      data:data,
+      message:"Sucessfully Fetch  Wishlist"
+    })
+  } catch (error) {
+    next(error)
+  }
+}

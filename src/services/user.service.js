@@ -347,7 +347,7 @@ export const AddToWishlist = async (req) => {
   });
   if (Book_Available) {
     if (!user_Active_WishList) {
-      console.log("first wishlist")
+      
 
       const NewWishList = new WishList({
         UserID: req.body.USER_ID,
@@ -362,13 +362,14 @@ export const AddToWishlist = async (req) => {
       
 
       if (Book_Already_WishList.length == 0) {
-        console.log("book not in wishlist")
         const newBook = {
           BookID: req.params.BookID,
           Price: Book_Available.price
         }
         user_Active_WishList.Book.push(newBook);
         await user_Active_WishList.save();
+      }else{
+        throw(Error("Already Added in Wishlist"))
       }
     }
     const user_Final_WishList = await WishList.findOne({
@@ -408,4 +409,16 @@ if(Book_Already_WishList.length!==0){
   throw(Error("No Wishlist Present"))
 }
 
+}
+
+export const fetchWishList= async(body)=>{
+
+  const user_Active_WishList = await WishList.findOne({
+    UserID:body.USER_ID
+  });
+  if(user_Active_WishList){
+    return user_Active_WishList;
+  }else{
+    throw (Error("Wishlist does not created"))
+  }
 }
