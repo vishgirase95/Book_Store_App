@@ -20,7 +20,7 @@ export const newUser = async (body) => {
     Email: body.Email
   });
   if (checkUser) {
-    throw Error('User Already Exsist');
+    return ('User Already Exsist');
   } else {
     const unHashedPassword = body.Password;
     const saltRounds = 10;
@@ -52,7 +52,7 @@ export const login = async (body) => {
 
     return token;
   } else {
-    throw Error('Please enter corret mail id or password');
+    return ('Please enter corret password');
   }
 };
 

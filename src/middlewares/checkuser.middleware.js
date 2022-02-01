@@ -1,20 +1,21 @@
 import { error } from 'winston';
 import User from '../models/user.model';
+import HttpStatus from 'http-status-codes';
+ 
 
 
 export const checkUser=(user)=>{
-return  async (res, req, next) => {
+return  async (req, res, next) => {
   const checkUser = await User.findOne({
-    Email: res.body.Email
+    Email: req.body.Email
   });
-  if (checkUser) {
-    if (checkUser.Role === user) {
+  if (checkUser && (checkUser.Role === user)) {
       next();
-    } else {
-      next(Error('User does not exist'));
-    }
+    
   } else {
-    next(Error('User does not exist'));
+    res.status(HttpStatus.UNAUTHORIZED).json({
+      code: HttpStatus.UNAUTHORIZED,
+      message:"User does not exist"
+  });
   }
-};
-}
+}}

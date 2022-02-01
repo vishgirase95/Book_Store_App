@@ -1428,3 +1428,21 @@ info: ::ffff:127.0.0.1 - - [01/Feb/2022:15:43:25 +0000] "POST /api/v1/users/admi
 
 info: ::ffff:127.0.0.1 - - [01/Feb/2022:15:43:25 +0000] "DELETE /api/v1/books/61f9551c79282f392c12b7a9 HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
 
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:16:12:01 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 500 60 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:16:16:02 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 500 56 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:16:17:25 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 409 44 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [01/Feb/2022:16:17:46 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 333 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [01/Feb/2022:16:33:48 +0000] "POST /api/v1/users/user_login HTTP/1.1" 500 54 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:16:37:20 +0000] "POST /api/v1/users/user_login HTTP/1.1" 500 54 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:17:06:10 +0000] "POST /api/v1/users/user_login HTTP/1.1" 401 44 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:17:06:36 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 95 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [01/Feb/2022:17:09:24 +0000] "POST /api/v1/users/user_login HTTP/1.1" 401 53 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+

@@ -11,11 +11,19 @@ import * as UserService from '../services/user.service';
 export const newUser = async (req, res, next) => {
   try {
     const data = await UserService.newUser(req.body);
+    if(data=="User Already Exsist"){
+      res.status(HttpStatus.CONFLICT).json({
+        code: HttpStatus.CONFLICT,
+        message:data
+      });
+  }else{
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
       message: 'User created successfully'
     });
+
+    }
   } catch (error) {
     next(error);
   }
@@ -25,12 +33,19 @@ export const newUser = async (req, res, next) => {
 
 export const login = async (req, res, next) => {
   try {
+
     const data = await UserService.login(req.body);
+    if(data=='Please enter corret password'){
+      res.status(HttpStatus.UNAUTHORIZED).json({
+        code: HttpStatus.UNAUTHORIZED,
+        message:data
+      });
+    }else{
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
       message: "Sucessfully logged in"
-    })
+    })}
   } catch (error) {
     next(error);
   }
