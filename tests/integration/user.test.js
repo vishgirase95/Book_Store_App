@@ -69,7 +69,6 @@ describe('User APIs Test', () => {
       request(app).post('/api/v1/users/user_login').send(jsondata.login1).end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
           expect(res.body).property('message').to.be.equal('Sucessfully logged in');
-          console.log('login token', res.body.data);
           User_login_token = res.body.data;
 
           done();
@@ -80,7 +79,6 @@ describe('User APIs Test', () => {
   describe('Post /users/admin_login', () => {
     it('should return sucessfull login', (done) => {
       request(app).post('/api/v1/users/admin_login').send(jsondata.login2).end((err, res) => {
-          console.log('user token', User_login_token);
           expect(res.statusCode).to.be.equal(200);
           expect(res.body).property('message').to.be.equal('Sucessfully logged in');
           done();
