@@ -74,8 +74,9 @@
     "author": "Book1",
     "title": "horror",
     "image": "img1",
-    "quantity": "1",
-    "description": "it was release in 1990"
+    "quantity": 50,
+    "description": "it was release in 1990",
+    "price":10
   
 },"UpdateBook":{
 "NoteID":"61f2391e65acdf094cc313a3",

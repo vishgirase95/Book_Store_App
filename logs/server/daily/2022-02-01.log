@@ -898,3 +898,173 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T1
 info: Connected to the database. {"timestamp":"2022-02-01T13:53:26.871Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T13:58:15.065Z"}
 info: Connected to the database. {"timestamp":"2022-02-01T13:58:15.118Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:11:47.478Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:11:47.584Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Book' of null
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:301:54)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-01T14:11:48.488Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:14:44.679Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:14:44.776Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Book' of null
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:301:54)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-01T14:14:45.664Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:49:36.043Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:49:36.142Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Book' of null
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:301:54)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-01T14:49:37.042Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:50:41.393Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:50:41.481Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Book' of null
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:301:54)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-01T14:50:42.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T15:06:45.194Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T15:06:45.314Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Book' of null
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:301:54)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-01T15:06:46.664Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T15:08:46.301Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T15:08:46.399Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Book' of null
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:301:54)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-01T15:08:47.308Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T15:17:50.583Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T15:17:50.682Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: Book.0.Total_Price: Cast to Number failed for value "NaN" (type number) at path "Total_Price", TotalAmount: Cast to Number failed for value "NaN" (type number) at path "TotalAmount"
+    at model.Document.invalidate (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.$set (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:1349:12)
+    at EmbeddedDocument.$set (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:1058:16)
+    at EmbeddedDocument.Document (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:148:12)
+    at EmbeddedDocument [as constructor] (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\types\embedded.js:47:12)
+    at new EmbeddedDocument (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\schema\documentarray.js:116:17)
+    at DocumentArrayPath.cast (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\schema\documentarray.js:462:22)
+    at DocumentArrayPath.cast (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\schema\documentarray.js:393:17)
+    at DocumentArrayPath.SchemaType.applySetters (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\schematype.js:1123:12)
+    at model.$set (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:1309:20)
+    at model.$set (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\model.js:106:12)
+    at new model (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\model.js:4911:15)
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:185:21)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-01T15:17:51.638Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T15:21:42.361Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T15:21:42.528Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: Book.0.Total_Price: Cast to Number failed for value "NaN" (type number) at path "Total_Price", TotalAmount: Cast to Number failed for value "NaN" (type number) at path "TotalAmount"
+    at model.Document.invalidate (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.$set (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:1349:12)
+    at EmbeddedDocument.$set (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:1058:16)
+    at EmbeddedDocument.Document (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:148:12)
+    at EmbeddedDocument [as constructor] (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\types\embedded.js:47:12)
+    at new EmbeddedDocument (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\schema\documentarray.js:116:17)
+    at DocumentArrayPath.cast (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\schema\documentarray.js:462:22)
+    at DocumentArrayPath.cast (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\schema\documentarray.js:393:17)
+    at DocumentArrayPath.SchemaType.applySetters (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\schematype.js:1123:12)
+    at model.$set (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:1309:20)
+    at model.$set (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\model.js:106:12)
+    at new model (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\model.js:4911:15)
+    at _callee10$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:185:21)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-01T15:21:43.688Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T15:24:42.455Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T15:24:42.547Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T15:25:43.709Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T15:25:43.822Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T15:27:18.053Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T15:27:18.158Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T15:29:31.501Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T15:29:31.631Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T15:31:27.832Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T15:31:28.023Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T15:43:23.954Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T15:43:24.069Z"}
