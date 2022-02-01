@@ -9,6 +9,8 @@ router.post("/:BookID",userAuth("User"),userController.AddToWishlist);
 // remove from wishlist
 router.patch("/:BookID",userAuth("User"),userController.removeWishlist);
 
+
+// fetch the wishlist
 router.get("/",userAuth("User"),userController.fetchWishList);
 
 
