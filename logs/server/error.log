@@ -6599,3 +6599,248 @@ error:
     method - GET 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-02-01T05:49:14.569Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-01T09:32:21.313Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property '1' of null
+    at firstchar (D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\types\json.js:79:19)
+    at D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:224:16)
+    at done (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - / 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-01T09:35:34.879Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:24:36)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/wishlist/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-01T09:39:03.091Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:24:36)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T09:41:04.746Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:24:36)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T09:41:45.949Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:24:36)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7 
+    url - /api/v1/wishlist/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-01T09:42:07.213Z"}
+error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token , in JSON at position 13467
+SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token , in JSON at position 13467
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\src\/index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Tue Feb 01 2022 15:15:06 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":79220},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18690816,"external":20936728,"heapTotal":82259968,"heapUsed":56254688,"rss":115675136},"pid":10864,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected token , in JSON at position 13467\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-02-01T09:45:06.694Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
+error: 
+    status - 500 
+    message - Error: User Acess Denied
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:30:14)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T09:48:58.082Z"}
+error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected end of JSON input
+SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\src\/index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Tue Feb 01 2022 16:36:13 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":84087},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18692728,"external":20938640,"heapTotal":82915328,"heapUsed":56501960,"rss":115904512},"pid":22092,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected end of JSON input\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-02-01T11:06:13.231Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
+error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected end of JSON input
+SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\src\/index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Tue Feb 01 2022 16:36:30 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":84104},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18667602,"external":20913514,"heapTotal":82784256,"heapUsed":55834608,"rss":116899840},"pid":13320,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected end of JSON input\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-02-01T11:06:30.700Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
+error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected end of JSON input
+SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\src\/index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Tue Feb 01 2022 16:39:07 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":84261},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18707252,"external":20953164,"heapTotal":82522112,"heapUsed":56991504,"rss":117432320},"pid":21828,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected end of JSON input\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-02-01T11:09:07.581Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
+error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected end of JSON input
+SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\src\/index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Tue Feb 01 2022 16:39:34 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":84288},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18695218,"external":20941130,"heapTotal":82784256,"heapUsed":56393800,"rss":115978240},"pid":11572,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected end of JSON input\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-02-01T11:09:34.168Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
+error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token } in JSON at position 14698
+SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token } in JSON at position 14698
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\src\/index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Tue Feb 01 2022 16:46:30 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":84704},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18675027,"external":20920939,"heapTotal":82784256,"heapUsed":56057288,"rss":117694464},"pid":19300,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected token } in JSON at position 14698\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-02-01T11:16:30.363Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
+error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token } in JSON at position 14760
+SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token } in JSON at position 14760
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\src\/index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Tue Feb 01 2022 16:47:02 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":84736},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18668794,"external":20914706,"heapTotal":82784256,"heapUsed":55404536,"rss":117035008},"pid":16692,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected token } in JSON at position 14760\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-02-01T11:17:02.157Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
+error: uncaughtException: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token } in JSON at position 14765
+SyntaxError: D:\Book_Store_App\Book-Store\src\swagger\swagger.json: Unexpected token } in JSON at position 14765
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\src\/index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\Book_Store_App\Book-Store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Tue Feb 01 2022 16:47:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":84755},"process":{"argv":["node","D:\\Book_Store_App\\Book-Store\\src\\index.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18685103,"external":20931015,"heapTotal":82522112,"heapUsed":56001224,"rss":117018624},"pid":13032,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\Book_Store_App\\Book-Store\\src\\swagger\\swagger.json: Unexpected token } in JSON at position 14765\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Book_Store_App\\Book-Store\\src\\/index.js:20:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-02-01T11:17:21.642Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\Book_Store_App\\Book-Store\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}
+error: 
+    status - 500 
+    message - Error: Already Added in Wishlist
+    at _callee14$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:372:15)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/61f64042a99dbd428ca5261c 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T11:21:11.669Z"}
+error: 
+    status - 500 
+    message - Error: Book Not in wishlist
+    at _callee15$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:405:9)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/61f64062a99dbd428ca52620 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-02-01T11:22:00.450Z"}
+error: 
+    status - 500 
+    message - Error: Already Added in Wishlist
+    at _callee14$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:372:15)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/61f64062a99dbd428ca52620 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T11:22:23.330Z"}

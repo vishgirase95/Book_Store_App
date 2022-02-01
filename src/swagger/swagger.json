@@ -577,6 +577,98 @@
           "JWT": []
         }]
       }
+    },
+    "/wishlist/": {
+      "get": {
+        "tags": [
+          "Wishlist"
+        ],
+        "produces": [
+  
+          "application/json"
+        ],
+        "parameters": [{
+          "in": "query",
+          "name": "Wishlist",
+          "description": "Fetching wishlist"
+        }],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
+          },
+          "200": {
+            "description": "valid input"
+          },
+          "500": {
+            "description": "invalid input"
+          }
+        },"security":[{
+          "JWT": []
+        }]
+      }
+    },
+    "/wishlist/{BookID}": {
+      "post": {
+        "tags": [
+          "Wishlist"
+        ],
+        "produces": [
+
+          "application/json"
+        ],
+        "parameters": [{
+            "in": "path",
+            "name": "BookID",
+            "description": "Adding in Wishlist",
+            "type": "string"
+          }
+
+        ],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
+          },
+          "200": {
+            "description": "valid input"
+          },
+          "500": {
+            "description": "invalid input"
+          }
+        },
+        "security": [{
+          "JWT": []
+        }]
+      },"patch": {
+        "tags": [
+          "Wishlist"
+        ],
+        "produces": [
+
+          "application/json"
+        ],
+        "parameters": [{
+            "in": "path",
+            "name": "BookID",
+            "description": "Removing from Wishlist",
+            "type": "string"
+          }
+
+        ],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
+          },
+          "200": {
+            "description": "valid input"
+          },
+          "500": {
+            "description": "invalid input"
+          }
+        },
+        "security": [{
+          "JWT": []
+        }]
+      }
     }
   },
   "securityDefinitions": {
@@ -588,3 +680,7 @@
     }
   }
 }
+
+
+
+
