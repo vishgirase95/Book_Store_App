@@ -63,10 +63,15 @@
             "description": "Created Sucessfully"
           },
           "200": {
-            "description": "valid input"
+            "description": "Sucessfully Executed"
+          },
+            "401":{
+            "description":"Unauthorized"
+          },"404":{
+            "description":"Data Not Found"
           },
           "500": {
-            "description": "invalid input"
+            "description": "Server error"
           }
         }
       }
@@ -100,10 +105,18 @@
         }],
         "responses": {
           "201": {
-            "description": "valid input"
+            "description": "Created Sucessfully"
+          },
+          "200": {
+            "description": "Sucessfully Executed"
+          },
+            "401":{
+            "description":"Unauthorized"
+          },"404":{
+            "description":"Data Not Found"
           },
           "500": {
-            "description": "invalid input"
+            "description": "Server error"
           }
         }
       }
@@ -140,10 +153,15 @@
             "description": "Created Sucessfully"
           },
           "200": {
-            "description": "valid input"
+            "description": "Sucessfully Executed"
+          },
+            "401":{
+            "description":"Unauthorized"
+          },"404":{
+            "description":"Data Not Found"
           },
           "500": {
-            "description": "invalid input"
+            "description": "Server error"
           }
         }
       }
@@ -182,11 +200,19 @@
           }
         }],
         "responses": {
+          "201": {
+            "description": "Created Sucessfully"
+          },
           "200": {
-            "description": "valid input"
+            "description": "Sucessfully Executed"
+          },
+            "401":{
+            "description":"Unauthorized"
+          },"404":{
+            "description":"Data Not Found"
           },
           "500": {
-            "description": "invalid input"
+            "description": "Server error"
           }
         }
       }
@@ -220,10 +246,15 @@
             "description": "Created Sucessfully"
           },
           "200": {
-            "description": "valid input"
+            "description": "Sucessfully Executed"
+          },
+            "401":{
+            "description":"Unauthorized"
+          },"404":{
+            "description":"Data Not Found"
           },
           "500": {
-            "description": "invalid input"
+            "description": "Server error"
           }
         }
       }
@@ -257,10 +288,15 @@
             "description": "Created Sucessfully"
           },
           "200": {
-            "description": "valid input"
+            "description": "Sucessfully Executed"
+          },
+            "401":{
+            "description":"Unauthorized"
+          },"404":{
+            "description":"Data Not Found"
           },
           "500": {
-            "description": "invalid input"
+            "description": "Server error"
           }
         },
         "security": [{
@@ -313,10 +349,15 @@
             "description": "Created Sucessfully"
           },
           "200": {
-            "description": "valid input"
+            "description": "Sucessfully Executed"
+          },
+            "401":{
+            "description":"Unauthorized"
+          },"404":{
+            "description":"Data Not Found"
           },
           "500": {
-            "description": "invalid input"
+            "description": "Server error"
           }
         },
         "security": [{
@@ -341,10 +382,15 @@
             "description": "Created Sucessfully"
           },
           "200": {
-            "description": "valid input"
+            "description": "Sucessfully Executed"
+          },
+            "401":{
+            "description":"Unauthorized"
+          },"404":{
+            "description":"Data Not Found"
           },
           "500": {
-            "description": "invalid input"
+            "description": "Server error"
           }
         }
       }
@@ -368,10 +414,15 @@
             "description": "Created Sucessfully"
           },
           "200": {
-            "description": "valid input"
+            "description": "Sucessfully Executed"
+          },
+            "401":{
+            "description":"Unauthorized"
+          },"404":{
+            "description":"Data Not Found"
           },
           "500": {
-            "description": "invalid input"
+            "description": "Server error"
           }
         }
       },
@@ -427,10 +478,15 @@
             "description": "Created Sucessfully"
           },
           "200": {
-            "description": "valid input"
+            "description": "Sucessfully Executed"
+          },
+            "401":{
+            "description":"Unauthorized"
+          },"404":{
+            "description":"Data Not Found"
           },
           "500": {
-            "description": "invalid input"
+            "description": "Server error"
           }
         },
         "security": [{
@@ -455,8 +511,21 @@
 
         ],
         "responses": {
-          "201": {
-            "description": "Created Sucessfully"
+          "responses": {
+            "201": {
+              "description": "Created Sucessfully"
+            },
+            "200": {
+              "description": "Sucessfully Executed"
+            },
+              "401":{
+              "description":"Unauthorized"
+            },"404":{
+              "description":"Data Not Found"
+            },
+            "500": {
+              "description": "Server error"
+            }
           },
           "200": {
             "description": "valid input"
@@ -502,10 +571,15 @@
             "description": "Created Sucessfully"
           },
           "200": {
-            "description": "valid input"
+            "description": "Sucessfully Executed"
+          },
+            "401":{
+            "description":"Unauthorized"
+          },"404":{
+            "description":"Data Not Found"
           },
           "500": {
-            "description": "invalid input"
+            "description": "Server error"
           }
         },
         "security": [{
@@ -530,10 +604,15 @@
             "description": "Created Sucessfully"
           },
           "200": {
-            "description": "valid input"
+            "description": "Sucessfully Executed"
+          },
+            "401":{
+            "description":"Unauthorized"
+          },"404":{
+            "description":"Data Not Found"
           },
           "500": {
-            "description": "invalid input"
+            "description": "Server error"
           }
         },
         "security": [{
@@ -567,10 +646,15 @@
             "description": "Created Sucessfully"
           },
           "200": {
-            "description": "valid input"
+            "description": "Sucessfully Executed"
+          },
+            "401":{
+            "description":"Unauthorized"
+          },"404":{
+            "description":"Data Not Found"
           },
           "500": {
-            "description": "invalid input"
+            "description": "Server error"
           }
         },
         "security": [{
@@ -597,10 +681,15 @@
             "description": "Created Sucessfully"
           },
           "200": {
-            "description": "valid input"
+            "description": "Sucessfully Executed"
+          },
+            "401":{
+            "description":"Unauthorized"
+          },"404":{
+            "description":"Data Not Found"
           },
           "500": {
-            "description": "invalid input"
+            "description": "Server error"
           }
         },
         "security": [{
@@ -626,10 +715,15 @@
             "description": "Created Sucessfully"
           },
           "200": {
-            "description": "valid input"
+            "description": "Sucessfully Executed"
+          },
+            "401":{
+            "description":"Unauthorized"
+          },"404":{
+            "description":"Data Not Found"
           },
           "500": {
-            "description": "invalid input"
+            "description": "Server error"
           }
         },"security":[{
           "JWT": []
@@ -658,10 +752,15 @@
             "description": "Created Sucessfully"
           },
           "200": {
-            "description": "valid input"
+            "description": "Sucessfully Executed"
+          },
+            "401":{
+            "description":"Unauthorized"
+          },"404":{
+            "description":"Data Not Found"
           },
           "500": {
-            "description": "invalid input"
+            "description": "Server error"
           }
         },
         "security": [{
@@ -688,10 +787,15 @@
             "description": "Created Sucessfully"
           },
           "200": {
-            "description": "valid input"
+            "description": "Sucessfully Executed"
+          },
+            "401":{
+            "description":"Unauthorized"
+          },"404":{
+            "description":"Data Not Found"
           },
           "500": {
-            "description": "invalid input"
+            "description": "Server error"
           }
         },
         "security": [{

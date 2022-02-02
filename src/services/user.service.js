@@ -136,8 +136,8 @@ export const UpdateBook = async (req) => {
       title: req.body.title ? req.body.title : previousData.title,
       image: req.body.image ? req.body.image : previousData.image,
       quantity: req.body.quantity ? req.body.quantity : previousData.quantity,
-      description: req.body.description ?
-        req.body.description : previousData.description
+      price:req.body.price?req.body.price:previousData.price,
+      description: req.body.description ?req.body.description : previousData.description
     }, {
       new: true
     });

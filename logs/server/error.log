@@ -7753,3 +7753,179 @@ error:
       method - PATCH 
       IP - ::1
      {"timestamp":"2022-02-02T08:32:08.147Z"}
+error: 
+      status - 404
+      message - No Cart Added yet 
+      url - /api/v1/cart/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-02T08:50:01.743Z"}
+error: 
+      status - 404
+      message - No cart available for purchase 
+      url - /api/v1/cart/purchase 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-02T08:50:05.492Z"}
+error: 
+      status - 404
+      message - Book Out Of Stock 
+      url - /api/v1/cart/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T08:51:14.909Z"}
+error: 
+      status - 409
+      message - Already Added in Wishlist 
+      url - /api/v1/wishlist/61fa37f859014317cc453593 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T08:57:01.976Z"}
+error: 
+      status - 409
+      message - Already Added in Wishlist 
+      url - /api/v1/wishlist/61fa37f859014317cc453593 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T08:57:34.452Z"}
+error: 
+      status - 404
+      message - Book Not in wishlist 
+      url - /api/v1/wishlist/61fa37f859014317cc453593 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-02T08:57:51.967Z"}
+error: 
+      status - 404
+      message - Book Not in wishlist 
+      url - /api/v1/wishlist/61fa37f859014317cc453593 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-02T08:57:56.992Z"}
+error: 
+      status - 404
+      message - Book Not in wishlist 
+      url - /api/v1/wishlist/61fa37f859014317cc453593 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-02T09:00:54.741Z"}
+error: 
+      status - 401
+      message - User Acess Denied 
+      url - /api/v1/cart/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-02T09:02:33.714Z"}
+error: 
+      status - 401
+      message - User Acess Denied 
+      url - /api/v1/cart/purchase 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-02T09:02:45.775Z"}
+error: 
+      status - 401
+      message - User Acess Denied 
+      url - /api/v1/wishlist/?Wishlist=61fa37f859014317cc453593 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-02T09:02:51.166Z"}
+error: 
+      status - 401
+      message - User Acess Denied 
+      url - /api/v1/wishlist/61fa37f859014317cc453593 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T09:02:55.061Z"}
+error: 
+      status - 401
+      message - User Acess Denied 
+      url - /api/v1/wishlist/61fa37f859014317cc453593 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-02T09:03:01.552Z"}
+error: 
+    status - 500 
+    message - Error: "Email" must be a valid email
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T09:25:40.727Z"}
+error: 
+      status - 401
+      message - User Acess Denied 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T09:27:40.388Z"}
+error: 
+      status - 404
+      message - No Cart Added yet 
+      url - /api/v1/cart/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-02T09:27:51.277Z"}
+error: 
+      status - 409
+      message - Already Added in Wishlist 
+      url - /api/v1/wishlist/61fa37f859014317cc453593 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T09:28:36.183Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/61fa4fa25e2bb1567c223ee1 
+      method - DELETE 
+      IP - ::1
+     {"timestamp":"2022-02-02T09:41:19.567Z"}
+error: 
+      status - 401
+      message - User Acess Denied 
+      url - /api/v1/cart/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T09:41:49.349Z"}
+error: 
+      status - 404
+      message - No Cart Added yet 
+      url - /api/v1/cart/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-02T09:43:19.092Z"}
+error: 
+      status - 404
+      message - Book Not in Cart 
+      url - /api/v1/cart/ 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-02T09:45:08.007Z"}
+error: 
+      status - 409
+      message - Already Added in Wishlist 
+      url - /api/v1/wishlist/61fa37f859014317cc453593 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T09:45:55.220Z"}
+error: 
+      status - 404
+      message - Book Does not exsist 
+      url - /api/v1/wishlist/61fa37f859014317cc453592 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T09:46:03.030Z"}
+error: 
+      status - 404
+      message - Book Not in wishlist 
+      url - /api/v1/wishlist/61fa4fa15e2bb1567c223edf 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-02T09:46:33.314Z"}
