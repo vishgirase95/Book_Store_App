@@ -27,7 +27,11 @@ export const userAuth = (user) => {
         req.body['USER_ID']=TokenVerification.ID;
         next();
       }else{
-        next(Error("User Acess Denied"));
+        throw {
+          code: HttpStatus.UNAUTHORIZED,
+          message: 'User Acess Denied'
+        };
+        
       }
     } catch (error) {
       next(error);

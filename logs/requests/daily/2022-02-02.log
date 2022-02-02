@@ -22,3 +22,227 @@ info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:50:08 +0000] "POST /api/v1/users/user
 
 info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:50:17 +0000] "POST /api/v1/users/user_login HTTP/1.1" 401 53 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:05:09:19 +0000] "POST /api/v1/users/user_login HTTP/1.1" 401 53 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:05:09:22 +0000] "POST /api/v1/users/user_login HTTP/1.1" 401 53 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:05:10:05 +0000] "POST /api/v1/users/user_login HTTP/1.1" - - "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:05:10:07 +0000] "POST /api/v1/users/user_login HTTP/1.1" 401 53 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:05:10:42 +0000] "POST /api/v1/users/user_login HTTP/1.1" - - "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:05:16:19 +0000] "POST /api/v1/users/user_login HTTP/1.1" - - "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:05:16:35 +0000] "POST /api/v1/users/user_login HTTP/1.1" 401 53 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:05:18:08 +0000] "POST /api/v1/users/user_login HTTP/1.1" 404 44 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:05:18:24 +0000] "POST /api/v1/users/user_login HTTP/1.1" 401 43 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:05:50:09 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 404 44 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:05:50:17 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 500 66 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:05:50:39 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 404 44 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:05:51:40 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 404 44 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:05:52:09 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 500 64 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [02/Feb/2022:05:55:45 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 409 48 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:05:57:03 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 409 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:05:57:24 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 409 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:05:57:42 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 409 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:05:59:35 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 409 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:06:00:26 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:06:01:11 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:06:01:37 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 237 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:06:02:06 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:06:03:06 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 409 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:06:07:48 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:06:09:09 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:06:09:10 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:06:10:44 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:06:11:02 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:06:11:58 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:06:12:20 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:06:12:21 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:06:12:47 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 341 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:06:13:42 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:06:14:24 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:06:15:21 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 341 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:06:17:43 +0000] "GET /api/v1/books/ HTTP/1.1" 200 506 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:06:18:55 +0000] "PATCH /api/v1/books/61f64042a99dbd428ca5261c HTTP/1.1" 400 56 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:06:19:39 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:06:19:59 +0000] "PATCH /api/v1/books/61f64042a99dbd428ca5261c HTTP/1.1" 200 281 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:06:20:10 +0000] "PATCH /api/v1/books/61f64042a99dbd428ca526c HTTP/1.1" 500 145 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:06:21:28 +0000] "PATCH /api/v1/books/61f64042a99dbd428ca5261a HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:06:57:13 +0000] "POST /api/v1/books/ HTTP/1.1" 201 279 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:06:58:13 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:06:58:47 +0000] "POST /api/v1/books/ HTTP/1.1" 401 42 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:02:31 +0000] "PATCH /api/v1/books/61f64042a99dbd428ca5261a HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:02:51 +0000] "GET /api/v1/books/ HTTP/1.1" 200 732 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:03:21 +0000] "PATCH /api/v1/books/61f64042a99dbd428ca5261c HTTP/1.1" 200 282 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:04:14 +0000] "PATCH /api/v1/books/61f64042a99dbd428ca5261a HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:13:20 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:16:45 +0000] "POST /api/v1/users/user_login HTTP/1.1" 401 43 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:07:17:08 +0000] "POST /api/v1/users/user_login HTTP/1.1" 404 44 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:25:20 +0000] "PATCH /api/v1/books/61f64042a99dbd428ca5261a HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:25:29 +0000] "PATCH /api/v1/books/61f64042a99dbd428ca5261c HTTP/1.1" 200 282 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:25:47 +0000] "DELETE /api/v1/books/61f64042a99dbd428ca5261a HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:25:56 +0000] "DELETE /api/v1/books/61f64042a99dbd428ca5261c HTTP/1.1" 200 66 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:36:56 +0000] "DELETE /api/v1/books/61f64042a99dbd428ca5261c HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:37:51 +0000] "GET /api/v1/books/?Fetch%20Books=61f64042a99dbd428ca5261c HTTP/1.1" 200 507 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:38:09 +0000] "GET /api/v1/books/61f64042a99dbd428ca5261c HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:38:26 +0000] "GET /api/v1/books/61fa2b49dc9f0c4628aacd3c HTTP/1.1" 200 279 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:41:13 +0000] "DELETE /api/v1/books/61fa2b49dc9f0c4628aacd3c HTTP/1.1" 200 66 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:41:18 +0000] "DELETE /api/v1/books/61fa2b49dc9f0c4628aacd3c HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:41:25 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:41:39 +0000] "GET /api/v1/books/?Fetch%20Books=61f64042a99dbd428ca5261c HTTP/1.1" 200 284 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:41:54 +0000] "DELETE /api/v1/books/61f64054a99dbd428ca5261e HTTP/1.1" 200 66 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:41:59 +0000] "DELETE /api/v1/books/61f64054a99dbd428ca5261e HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:42:20 +0000] "GET /api/v1/books/?Fetch%20Books=61f64042a99dbd428ca5261c HTTP/1.1" 200 64 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:42:24 +0000] "GET /api/v1/books/?Fetch%20Books=61f64042a99dbd428ca5261c HTTP/1.1" 304 - "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:44:04 +0000] "GET /api/v1/books/?Fetch%20Books=61f64042a99dbd428ca5261c HTTP/1.1" 304 - "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:44:38 +0000] "GET /api/v1/books/?Fetch%20Books=61f64042a99dbd428ca5261c HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:46:50 +0000] "POST /api/v1/books/ HTTP/1.1" 201 279 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:47:18 +0000] "POST /api/v1/books/ HTTP/1.1" 201 281 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:47:33 +0000] "POST /api/v1/books/ HTTP/1.1" 201 279 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:47:52 +0000] "POST /api/v1/books/ HTTP/1.1" 201 282 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:48:04 +0000] "GET /api/v1/books/61fa2b49dc9f0c4628aacd3c HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:48:10 +0000] "GET /api/v1/books/?Fetch%20Books=61f64042a99dbd428ca5261c HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:48:16 +0000] "GET /api/v1/books/?Fetch%20Books=61f64042a99dbd428ca5261c HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:48:16 +0000] "GET /api/v1/books/?Fetch%20Books=61f64042a99dbd428ca5261c HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:48:25 +0000] "GET /api/v1/books/ HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:07:48:59 +0000] "GET /api/v1/books/ HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:49:17 +0000] "GET /api/v1/books/ HTTP/1.1" 200 960 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:50:10 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:50:47 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:07:51:08 +0000] "GET /api/v1/books/ HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:51:20 +0000] "POST /api/v1/books/ HTTP/1.1" 201 282 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:51:29 +0000] "POST /api/v1/books/ HTTP/1.1" 201 280 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:07:51:44 +0000] "POST /api/v1/books/ HTTP/1.1" 201 282 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:13:06 +0000] "PATCH /api/v1/books/61f64042a99dbd428ca5261c HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:13:26 +0000] "GET /api/v1/books/ HTTP/1.1" 200 739 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:13:31 +0000] "GET /api/v1/books/61fa2b49dc9f0c4628aacd3c HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:14:42 +0000] "POST /api/v1/cart/ HTTP/1.1" 401 42 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:15:13 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 256 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:15:46 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 384 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:16:13 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 385 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:16:19 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 386 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:16:29 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 387 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:16:29 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 387 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:16:30 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 387 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:16:30 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 387 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:16:30 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 387 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:16:42 +0000] "POST /api/v1/cart/ HTTP/1.1" 404 43 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:17:02 +0000] "POST /api/v1/cart/ HTTP/1.1" 404 42 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:28:45 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 387 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:28:54 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 384 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:29:02 +0000] "GET /api/v1/cart/ HTTP/1.1" 304 - "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:29:57 +0000] "GET /api/v1/cart/ HTTP/1.1" 404 42 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:30:47 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 284 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:31:17 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 404 41 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:31:30 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 281 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:31:44 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 404 41 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:32:04 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 200 94 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:08:32:08 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 404 41 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+

@@ -578,6 +578,35 @@
         }]
       }
     },
+     "/cart/purchase": {
+      "get": {
+        "tags": [
+          "cart"
+        ],
+        "produces": [
+
+          "application/json"
+        ],
+        "parameters": [{
+          "in": "query",
+          "name": "Purchase Cart",
+          "description": "Purchase Cart"
+        }],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
+          },
+          "200": {
+            "description": "valid input"
+          },
+          "500": {
+            "description": "invalid input"
+          }
+        },
+        "security": [{
+          "JWT": []
+        }]
+      }},
     "/wishlist/": {
       "get": {
         "tags": [

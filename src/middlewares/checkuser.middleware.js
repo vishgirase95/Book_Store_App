@@ -1,5 +1,6 @@
 import { error } from 'winston';
 import User from '../models/user.model';
+import HttpStatus from 'http-status-codes';
 
 
 export const checkUser=(user)=>{
@@ -11,10 +12,17 @@ return  async (res, req, next) => {
     if (checkUser.Role === user) {
       next();
     } else {
-      next(Error('User does not exist'));
+      req.status(HttpStatus.UNAUTHORIZED).json({
+        code:HttpStatus.UNAUTHORIZED,
+        message:'User access denied'
+      })
     }
   } else {
-    next(Error('User does not exist'));
+    req.status(HttpStatus.NOT_FOUND).json({
+      code:HttpStatus.NOT_FOUND,
+      message:'User does not exist'
+    })
+   
   }
 };
 }

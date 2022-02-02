@@ -7305,3 +7305,451 @@ error:
       method - POST 
       IP - ::ffff:127.0.0.1
      {"timestamp":"2022-02-02T04:50:17.541Z"}
+error: 
+      status - 401
+      message - Please enter corret Password 
+      url - /api/v1/users/user_login 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-02T05:09:19.101Z"}
+error: 
+      status - 401
+      message - Please enter corret Password 
+      url - /api/v1/users/user_login 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-02T05:09:22.374Z"}
+error: 
+      status - 401
+      message - Please enter corret Password 
+      url - /api/v1/users/user_login 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-02T05:10:07.620Z"}
+error: 
+      status - 401
+      message - Please enter corret Password 
+      url - /api/v1/users/user_login 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-02T05:16:34.996Z"}
+error: 
+      status - 404
+      message - User Already Exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-02T05:50:09.956Z"}
+error: 
+    status - 500 
+    message - Error: "Email" must be a valid email
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-02T05:50:17.627Z"}
+error: 
+      status - 404
+      message - User Already Exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-02T05:50:39.444Z"}
+error: 
+      status - 404
+      message - User Already Exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-02T05:51:40.349Z"}
+error: 
+    status - 500 
+    message - Error: "LastName" must be a string
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-02T05:52:09.382Z"}
+error: 
+      status - 409
+      message - Mail id does not exsist 
+      url - /api/v1/users/forgetpassword 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T05:55:45.965Z"}
+error: 
+      status - 409
+      message - Mail id does not exsist 
+      url - /api/v1/users/forgetpassword 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T05:57:03.948Z"}
+error: 
+      status - 409
+      message - Mail id does not exsist 
+      url - /api/v1/users/forgetpassword 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T05:57:24.235Z"}
+error: 
+      status - 409
+      message - Mail id does not exsist 
+      url - /api/v1/users/forgetpassword 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T05:57:42.403Z"}
+error: 
+      status - 409
+      message - Mail id does not exsist 
+      url - /api/v1/users/forgetpassword 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T05:59:35.796Z"}
+error: 
+      status - 409
+      message - Mail id does not exsist 
+      url - /api/v1/users/forgetpassword 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T06:03:06.583Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:95:29)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T06:07:48.078Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:95:29)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T06:09:09.259Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:95:29)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T06:09:10.287Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:95:29)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T06:10:44.858Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:95:29)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T06:11:02.288Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:95:29)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T06:11:58.373Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:95:29)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T06:13:42.764Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/61f64042a99dbd428ca5261c 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-02T06:18:55.433Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/books/61f64042a99dbd428ca526c 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-02-02T06:20:10.039Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/61f64042a99dbd428ca5261a 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-02T06:21:28.400Z"}
+error: 
+      status - 401
+      message - User Acess Denied 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T06:58:47.449Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/61f64042a99dbd428ca5261a 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-02T07:02:31.609Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/61f64042a99dbd428ca5261a 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-02T07:04:14.403Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/61f64042a99dbd428ca5261a 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-02T07:25:20.727Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/61f64042a99dbd428ca5261a 
+      method - DELETE 
+      IP - ::1
+     {"timestamp":"2022-02-02T07:25:47.627Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/61f64042a99dbd428ca5261c 
+      method - DELETE 
+      IP - ::1
+     {"timestamp":"2022-02-02T07:36:56.545Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/61f64042a99dbd428ca5261c 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-02T07:38:09.975Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/61fa2b49dc9f0c4628aacd3c 
+      method - DELETE 
+      IP - ::1
+     {"timestamp":"2022-02-02T07:41:18.378Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/61f64054a99dbd428ca5261e 
+      method - DELETE 
+      IP - ::1
+     {"timestamp":"2022-02-02T07:41:59.015Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/?Fetch%20Books=61f64042a99dbd428ca5261c 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-02T07:44:38.739Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/61fa2b49dc9f0c4628aacd3c 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-02T07:48:04.042Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/?Fetch%20Books=61f64042a99dbd428ca5261c 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-02T07:48:10.098Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/?Fetch%20Books=61f64042a99dbd428ca5261c 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-02T07:48:16.626Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/?Fetch%20Books=61f64042a99dbd428ca5261c 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-02T07:48:16.805Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-02T07:48:25.973Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-02T07:48:58.990Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-02T07:51:08.346Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/61f64042a99dbd428ca5261c 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-02T08:13:06.990Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/61fa2b49dc9f0c4628aacd3c 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-02T08:13:31.630Z"}
+error: 
+      status - 401
+      message - User Acess Denied 
+      url - /api/v1/cart/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T08:14:42.692Z"}
+error: 
+      status - 404
+      message - Book Not Available 
+      url - /api/v1/cart/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T08:16:42.237Z"}
+error: 
+      status - 404
+      message - Book Out Of Stock 
+      url - /api/v1/cart/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T08:17:02.507Z"}
+error: 
+      status - 404
+      message - No Cart Added yet 
+      url - /api/v1/cart/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-02T08:29:57.460Z"}
+error: 
+      status - 404
+      message - Book Not in Cart 
+      url - /api/v1/cart/ 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-02T08:31:17.748Z"}
+error: 
+      status - 404
+      message - Book Not in Cart 
+      url - /api/v1/cart/ 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-02T08:31:44.714Z"}
+error: 
+      status - 404
+      message - Book Not in Cart 
+      url - /api/v1/cart/ 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-02T08:32:08.147Z"}

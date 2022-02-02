@@ -82,7 +82,11 @@ export const forgetPassword = async (body) => {
     mailSend(mailVerify.Email, FORGETPASSWORD_TOKEN);
     return FORGETPASSWORD_TOKEN;
   } else {
-    throw Error('Mail id does not exsist');
+    throw{
+      code:HttpStatus.CONFLICT,
+      message:'Mail id does not exsist'
+    }
+  
   }
 };
 
@@ -107,7 +111,11 @@ export const resetPassword = async (req) => {
     });
     return findAndUpdatePassword;
   } else {
-    throw Error('Cannot reset password');
+    throw{
+      code:HttpStatus.UNAUTHORIZED,
+      message:'sorry, token not verified'
+    }
+    
   }
 };
 
@@ -135,7 +143,11 @@ export const UpdateBook = async (req) => {
     });
     return data;
   } else {
-    throw Error('Book not found');
+    throw{
+      code:HttpStatus.NOT_FOUND,
+      message:"Book not found"
+    }
+    
   }
 };
 
@@ -146,7 +158,10 @@ export const DeleteBook = async (req) => {
   if (data) {
     return 'Book Deleted';
   } else {
-    throw Error('Book not found');
+    throw{
+      code:HttpStatus.NOT_FOUND,
+      message:"Book not found"
+    }
   }
 };
 
@@ -158,16 +173,23 @@ export const fetchByID = async (req) => {
   if (data) {
     return data;
   } else {
-    throw Error('Book not found');
+    throw{
+      code:HttpStatus.NOT_FOUND,
+      message:"Book not found"
+    }
   }
 };
 
 export const FetchAllBooks = async () => {
   const data = await Book.find();
-  if (data) {
+  console.log("length",data.length)
+  if (data.length!==0) {
     return data;
   } else {
-    throw Error('Books not found');
+    throw{
+      code:HttpStatus.NOT_FOUND,
+      message:"Book not found"
+    }
   }
 };
 
@@ -273,9 +295,17 @@ if(Book_Available){
     await user_Active_Cart.save();
 
   } else {
-    throw Error('Book Out Of Stock');
+    throw{
+      code:HttpStatus.NOT_FOUND,
+      message:"Book Out Of Stock"
+    }
+    
   }}else{
-    throw Error("Book Not Available")
+    throw{
+      code:HttpStatus.NOT_FOUND,
+      message:"Book Not Available"
+    }
+    
   }
 
   const BookInStock = Book_Available.quantity - body.Quantity;
@@ -299,7 +329,11 @@ export const getCart = async (body) => {
   if (Previous_Cart) {
     return Previous_Cart;
   } else {
-    throw (Error("No Cart Added"));
+    throw{
+      code:HttpStatus.NOT_FOUND,
+      message:"No Cart Added yet"
+    }
+    
   }
 }
 
@@ -330,7 +364,11 @@ export const removeBook = async (body) => {
 
     return "Removed Book Sucessfully"
   } else {
-    throw (Error("Book Not in Cart"))
+    throw{
+      code:HttpStatus.NOT_FOUND,
+      message:"Book Not in Cart"
+    }
+    
   }
 }
 
@@ -343,7 +381,11 @@ export const purchase = async (body) => {
     user_Active_Cart.save();
     return user_Active_Cart;
   } else {
-    throw (Error("cart not present"));
+    throw{
+      code:HttpStatus.NOT_FOUND,
+      message:"No cart available for purchase"
+    }
+    
   }
 }
 
@@ -379,7 +421,11 @@ export const AddToWishlist = async (req) => {
         user_Active_WishList.Book.push(newBook);
         await user_Active_WishList.save();
       }else{
-        throw(Error("Already Added in Wishlist"))
+        throw{
+          code:HttpStatus.CONFLICT,
+          message:"Already Added in Wishlist"
+        }
+        
       }
     }
     const user_Final_WishList = await WishList.findOne({
@@ -388,7 +434,11 @@ export const AddToWishlist = async (req) => {
     return user_Final_WishList;
 
   } else {
-    throw (Error("Book Does not exsist"))
+    throw{
+      code:HttpStatus.NOT_FOUND,
+      message:"Book Does not exsist"
+    }
+    
   }
 
 }
@@ -410,13 +460,21 @@ if(Book_Already_WishList.length!==0){
       }
     }
   })
-  return "Removed from Wishlist"
+  return "Removed Book from Wishlist"
 }else{
-  throw(Error("Book Not in wishlist"))
+  throw{
+    code:HttpStatus.NOT_FOUND,
+    message:"Book Not in wishlist"
+  }
+  
 
 }
 }else{
-  throw(Error("No Wishlist Present"))
+  throw{
+    code:HttpStatus.NOT_FOUND,
+    message:"No Wishlist Present"
+  }
+  
 }
 
 }
@@ -429,6 +487,10 @@ export const fetchWishList= async(body)=>{
   if(user_Active_WishList){
     return user_Active_WishList;
   }else{
-    throw (Error("Wishlist does not created"))
+    throw{
+      code:HttpStatus.NOT_FOUND,
+      message:"Wishlist does not created"
+    }
+    
   }
 }
