@@ -7415,3 +7415,32 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-02-01T18:15:25.667Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/61f64062a99dbd428ca52620 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-02T04:20:10.837Z"}
+error: 
+    status - 500 
+    message - Error: User Acess Denied
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:30:14)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/61f64062a99dbd428ca52620 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-02T04:21:19.086Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/61f64062a99dbd428ca52620 
+      method - PATCH 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-02T04:21:52.760Z"}

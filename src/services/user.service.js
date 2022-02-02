@@ -8,6 +8,7 @@ import dotenv from 'dotenv';
 import {
   mailSend
 } from '../utils/sendmail.util.js';
+import HttpStatus from 'http-status-codes';
 
 dotenv.config('../.env');
 
@@ -125,7 +126,10 @@ export const UpdateBook = async (req) => {
     });
     return data;
   } else {
-    throw Error('Book not found');
+    throw{
+      code: HttpStatus.NOT_FOUND,
+      message:"Book not found"
+    }
   }
 };
 

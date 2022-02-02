@@ -1,0 +1,66 @@
+info: ::1 - - [02/Feb/2022:02:47:25 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "PostmanRuntime/7.29.0"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:34 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:34 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:34 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:34 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:35 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:35 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:35 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:35 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:35 +0000] "POST /api/v1/books/ HTTP/1.1" 201 290 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:35 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:35 +0000] "PATCH /api/v1/books/61fa04774b7f1e2ab830eeb5 HTTP/1.1" 200 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:35 +0000] "GET /api/v1/books/ HTTP/1.1" 200 296 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:35 +0000] "GET /api/v1/books/61fa04774b7f1e2ab830eeb5 HTTP/1.1" 200 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:35 +0000] "POST /api/v1/wishlist/61fa04774b7f1e2ab830eeb5 HTTP/1.1" 201 231 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:35 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:35 +0000] "PATCH /api/v1/wishlist/61fa04774b7f1e2ab830eeb5 HTTP/1.1" 200 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:35 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 281 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:35 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 278 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:35 +0000] "GET /api/v1/cart/purchase HTTP/1.1" 200 276 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:35 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:35 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:11:35 +0000] "DELETE /api/v1/books/61fa04774b7f1e2ab830eeb5 HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [02/Feb/2022:04:17:48 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 401 53 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:04:18:00 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:04:18:37 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:04:19:46 +0000] "PATCH /api/v1/books/61f64062a99dbd428ca52620 HTTP/1.1" 200 281 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:04:20:04 +0000] "DELETE /api/v1/books/61f64062a99dbd428ca52620 HTTP/1.1" 200 66 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:04:20:10 +0000] "PATCH /api/v1/books/61f64062a99dbd428ca52620 HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:21:01 +0000] "PATCH /api/v1/book/61f64062a99dbd428ca52620 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:21:19 +0000] "PATCH /api/v1/books/61f64062a99dbd428ca52620 HTTP/1.1" 500 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:21:52 +0000] "PATCH /api/v1/books/61f64062a99dbd428ca52620 HTTP/1.1" 404 39 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [02/Feb/2022:04:26:11 +0000] "POST /api/v1/users/user_login HTTP/1.1" 404 44 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
