@@ -1,0 +1,24 @@
+info: ::1 - - [02/Feb/2022:04:39:14 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 500 66 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:04:39:54 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 404 44 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:04:42:20 +0000] "POST /api/v1/users/user_login HTTP/1.1" 401 53 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:04:42:29 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 256 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:43:37 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:45:02 +0000] "GET /api/v1/users/user_login HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:49:36 +0000] "GET /api/v1/users/user_login HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:49:40 +0000] "POST /api/v1/users/user_login HTTP/1.1" 401 53 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:49:48 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 256 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:49:55 +0000] "POST /api/v1/users/user_login HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:50:08 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 256 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2022:04:50:17 +0000] "POST /api/v1/users/user_login HTTP/1.1" 401 53 "-" "Thunder Client (https://www.thunderclient.com)"
+

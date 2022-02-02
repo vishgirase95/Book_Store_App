@@ -8,6 +8,8 @@ import dotenv from 'dotenv';
 import {
   mailSend
 } from '../utils/sendmail.util.js';
+import HttpStatus from 'http-status-codes';
+
 
 dotenv.config('../.env');
 
@@ -20,7 +22,11 @@ export const newUser = async (body) => {
     Email: body.Email
   });
   if (checkUser) {
-    throw Error('User Already Exsist');
+    throw{
+      code: HttpStatus.NOT_FOUND,
+      message:"User Already Exsist"
+    }
+    
   } else {
     const unHashedPassword = body.Password;
     const saltRounds = 10;
@@ -52,7 +58,11 @@ export const login = async (body) => {
 
     return token;
   } else {
-    throw Error('Please enter corret mail id or password');
+    throw{
+      code:HttpStatus.UNAUTHORIZED,
+      message:'Please enter corret Password'
+    }
+    
   }
 };
 

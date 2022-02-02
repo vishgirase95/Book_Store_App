@@ -10755,3 +10755,68 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T1
 info: Connected to the database. {"timestamp":"2022-02-01T15:43:24.069Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T15:52:25.154Z"}
 info: Connected to the database. {"timestamp":"2022-02-01T15:52:25.182Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:38:14.932Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:38:14.958Z"}
+error: 
+    status - 500 
+    message - Error: "Email" must be a valid email
+    at new exports.ValidationError (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\Book_Store_App\Book-Store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\Book_Store_App\Book-Store\src\validators\/user.validator.js:11:35)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T04:39:14.334Z"}
+error: 
+      status - 404
+      message - User Already Exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T04:39:54.862Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:41:03.586Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:41:03.626Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:41:36.672Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:41:36.713Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:42:02.257Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:42:02.285Z"}
+error: 
+      status - 401
+      message - Please enter corret Password 
+      url - /api/v1/users/user_login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T04:42:20.420Z"}
+error: 
+      status - 401
+      message - Please enter corret Password 
+      url - /api/v1/users/user_login 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-02T04:49:40.411Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/checkuser.middleware.js:17:10)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-02T04:49:55.241Z"}
+error: 
+      status - 401
+      message - Please enter corret Password 
+      url - /api/v1/users/user_login 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-02T04:50:17.541Z"}
