@@ -137,7 +137,7 @@ export const UpdateBook = async (req) => {
     _id: req.params._id
   });
   if (previousData) {
-    console.log("req author",req.body)
+  
     const data = await Book.findOneAndUpdate({
       _id: req.params._id
     }, {
@@ -191,7 +191,6 @@ export const fetchByID = async (req) => {
 
 export const FetchAllBooks = async () => {
   const data = await Book.find();
-  console.log("length",data.length)
   if (data.length!==0) {
     return data;
   } else {
@@ -336,6 +335,7 @@ export const getCart = async (body) => {
     UserID: body.USER_ID
   });
   if (Previous_Cart) {
+    
     return Previous_Cart;
   } else {
     throw{

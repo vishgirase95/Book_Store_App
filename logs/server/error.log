@@ -9391,3 +9391,135 @@ Error: ENOENT: no such file or directory, open 'Book_Store_App\Book-Store\tests\
     at Server.emit (events.js:375:28)
     at emitCloseNT (net.js:1661:8)
     at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Fri Feb 04 2022 15:25:44 GMT+0530 (India Standard Time)","error":{"code":"ENOENT","errno":-4058,"path":"Book_Store_App\\Book-Store\\tests\\integration\\testImage\\circle.png","syscall":"open"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":339053},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Book_Store_App\\Book-Store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18404083,"external":20086538,"heapTotal":158679040,"heapUsed":95407888,"rss":193900544},"pid":13100,"uid":null,"version":"v14.17.3"},"stack":"Error: ENOENT: no such file or directory, open 'Book_Store_App\\Book-Store\\tests\\integration\\testImage\\circle.png'\n    at Object.openSync (fs.js:498:3)\n    at Object.readFileSync (fs.js:394:35)\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:126:16)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-02-04T09:55:44.252Z","trace":[{"column":3,"file":"fs.js","function":"Object.openSync","line":498,"method":"openSync","native":false},{"column":35,"file":"fs.js","function":"Object.readFileSync","line":394,"method":"readFileSync","native":false},{"column":16,"file":"D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js","function":null,"line":126,"method":null,"native":false},{"column":6,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+      status - 404
+      message - User Already Exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T15:30:35.697Z"}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (D:\Book_Store_App\Book-Store\tests\integration\/user.test.js:53:40)
+    at Test.assert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Fri Feb 04 2022 21:00:35 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":359144},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Book_Store_App\\Book-Store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18382627,"external":20065082,"heapTotal":159727616,"heapUsed":92453744,"rss":193929216},"pid":20016,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-02-04T15:30:35.731Z","trace":[{"column":40,"file":"D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js","function":null,"line":53,"method":null,"native":false},{"column":6,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: ENOENT: no such file or directory, open 'tests\integration\testImage\circle.png'
+Error: ENOENT: no such file or directory, open 'tests\integration\testImage\circle.png'
+    at Object.openSync (fs.js:498:3)
+    at Object.readFileSync (fs.js:394:35)
+    at Test.<anonymous> (D:\Book_Store_App\Book-Store\tests\integration\/user.test.js:127:16)
+    at Test.assert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Book_Store_App\Book-Store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Fri Feb 04 2022 21:02:23 GMT+0530 (India Standard Time)","error":{"code":"ENOENT","errno":-4058,"path":"tests\\integration\\testImage\\circle.png","syscall":"open"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":359252},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Book_Store_App\\Book-Store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\Book_Store_App\\Book-Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18404083,"external":20086538,"heapTotal":159989760,"heapUsed":95214488,"rss":192430080},"pid":23092,"uid":null,"version":"v14.17.3"},"stack":"Error: ENOENT: no such file or directory, open 'tests\\integration\\testImage\\circle.png'\n    at Object.openSync (fs.js:498:3)\n    at Object.readFileSync (fs.js:394:35)\n    at Test.<anonymous> (D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js:127:16)\n    at Test.assert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-02-04T15:32:23.223Z","trace":[{"column":3,"file":"fs.js","function":"Object.openSync","line":498,"method":"openSync","native":false},{"column":35,"file":"fs.js","function":"Object.readFileSync","line":394,"method":"readFileSync","native":false},{"column":16,"file":"D:\\Book_Store_App\\Book-Store\\tests\\integration\\/user.test.js","function":null,"line":127,"method":null,"native":false},{"column":6,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Book_Store_App\\Book-Store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/61fbd1ea7a4f211a7823622c 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:30:13.336Z"}
+error: 
+      status - 404
+      message - Book Not in wishlist 
+      url - /api/v1/wishlist/61fd055b94db07354c723a8c 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:31:47.621Z"}
+error: 
+      status - 409
+      message - Already Added in Wishlist 
+      url - /api/v1/wishlist/61fbd1ea7a4f211a7823622c 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:31:56.185Z"}
+error: 
+      status - 404
+      message - Book Not in wishlist 
+      url - /api/v1/wishlist/61fd055b94db07354c723a8c 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:32:01.097Z"}
+error: 
+      status - 404
+      message - Book Does not exsist 
+      url - /api/v1/wishlist/61fa37f859014317cc453593 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:32:40.976Z"}
+error: 
+      status - 404
+      message - Book Does not exsist 
+      url - /api/v1/wishlist/61fa4eed5e2bb1567c223ed9 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:33:16.541Z"}
+error: 
+      status - 409
+      message - Already Added in Wishlist 
+      url - /api/v1/wishlist/61fd055b94db07354c723a8c 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:34:03.636Z"}
+error: 
+      status - 404
+      message - Book Not in wishlist 
+      url - /api/v1/wishlist/61fd055b94db07354c723a8c 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:34:18.676Z"}
+error: 
+      status - 404
+      message - No cart available for purchase 
+      url - /api/v1/cart/purchase 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:41:40.169Z"}
+error: 
+      status - 404
+      message - No Cart Added yet 
+      url - /api/v1/cart/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:41:50.158Z"}
+error: 
+      status - 404
+      message - Book Not Available 
+      url - /api/v1/cart/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:42:10.973Z"}
+error: 
+      status - 404
+      message - Book Out Of Stock 
+      url - /api/v1/cart/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:43:18.525Z"}
+error: 
+      status - 404
+      message - Book Out Of Stock 
+      url - /api/v1/cart/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:46:24.154Z"}
+error: 
+      status - 401
+      message - User Acess Denied 
+      url - /api/v1/books/61fbdefc6004d71df84a1e69 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:50:06.928Z"}
+error: 
+      status - 404
+      message - User Already Exsist 
+      url - /api/v1/users/admin_registration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:51:36.572Z"}

@@ -274,3 +274,964 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T1
 info: Connected to the database. {"timestamp":"2022-02-04T10:50:10.443Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T10:59:38.547Z"}
 info: Connected to the database. {"timestamp":"2022-02-04T10:59:38.659Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T15:30:34.233Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T15:30:34.403Z"}
+error: 
+      status - 404
+      message - User Already Exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T15:30:35.697Z"}
+error: 
+      status - 409
+      message - Mail id does not exsist 
+      url - /api/v1/users/forgetpassword 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T15:30:36.138Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:95:29)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (D:\Book_Store_App\Book-Store\src\services\/user.service.js:93:27)
+    at _callee4$ (D:\Book_Store_App\Book-Store\src\controllers\/user.controller.js:55:36)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at resetPassword (D:\Book_Store_App\Book-Store\src\controllers\/user.controller.js:53:27)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at logger (D:\Book_Store_App\Book-Store\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:224:16)
+    at done (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T15:30:36.178Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:24:36)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:15:3
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:281:22
+    at param (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:360:14)
+    at param (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:371:14)
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:416:3)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at logger (D:\Book_Store_App\Book-Store\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\types\json.js:119:7)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\types\urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at contentSecurityPolicyMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\content-security-policy\index.js:124:4)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at helmetMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:147:6)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:188:7)
+    at D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:214:15)
+    at D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\Book_Store_App\Book-Store\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\Book_Store_App\Book-Store\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\application.js:174:10)
+    at Server.app (D:\Book_Store_App\Book-Store\node_modules\express\lib\express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17) 
+    url - /api/v1/wishlist/61fd469cc772bc4e307bc45f 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T15:30:36.741Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:24:36)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:15:3
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at logger (D:\Book_Store_App\Book-Store\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at contentSecurityPolicyMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\content-security-policy\index.js:124:4)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at helmetMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:147:6)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:188:7)
+    at D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:214:15)
+    at D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\Book_Store_App\Book-Store\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\Book_Store_App\Book-Store\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\application.js:174:10)
+    at Server.app (D:\Book_Store_App\Book-Store\node_modules\express\lib\express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17) 
+    url - /api/v1/wishlist/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T15:30:36.864Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:24:36)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:15:3
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:281:22
+    at param (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:360:14)
+    at param (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:371:14)
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:416:3)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at logger (D:\Book_Store_App\Book-Store\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\types\json.js:119:7)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\types\urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at contentSecurityPolicyMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\content-security-policy\index.js:124:4)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at helmetMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:147:6)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:188:7)
+    at D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:214:15)
+    at D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\Book_Store_App\Book-Store\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\Book_Store_App\Book-Store\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\application.js:174:10)
+    at Server.app (D:\Book_Store_App\Book-Store\node_modules\express\lib\express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17) 
+    url - /api/v1/wishlist/61fd469cc772bc4e307bc45f 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T15:30:36.951Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:24:36)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:15:3
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at logger (D:\Book_Store_App\Book-Store\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:224:16)
+    at done (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T15:30:37.013Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:24:36)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:15:3
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at logger (D:\Book_Store_App\Book-Store\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at contentSecurityPolicyMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\content-security-policy\index.js:124:4)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at helmetMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:147:6)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:188:7)
+    at D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:214:15)
+    at D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\Book_Store_App\Book-Store\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\Book_Store_App\Book-Store\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\application.js:174:10)
+    at Server.app (D:\Book_Store_App\Book-Store\node_modules\express\lib\express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17) 
+    url - /api/v1/cart/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T15:30:37.088Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:24:36)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:15:3
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at logger (D:\Book_Store_App\Book-Store\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at contentSecurityPolicyMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\middlewares\content-security-policy\index.js:124:4)
+    at internalNext (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:145:6)
+    at helmetMiddleware (D:\Book_Store_App\Book-Store\node_modules\helmet\dist\index.js:147:6)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:188:7)
+    at D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:214:15)
+    at D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\Book_Store_App\Book-Store\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\Book_Store_App\Book-Store\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at query (D:\Book_Store_App\Book-Store\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\application.js:174:10)
+    at Server.app (D:\Book_Store_App\Book-Store\node_modules\express\lib\express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17) 
+    url - /api/v1/cart/purchase 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T15:30:37.193Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\Book_Store_App\Book-Store\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:24:36)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at D:\Book_Store_App\Book-Store\src\middlewares\/auth.middleware.js:15:3
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at logger (D:\Book_Store_App\Book-Store\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:323:13)
+    at D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\Book_Store_App\Book-Store\node_modules\express\lib\router\index.js:275:10)
+    at D:\Book_Store_App\Book-Store\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:224:16)
+    at done (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Book_Store_App\Book-Store\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T15:30:37.290Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T15:31:12.054Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T15:31:12.145Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T15:32:22.420Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T15:32:22.513Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T15:32:23.449Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T15:32:23.486Z"}
+error: 
+      status - 404
+      message - Wishlist does not created 
+      url - /api/v1/wishlist/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T15:32:23.575Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "" (type string) at path "_id" for model "Book"
+    at model.Query.exec (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T15:32:23.648Z"}
+error: 
+      status - 404
+      message - No Cart Added yet 
+      url - /api/v1/cart/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T15:32:23.693Z"}
+error: 
+      status - 404
+      message - No cart available for purchase 
+      url - /api/v1/cart/purchase 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T15:32:23.729Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Book' of null
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:354:54)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T15:32:23.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T15:32:45.369Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T15:32:45.456Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T15:34:01.523Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T15:34:01.675Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T15:34:41.013Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T15:34:41.142Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T15:34:54.039Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T15:34:54.166Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T15:35:07.741Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T15:35:07.871Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T15:36:13.634Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T15:36:13.866Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T15:36:29.999Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T15:36:30.140Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T15:37:19.676Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T15:37:19.788Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T15:37:38.347Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T15:37:38.469Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/61fbd1ea7a4f211a7823622c 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:30:13.336Z"}
+error: 
+      status - 404
+      message - Book Not in wishlist 
+      url - /api/v1/wishlist/61fd055b94db07354c723a8c 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:31:47.621Z"}
+error: 
+      status - 409
+      message - Already Added in Wishlist 
+      url - /api/v1/wishlist/61fbd1ea7a4f211a7823622c 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:31:56.185Z"}
+error: 
+      status - 404
+      message - Book Not in wishlist 
+      url - /api/v1/wishlist/61fd055b94db07354c723a8c 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:32:01.097Z"}
+error: 
+      status - 404
+      message - Book Does not exsist 
+      url - /api/v1/wishlist/61fa37f859014317cc453593 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:32:40.976Z"}
+error: 
+      status - 404
+      message - Book Does not exsist 
+      url - /api/v1/wishlist/61fa4eed5e2bb1567c223ed9 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:33:16.541Z"}
+error: 
+      status - 409
+      message - Already Added in Wishlist 
+      url - /api/v1/wishlist/61fd055b94db07354c723a8c 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:34:03.636Z"}
+error: 
+      status - 404
+      message - Book Not in wishlist 
+      url - /api/v1/wishlist/61fd055b94db07354c723a8c 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:34:18.676Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T16:38:59.395Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T16:38:59.431Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T16:41:35.433Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T16:41:35.476Z"}
+error: 
+      status - 404
+      message - No cart available for purchase 
+      url - /api/v1/cart/purchase 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:41:40.169Z"}
+error: 
+      status - 404
+      message - No Cart Added yet 
+      url - /api/v1/cart/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:41:50.158Z"}
+error: 
+      status - 404
+      message - Book Not Available 
+      url - /api/v1/cart/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:42:10.973Z"}
+error: 
+      status - 404
+      message - Book Out Of Stock 
+      url - /api/v1/cart/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:43:18.525Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T16:44:44.324Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T16:44:44.356Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T16:45:20.825Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T16:45:20.862Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T16:46:02.106Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T16:46:02.168Z"}
+error: 
+      status - 404
+      message - Book Out Of Stock 
+      url - /api/v1/cart/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:46:24.154Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T16:48:35.442Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T16:48:35.477Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T16:48:49.327Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T16:48:49.455Z"}
+error: 
+      status - 401
+      message - User Acess Denied 
+      url - /api/v1/books/61fbdefc6004d71df84a1e69 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:50:06.928Z"}
+error: 
+      status - 404
+      message - User Already Exsist 
+      url - /api/v1/users/admin_registration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T16:51:36.572Z"}

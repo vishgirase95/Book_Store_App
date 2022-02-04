@@ -5,8 +5,8 @@ import app from '../../src/index';
 
 import fs from 'fs';
 
-const rawdata = fs.readFileSync('./../BOOK-STORE/src/utils/data.json');
-// const img = 
+const rawdata = fs.readFileSync('tests\\integration\\testData\\data.json');
+
 
 const jsondata = JSON.parse(rawdata);
 describe('User APIs Test', () => {
