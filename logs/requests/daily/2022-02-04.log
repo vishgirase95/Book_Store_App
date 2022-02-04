@@ -1,0 +1,652 @@
+info: ::1 - - [04/Feb/2022:07:36:48 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 444 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [04/Feb/2022:07:37:26 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 444 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [04/Feb/2022:07:37:52 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 444 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [04/Feb/2022:07:41:19 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 441 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [04/Feb/2022:07:41:41 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 441 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [04/Feb/2022:07:55:10 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 442 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [04/Feb/2022:07:55:31 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 440 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [04/Feb/2022:08:25:27 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 440 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [04/Feb/2022:08:25:40 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 446 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [04/Feb/2022:08:27:19 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:08:27:19 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:08:27:42 +0000] "GET /api/v1/books/ HTTP/1.1" 200 1921 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:08:28:05 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 446 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:08:31:26 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:08:32:20 +0000] "GET /api/v1/books/ HTTP/1.1" 200 1921 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:08:32:25 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:08:32:59 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 458 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:08:32:59 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 458 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:08:33:30 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 458 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:08:38:38 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 459 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:08:42:28 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 455 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [04/Feb/2022:08:43:01 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 455 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [04/Feb/2022:08:45:20 +0000] "GET /api/v1/books/ HTTP/1.1" 200 1930 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:08:46:01 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 471 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:08:46:59 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 455 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [04/Feb/2022:08:47:31 +0000] "DELETE /api/v1/books/%7B_id%7D HTTP/1.1" 500 138 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:08:48:12 +0000] "DELETE /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 200 66 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:08:50:31 +0000] "DELETE /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:08:50:41 +0000] "PATCH /api/v1/books/61fbcac7837a9231b40a2b07 HTTP/1.1" 404 39 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:42 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:43 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:43 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:43 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:43 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:43 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:43 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:43 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:43 +0000] "POST /api/v1/books/ HTTP/1.1" 201 275 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:44 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:44 +0000] "PATCH /api/v1/books/61fcf18fc808bc3ac05a1a6c HTTP/1.1" 200 287 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:44 +0000] "GET /api/v1/books/ HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:44 +0000] "GET /api/v1/books/61fcf18fc808bc3ac05a1a6c HTTP/1.1" 200 287 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:44 +0000] "POST /api/v1/wishlist/61fcf18fc808bc3ac05a1a6c HTTP/1.1" 201 231 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:44 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:44 +0000] "PATCH /api/v1/wishlist/61fcf18fc808bc3ac05a1a6c HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:44 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 281 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:44 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 278 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:44 +0000] "GET /api/v1/cart/purchase HTTP/1.1" 200 276 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:44 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:44 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:27:44 +0000] "DELETE /api/v1/books/61fcf18fc808bc3ac05a1a6c HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:14 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:14 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:14 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:14 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:14 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:15 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:15 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:15 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:15 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:15 +0000] "PATCH /api/v1/books/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:16 +0000] "GET /api/v1/books/ HTTP/1.1" 404 39 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:16 +0000] "GET /api/v1/books/ HTTP/1.1" 404 39 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:16 +0000] "POST /api/v1/wishlist/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:16 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 404 50 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:16 +0000] "PATCH /api/v1/wishlist/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:16 +0000] "POST /api/v1/cart/ HTTP/1.1" 500 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:16 +0000] "GET /api/v1/cart/ HTTP/1.1" 404 42 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:16 +0000] "GET /api/v1/cart/purchase HTTP/1.1" 404 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:16 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 500 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:16 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:16 +0000] "DELETE /api/v1/books/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:38 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:39 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:39 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:39 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:39 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:39 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:39 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:39 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:39 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:39 +0000] "PATCH /api/v1/books/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:39 +0000] "GET /api/v1/books/ HTTP/1.1" 404 39 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:39 +0000] "GET /api/v1/books/ HTTP/1.1" 404 39 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:40 +0000] "POST /api/v1/wishlist/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:40 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 404 50 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:40 +0000] "PATCH /api/v1/wishlist/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:40 +0000] "POST /api/v1/cart/ HTTP/1.1" 500 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:40 +0000] "GET /api/v1/cart/ HTTP/1.1" 404 42 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:40 +0000] "GET /api/v1/cart/purchase HTTP/1.1" 404 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:40 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 500 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:40 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:39:40 +0000] "DELETE /api/v1/books/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:07 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:07 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:07 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:07 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:07 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:07 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:08 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:08 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:08 +0000] "POST /api/v1/books/ HTTP/1.1" 201 275 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:08 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:08 +0000] "PATCH /api/v1/books/61fcf4786c8bf1524c4954b4 HTTP/1.1" 200 287 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:08 +0000] "GET /api/v1/books/ HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:08 +0000] "GET /api/v1/books/61fcf4786c8bf1524c4954b4 HTTP/1.1" 200 287 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:08 +0000] "POST /api/v1/wishlist/61fcf4786c8bf1524c4954b4 HTTP/1.1" 201 231 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:08 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:08 +0000] "PATCH /api/v1/wishlist/61fcf4786c8bf1524c4954b4 HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:08 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 281 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:08 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 278 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:08 +0000] "GET /api/v1/cart/purchase HTTP/1.1" 200 276 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:08 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:08 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:40:08 +0000] "DELETE /api/v1/books/61fcf4786c8bf1524c4954b4 HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:46:25 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:46:25 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:47:20 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:47:20 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:48:10 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:48:10 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:48:31 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:48:31 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:49:48 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:49:48 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:49:48 +0000] "POST /api/v1/books/ HTTP/1.1" 201 398 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:51:33 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:51:33 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:51:33 +0000] "POST /api/v1/books/ HTTP/1.1" 201 448 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "POST /api/v1/books/ HTTP/1.1" 201 448 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "PATCH /api/v1/books/61fcf741f2a1a35e6ce6cdc7 HTTP/1.1" 200 447 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "GET /api/v1/books/ HTTP/1.1" 200 454 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "GET /api/v1/books/61fcf741f2a1a35e6ce6cdc7 HTTP/1.1" 200 447 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "POST /api/v1/wishlist/61fcf741f2a1a35e6ce6cdc7 HTTP/1.1" 201 231 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "PATCH /api/v1/wishlist/61fcf741f2a1a35e6ce6cdc7 HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 281 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 278 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "GET /api/v1/cart/purchase HTTP/1.1" 200 276 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:01 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:02 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:02 +0000] "DELETE /api/v1/books/61fcf741f2a1a35e6ce6cdc7 HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:47 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:47 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:47 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:47 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:47 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:47 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:47 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:48 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:48 +0000] "POST /api/v1/books/ HTTP/1.1" 201 448 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:48 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:48 +0000] "PATCH /api/v1/books/61fcf770797bdf650c197de0 HTTP/1.1" 200 447 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:48 +0000] "GET /api/v1/books/ HTTP/1.1" 200 454 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:48 +0000] "GET /api/v1/books/61fcf770797bdf650c197de0 HTTP/1.1" 200 447 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:48 +0000] "POST /api/v1/wishlist/61fcf770797bdf650c197de0 HTTP/1.1" 201 231 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:48 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:48 +0000] "PATCH /api/v1/wishlist/61fcf770797bdf650c197de0 HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:48 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 281 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:48 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 278 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:48 +0000] "GET /api/v1/cart/purchase HTTP/1.1" 200 276 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:48 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:48 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:52:48 +0000] "DELETE /api/v1/books/61fcf770797bdf650c197de0 HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:23 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:23 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "POST /api/v1/books/ HTTP/1.1" 201 448 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "PATCH /api/v1/books/61fcf80c5ae8e72070fe3481 HTTP/1.1" 200 447 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "GET /api/v1/books/ HTTP/1.1" 200 454 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "GET /api/v1/books/61fcf80c5ae8e72070fe3481 HTTP/1.1" 200 447 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "POST /api/v1/wishlist/61fcf80c5ae8e72070fe3481 HTTP/1.1" 201 231 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "PATCH /api/v1/wishlist/61fcf80c5ae8e72070fe3481 HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 281 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 278 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "GET /api/v1/cart/purchase HTTP/1.1" 200 276 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:24 +0000] "DELETE /api/v1/books/61fcf80c5ae8e72070fe3481 HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:43 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:43 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:43 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:43 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:43 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:44 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:44 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:44 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:44 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:44 +0000] "PATCH /api/v1/books/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:44 +0000] "GET /api/v1/books/ HTTP/1.1" 404 39 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:44 +0000] "GET /api/v1/books/ HTTP/1.1" 404 39 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:44 +0000] "POST /api/v1/wishlist/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:44 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 404 50 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:44 +0000] "PATCH /api/v1/wishlist/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:44 +0000] "POST /api/v1/cart/ HTTP/1.1" 500 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:44 +0000] "GET /api/v1/cart/ HTTP/1.1" 404 42 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:44 +0000] "GET /api/v1/cart/purchase HTTP/1.1" 404 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:44 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 500 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:44 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:55:44 +0000] "DELETE /api/v1/books/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:46 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:46 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:46 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:46 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:46 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:46 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:46 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:46 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:46 +0000] "POST /api/v1/books/ HTTP/1.1" 201 448 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:46 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:46 +0000] "PATCH /api/v1/books/61fcf85eb90d7f553cc78508 HTTP/1.1" 200 447 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:47 +0000] "GET /api/v1/books/ HTTP/1.1" 200 454 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:47 +0000] "GET /api/v1/books/61fcf85eb90d7f553cc78508 HTTP/1.1" 200 447 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:47 +0000] "POST /api/v1/wishlist/61fcf85eb90d7f553cc78508 HTTP/1.1" 201 231 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:47 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:47 +0000] "PATCH /api/v1/wishlist/61fcf85eb90d7f553cc78508 HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:47 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 281 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:47 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 278 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:47 +0000] "GET /api/v1/cart/purchase HTTP/1.1" 200 276 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:47 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:47 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:56:47 +0000] "DELETE /api/v1/books/61fcf85eb90d7f553cc78508 HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:18 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:18 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:18 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:18 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:19 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:19 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:19 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:19 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:19 +0000] "POST /api/v1/books/ HTTP/1.1" 201 448 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:19 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:19 +0000] "PATCH /api/v1/books/61fcf87f929f6f20d0ba1e70 HTTP/1.1" 200 447 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:19 +0000] "GET /api/v1/books/ HTTP/1.1" 200 454 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:19 +0000] "GET /api/v1/books/61fcf87f929f6f20d0ba1e70 HTTP/1.1" 200 447 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:19 +0000] "POST /api/v1/wishlist/61fcf87f929f6f20d0ba1e70 HTTP/1.1" 201 231 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:19 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:19 +0000] "PATCH /api/v1/wishlist/61fcf87f929f6f20d0ba1e70 HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:19 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 281 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:19 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 278 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:19 +0000] "GET /api/v1/cart/purchase HTTP/1.1" 200 276 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:19 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:19 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:09:57:19 +0000] "DELETE /api/v1/books/61fcf87f929f6f20d0ba1e70 HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:26 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:26 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "POST /api/v1/books/ HTTP/1.1" 201 448 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "PATCH /api/v1/books/61fcfa679aa1f844e4d20d6b HTTP/1.1" 200 447 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "GET /api/v1/books/ HTTP/1.1" 200 454 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "GET /api/v1/books/61fcfa679aa1f844e4d20d6b HTTP/1.1" 200 447 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "POST /api/v1/wishlist/61fcfa679aa1f844e4d20d6b HTTP/1.1" 201 231 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "PATCH /api/v1/wishlist/61fcfa679aa1f844e4d20d6b HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 281 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 278 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "GET /api/v1/cart/purchase HTTP/1.1" 200 276 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:05:27 +0000] "DELETE /api/v1/books/61fcfa679aa1f844e4d20d6b HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:39 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:39 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:39 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:39 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:39 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:39 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:39 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:39 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:39 +0000] "POST /api/v1/books/ HTTP/1.1" 201 448 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:39 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:39 +0000] "PATCH /api/v1/books/61fcfc8fe80a546a2440f692 HTTP/1.1" 200 447 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:39 +0000] "GET /api/v1/books/ HTTP/1.1" 200 454 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:39 +0000] "GET /api/v1/books/61fcfc8fe80a546a2440f692 HTTP/1.1" 200 447 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:39 +0000] "POST /api/v1/wishlist/61fcfc8fe80a546a2440f692 HTTP/1.1" 201 231 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:39 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:39 +0000] "PATCH /api/v1/wishlist/61fcfc8fe80a546a2440f692 HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:39 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 281 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:39 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 278 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:40 +0000] "GET /api/v1/cart/purchase HTTP/1.1" 200 276 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:40 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:40 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:14:40 +0000] "DELETE /api/v1/books/61fcfc8fe80a546a2440f692 HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:03 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:03 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:03 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:03 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:03 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:03 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:03 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:03 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:03 +0000] "POST /api/v1/books/ HTTP/1.1" 201 451 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:03 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:04 +0000] "PATCH /api/v1/books/61fcfca7ee421c6b2c76250b HTTP/1.1" 200 450 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:04 +0000] "GET /api/v1/books/ HTTP/1.1" 200 457 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:04 +0000] "GET /api/v1/books/61fcfca7ee421c6b2c76250b HTTP/1.1" 200 450 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:04 +0000] "POST /api/v1/wishlist/61fcfca7ee421c6b2c76250b HTTP/1.1" 201 231 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:04 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:04 +0000] "PATCH /api/v1/wishlist/61fcfca7ee421c6b2c76250b HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:04 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 281 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:04 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 278 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:04 +0000] "GET /api/v1/cart/purchase HTTP/1.1" 200 276 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:04 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:04 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:04 +0000] "DELETE /api/v1/books/61fcfca7ee421c6b2c76250b HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
+

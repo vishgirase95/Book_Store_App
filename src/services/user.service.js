@@ -119,9 +119,17 @@ export const resetPassword = async (req) => {
   }
 };
 
-export const Addbook = async (body) => {
-  const data = await Book.create(body);
-  return data;
+export const Addbook = async (req) => {
+  const newBook=new Book({
+    author: req.body.author,
+    title: req.body.title,
+    image: req.file ,
+    quantity: req.body.quantity ,
+    price:req.body.price,
+    description: req.body.description
+  })
+  newBook.save();
+  return newBook;
 };
 
 export const UpdateBook = async (req) => {
@@ -129,12 +137,13 @@ export const UpdateBook = async (req) => {
     _id: req.params._id
   });
   if (previousData) {
+    console.log("req author",req.body)
     const data = await Book.findOneAndUpdate({
       _id: req.params._id
     }, {
       author: req.body.author ? req.body.author : previousData.author,
       title: req.body.title ? req.body.title : previousData.title,
-      image: req.body.image ? req.body.image : previousData.image,
+      image: req.file ? req.file : previousData.image,
       quantity: req.body.quantity ? req.body.quantity : previousData.quantity,
       price:req.body.price?req.body.price:previousData.price,
       description: req.body.description ?req.body.description : previousData.description

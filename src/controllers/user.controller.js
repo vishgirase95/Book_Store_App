@@ -65,7 +65,7 @@ export const resetPassword = async (req, res, next) => {
 
 export const Addbook= async (req,res,next)=>{
   try {
-    const data=await UserService.Addbook(req.body);
+    const data=await UserService.Addbook(req);
     res.status(HttpStatus.CREATED).json({
       code:HttpStatus.CREATED,
       data:data,

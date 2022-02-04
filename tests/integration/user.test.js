@@ -6,6 +6,8 @@ import app from '../../src/index';
 import fs from 'fs';
 
 const rawdata = fs.readFileSync('./../BOOK-STORE/src/utils/data.json');
+// const img = 
+
 const jsondata = JSON.parse(rawdata);
 describe('User APIs Test', () => {
   let Token = '';
@@ -114,7 +116,15 @@ describe('User APIs Test', () => {
           expect(res.body).property('message').to.be.equal('Sucessfully logged in');
           let admin_login_token = res.body.data;
 
-          request(app).post('/api/v1/books/').set('Authorization', 'JWT ' + admin_login_token).send(jsondata.Book1).end((err, res) => {
+          request(app).post('/api/v1/books/').set('Content-Type', 'application/formData')
+          .field('author', 'franklin')
+          .field('title', 'Isaiah')
+          .field('quantity', 1000)
+          .field('description', 'Isaiah')
+          .field('price', 50)
+          .attach('image',
+            fs.readFileSync('tests\\integration\\testImage\\circle.png'),
+            'circle.png').set('Authorization', 'JWT ' + admin_login_token).end((err, res) => {
               expect(res.statusCode).to.be.equal(201);
               expect(res.body).property('message').to.be.equal('Created Book Sucessfully');
               BookID = res.body.data._id;
@@ -200,7 +210,7 @@ describe('User APIs Test', () => {
   describe('Post creat cart', () => {
     it('creat cart', (done) => {
       const book = {
-        BookID: BookID,
+        BookID: BookID, 
         Quantity: 1
       };
       request(app).post(`/api/v1/cart/`).set('Authorization', 'JWT ' + User_login_token).send(book).end((err, res) => {

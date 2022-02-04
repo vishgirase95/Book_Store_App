@@ -853,3 +853,175 @@ error:
      {"timestamp":"2022-02-02T09:46:33.314Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T09:47:16.708Z"}
 info: Connected to the database. {"timestamp":"2022-02-02T09:47:16.747Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T17:10:39.671Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T17:10:39.814Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\Book-Store\upload\pastposePhoto.jpg' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:16:43.489Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\Book-Store\upload\pastposePhoto.jpg' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:17:15.542Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T17:31:17.674Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T17:31:17.698Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\Book-Store\upload\pastposePhoto.jpg' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:31:26.139Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T17:31:43.279Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T17:31:43.320Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T17:32:44.739Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T17:32:44.765Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T17:40:10.887Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T17:40:10.961Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\Book-Store\upload\pastposePhoto.jpg' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:40:15.042Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T17:42:01.553Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T17:42:01.613Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T17:44:30.274Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T17:44:30.342Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\Book-Store\upload\pastposePhoto.jpg' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:44:36.555Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\Book-Store\upload\pastposePhoto.jpg' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:46:43.437Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\Book-Store\upload\pastposePhoto.jpg' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:46:44.758Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\Book-Store\upload\pastposePhoto.jpg' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:46:45.204Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T17:47:27.754Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T17:47:27.879Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T17:52:17.213Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T17:52:17.239Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\Book-Store\upload\pastposePhoto.jpg' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:53:02.567Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\Book-Store\upload\pastposePhoto.jpg' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:55:37.408Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\Book-Store\upload\pastposePhoto.jpg' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:55:39.749Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T17:56:05.148Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T17:56:05.203Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\upload\pastposePhoto.jpg' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:56:05.267Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\upload\pastposePhoto.jpg' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:56:07.130Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T17:56:19.372Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T17:56:19.408Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\Book-Store\upload\pastposePhoto.jpg' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:56:20.035Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\Book-Store\upload\pastposePhoto.jpg' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:56:21.399Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\Book-Store\upload\OfferLetter.pdf' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:57:37.257Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\Book-Store\upload\OfferLetter.pdf' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:57:38.832Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T17:59:21.991Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T17:59:22.020Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\Book-Store\upload\OfferLetter.pdf' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:59:22.291Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\Book-Store\upload\OfferLetter.pdf' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:59:24.670Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'D:\Book_Store_App\Book-Store\upload\OfferLetter.pdf' 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T17:59:25.987Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T17:59:43.008Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T17:59:43.036Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T18:04:56.831Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T18:04:56.909Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T18:06:12.411Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T18:06:12.435Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T18:12:59.253Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T18:12:59.277Z"}

@@ -440,3 +440,71 @@ info: ::ffff:127.0.0.1 - - [02/Feb/2022:09:47:17 +0000] "POST /api/v1/users/admi
 
 info: ::ffff:127.0.0.1 - - [02/Feb/2022:09:47:17 +0000] "DELETE /api/v1/books/61fa532520f2a731408bdf0d HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
 
+info: ::1 - - [02/Feb/2022:17:11:36 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [02/Feb/2022:17:16:43 +0000] "POST /api/v1/books/ HTTP/1.1" 500 134 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:17:04 +0000] "POST /api/v1/books/ HTTP/1.1" 201 259 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:17:15 +0000] "POST /api/v1/books/ HTTP/1.1" 500 134 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:31:26 +0000] "POST /api/v1/books/ HTTP/1.1" 500 134 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:33:11 +0000] "POST /api/v1/books/ HTTP/1.1" 201 259 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:40:15 +0000] "POST /api/v1/books/ HTTP/1.1" 500 134 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:42:20 +0000] "POST /api/v1/books/ HTTP/1.1" 201 259 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:44:36 +0000] "POST /api/v1/books/ HTTP/1.1" 500 134 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:46:43 +0000] "POST /api/v1/books/ HTTP/1.1" 500 134 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:46:44 +0000] "POST /api/v1/books/ HTTP/1.1" 500 134 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:46:45 +0000] "POST /api/v1/books/ HTTP/1.1" 500 134 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:47:29 +0000] "POST /api/v1/books/ HTTP/1.1" 201 259 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:53:02 +0000] "POST /api/v1/books/ HTTP/1.1" 500 134 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:55:37 +0000] "POST /api/v1/books/ HTTP/1.1" 500 134 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:55:39 +0000] "POST /api/v1/books/ HTTP/1.1" 500 134 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:56:05 +0000] "POST /api/v1/books/ HTTP/1.1" 500 122 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:56:07 +0000] "POST /api/v1/books/ HTTP/1.1" 500 122 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:56:20 +0000] "POST /api/v1/books/ HTTP/1.1" 500 134 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:56:21 +0000] "POST /api/v1/books/ HTTP/1.1" 500 134 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:57:37 +0000] "POST /api/v1/books/ HTTP/1.1" 500 132 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:57:38 +0000] "POST /api/v1/books/ HTTP/1.1" 500 132 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:59:22 +0000] "POST /api/v1/books/ HTTP/1.1" 500 132 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:59:24 +0000] "POST /api/v1/books/ HTTP/1.1" 500 132 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:17:59:26 +0000] "POST /api/v1/books/ HTTP/1.1" 500 132 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:18:04:57 +0000] "POST /api/v1/books/ HTTP/1.1" - - "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:18:04:58 +0000] "POST /api/v1/books/ HTTP/1.1" - - "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:18:04:59 +0000] "POST /api/v1/books/ HTTP/1.1" - - "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:18:05:00 +0000] "POST /api/v1/books/ HTTP/1.1" - - "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:18:06:56 +0000] "POST /api/v1/books/ HTTP/1.1" 201 259 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:18:13:08 +0000] "POST /api/v1/books/ HTTP/1.1" 201 259 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:18:13:36 +0000] "POST /api/v1/books/ HTTP/1.1" 201 259 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:18:18:35 +0000] "POST /api/v1/books/ HTTP/1.1" 201 259 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Feb/2022:18:18:51 +0000] "POST /api/v1/books/ HTTP/1.1" 201 259 "-" "PostmanRuntime/7.29.0"
+

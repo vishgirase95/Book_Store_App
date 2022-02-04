@@ -1,0 +1,272 @@
+info: Connected to the database. {"timestamp":"2022-02-04T07:37:05.613Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T07:41:18.945Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T07:41:19.078Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T07:43:34.578Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T07:43:34.602Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T07:46:20.337Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T07:46:20.436Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T07:46:30.448Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T07:46:30.485Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T08:30:19.272Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T08:30:19.336Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T08:30:33.184Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T08:30:33.271Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T08:30:57.126Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T08:30:57.157Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T08:44:51.565Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T08:44:51.618Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/books/%7B_id%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-02-04T08:47:31.881Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T08:49:08.011Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T08:49:08.062Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T08:49:24.310Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T08:49:24.339Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T08:49:33.954Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T08:49:34.041Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T08:49:40.993Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T08:49:41.044Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T08:49:55.633Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T08:49:55.753Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T08:50:21.668Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T08:50:21.736Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/61fbcac7837a9231b40a2b07 
+      method - DELETE 
+      IP - ::1
+     {"timestamp":"2022-02-04T08:50:31.750Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/61fbcac7837a9231b40a2b07 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-02-04T08:50:41.346Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T09:27:42.699Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T09:27:42.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T09:39:13.866Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T09:39:13.980Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T09:39:16.068Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T09:39:16.112Z"}
+error: 
+      status - 404
+      message - Wishlist does not created 
+      url - /api/v1/wishlist/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T09:39:16.182Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "" (type string) at path "_id" for model "Book"
+    at model.Query.exec (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T09:39:16.319Z"}
+error: 
+      status - 404
+      message - No Cart Added yet 
+      url - /api/v1/cart/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T09:39:16.421Z"}
+error: 
+      status - 404
+      message - No cart available for purchase 
+      url - /api/v1/cart/purchase 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T09:39:16.478Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Book' of null
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:354:54)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T09:39:16.514Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T09:39:38.690Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T09:39:38.909Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T09:39:39.934Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T09:39:39.974Z"}
+error: 
+      status - 404
+      message - Wishlist does not created 
+      url - /api/v1/wishlist/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T09:39:40.041Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "" (type string) at path "_id" for model "Book"
+    at model.Query.exec (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T09:39:40.129Z"}
+error: 
+      status - 404
+      message - No Cart Added yet 
+      url - /api/v1/cart/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T09:39:40.203Z"}
+error: 
+      status - 404
+      message - No cart available for purchase 
+      url - /api/v1/cart/purchase 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T09:39:40.323Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Book' of null
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:354:54)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T09:39:40.360Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T09:40:07.374Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T09:40:07.467Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T09:46:24.857Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T09:46:24.951Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T09:47:20.196Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T09:47:20.294Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T09:48:10.613Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T09:48:10.665Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T09:48:30.967Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T09:48:31.061Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T09:49:47.776Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T09:49:47.866Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T09:51:33.346Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T09:51:33.436Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T09:52:00.926Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T09:52:01.057Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T09:52:47.282Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T09:52:47.367Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T09:55:23.662Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T09:55:23.763Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T09:55:43.444Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T09:55:43.537Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T09:55:44.489Z"}
+error: 
+      status - 404
+      message - Book not found 
+      url - /api/v1/books/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T09:55:44.536Z"}
+error: 
+      status - 404
+      message - Wishlist does not created 
+      url - /api/v1/wishlist/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T09:55:44.600Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "" (type string) at path "_id" for model "Book"
+    at model.Query.exec (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Book_Store_App\Book-Store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T09:55:44.664Z"}
+error: 
+      status - 404
+      message - No Cart Added yet 
+      url - /api/v1/cart/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T09:55:44.701Z"}
+error: 
+      status - 404
+      message - No cart available for purchase 
+      url - /api/v1/cart/purchase 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-04T09:55:44.734Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Book' of null
+    at _callee12$ (D:\Book_Store_App\Book-Store\src\services\/user.service.js:354:54)
+    at tryCatch (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\Book_Store_App\Book-Store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Book_Store_App\Book-Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/ 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T09:55:44.772Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T09:56:46.079Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T09:56:46.177Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T09:57:18.508Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T09:57:18.598Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T10:05:26.679Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T10:05:26.778Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T10:06:14.647Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T10:06:14.673Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T10:14:38.966Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T10:14:39.059Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T10:15:03.082Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T10:15:03.177Z"}

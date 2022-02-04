@@ -313,36 +313,37 @@
 
           "application/json"
         ],
-        "parameters": [{
-          "in": "body",
-          "name": "Add Books",
-          "description": "Adding Book ",
-          "required": true,
-          "schema": {
-            "type": "object",
-            "required": ["author", "title", "image", "quantity", "description"],
-            "properties": {
-              "author": {
-                "type": "string"
-              },
-              "title": {
-                "type": "string"
-              },
-              "image": {
-                "type": "string"
-              },
-              "quantity": {
-                "type": "number"
-              },
-              "description": {
-                "type": "string"
-              },
-              "price": {
-                "type": "number"
-              }
-
-            }
-          }
+        "parameters": [
+        {
+          "in": "formData",
+          "name": "title",
+          "description": "Adding Book title ",
+          "required": false,
+          "type": "string"
+        },{
+          "in": "formData",
+          "name": "quantity",
+          "description": "Adding Book quantity",
+          "required": false,
+          "type": "number"
+        },{
+          "in": "formData",
+          "name": "description",
+          "description": "Adding Book description",
+          "required": false,
+          "type": "string"
+        },{
+          "in": "formData",
+          "name": "price",
+          "description": "Adding Book price ",
+          "required": false,
+          "type": "number"
+        },{
+          "name": "image",
+          "in": "formData",
+          "description": "file to upload",
+          "required": false,
+          "type": "file"
         }],
         "responses": {
           "201": {
@@ -434,46 +435,45 @@
 
           "application/json"
         ],
-        "parameters": [{
+        "parameters": [
+          {
             "in": "path",
             "name": "_id",
-            "description": "Updating Book By ID",
+            "description": "Updating Book by ID ",
+            "required": false,
             "type": "string"
           },
-          {
-            "in": "body",
-            "name": "Book",
-            "description": "Fetching Book By ID",
-            "type": "string",
-            "schema": {
-              "type": "object",
-
-              "properties": {
-                "author": {
-                  "type": "string"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "image": {
-                  "type": "string"
-                },
-                "quantity": {
-                  "type": "number"
-                },
-                "description": {
-                  "type": "string"
-                },
-                "price": {
-                  "type": "number"
-                }
-
-              }
-            }
-          }
-
-        ],
-        "responses": {
+        {
+          "in": "formData",
+          "name": "title",
+          "description": "Updating Book title ",
+          "required": false,
+          "type": "string"
+        },{
+          "in": "formData",
+          "name": "quantity",
+          "description": "Updating Book quantity",
+          "required": false,
+          "type": "number"
+        },{
+          "in": "formData",
+          "name": "description",
+          "description": "Updating Book description",
+          "required": false,
+          "type": "string"
+        },{
+          "in": "formData",
+          "name": "price",
+          "description": "Updating Book price ",
+          "required": false,
+          "type": "number"
+        },{
+          "name": "image",
+          "in": "formData",
+          "description": "Updating Book Image",
+          "required": false,
+          "type": "file"
+        }],"responses": {
           "201": {
             "description": "Created Sucessfully"
           },

@@ -1,13 +1,14 @@
 import express from 'express';
 import * as userController from '../controllers/user.controller';
 import { newUserValidator } from '../validators/user.validator';
-import { userAuth } from '../middlewares/auth.middleware';
+
 import { selectuser } from '../middlewares/selectuser.middleware';
 import { checkUser,checkAdmin } from '../middlewares/checkuser.middleware';
 
 
 
 const router = express.Router();
+
 
 
 
