@@ -8565,3 +8565,55 @@ info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:04 +0000] "POST /api/v1/users/admi
 
 info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:15:04 +0000] "DELETE /api/v1/books/61fcfca7ee421c6b2c76250b HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
 
+info: ::1 - - [04/Feb/2022:10:50:43 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 259 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:10:51:09 +0000] "GET /api/v1/books/ HTTP/1.1" 200 1531 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:10:52:11 +0000] "POST /api/v1/books/ HTTP/1.1" 201 437 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:10:52:54 +0000] "PATCH /api/v1/books/61fd055b94db07354c723a8c HTTP/1.1" 200 453 "http://localhost:3000/swagger_doc/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:38 +0000] "GET /api/v1/ HTTP/1.1" 200 21 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:38 +0000] "POST /api/v1/users/user_registration HTTP/1.1" 201 339 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:38 +0000] "POST /api/v1/users/admin_registration HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "POST /api/v1/users/user_login HTTP/1.1" 200 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "POST /api/v1/books/ HTTP/1.1" 201 451 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "PATCH /api/v1/books/61fd071bcbec5b61c07cb755 HTTP/1.1" 200 450 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "GET /api/v1/books/ HTTP/1.1" 200 457 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "GET /api/v1/books/61fd071bcbec5b61c07cb755 HTTP/1.1" 200 450 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "POST /api/v1/wishlist/61fd071bcbec5b61c07cb755 HTTP/1.1" 201 231 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "PATCH /api/v1/wishlist/61fd071bcbec5b61c07cb755 HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "POST /api/v1/cart/ HTTP/1.1" 201 281 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 278 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "GET /api/v1/cart/purchase HTTP/1.1" 200 276 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "PATCH /api/v1/cart/ HTTP/1.1" 200 94 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "POST /api/v1/users/admin_login HTTP/1.1" 200 260 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:10:59:39 +0000] "DELETE /api/v1/books/61fd071bcbec5b61c07cb755 HTTP/1.1" 200 66 "-" "node-superagent/3.8.3"
+
